@@ -246,3 +246,14 @@ FMatrix FMatrix::operator*(const FMatrix& _Matrix)
 	return Result;
 
 }
+
+void FTransform::TransformUpdate()
+{
+	ScaleMat.Scale(Scale);
+	RotationMat.RotationDeg(Rotation);
+	LocationMat.Position(Location);
+
+	World = ScaleMat * RotationMat * LocationMat;
+
+
+}

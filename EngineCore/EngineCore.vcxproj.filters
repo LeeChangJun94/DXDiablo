@@ -30,6 +30,15 @@
     <ClInclude Include="EngineGraphicDevice.h">
       <Filter>Graphic</Filter>
     </ClInclude>
+    <ClInclude Include="CameraActor.h">
+      <Filter>Object\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCamera.h">
+      <Filter>Object\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\DirectxTex\Inc\DirectXTex.h">
+      <Filter>ThirdParty\Inc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore.cpp" />
@@ -58,6 +67,12 @@
     <ClCompile Include="EngineGraphicDevice.cpp">
       <Filter>Graphic</Filter>
     </ClCompile>
+    <ClCompile Include="CameraActor.cpp">
+      <Filter>Object\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCamera.cpp">
+      <Filter>Object\Render</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Interface">
@@ -81,5 +96,30 @@
     <Filter Include="Graphic">
       <UniqueIdentifier>{207d7587-3311-47de-8c44-73aa8dbc7a92}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\Render">
+      <UniqueIdentifier>{c2f9695d-a997-43ae-8c7e-e27cfc430bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{e2b425d7-9920-4f53-bec1-8b8e43e5230b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Debug">
+      <UniqueIdentifier>{d7ad94b2-2df8-468f-ac17-fbbc860b7450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Inc">
+      <UniqueIdentifier>{aff1438a-27f6-4cf8-9de6-a73495eb9a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Release">
+      <UniqueIdentifier>{42b58209-9449-432c-875d-039114be1726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThirdParty\DirectxTex\Inc\DirectXTex.inl">
+      <Filter>ThirdParty\Inc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="ThirdParty\DirectxTex\Debug\DirectXTex.lib">
+      <Filter>ThirdParty\Debug</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
