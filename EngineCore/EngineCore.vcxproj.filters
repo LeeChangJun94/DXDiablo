@@ -24,9 +24,6 @@
     <ClInclude Include="Pawn.h">
       <Filter>Object\Actor</Filter>
     </ClInclude>
-    <ClInclude Include="Renderer.h">
-      <Filter>Object\Component\Contents</Filter>
-    </ClInclude>
     <ClInclude Include="EngineGraphicDevice.h">
       <Filter>Graphic</Filter>
     </ClInclude>
@@ -38,6 +35,18 @@
     </ClInclude>
     <ClInclude Include="ThirdParty\DirectxTex\Inc\DirectXTex.h">
       <Filter>ThirdParty\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineResources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTexture.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Object\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Object\Component\Contents</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -61,9 +70,6 @@
     <ClCompile Include="Pawn.cpp">
       <Filter>Object\Actor</Filter>
     </ClCompile>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>Object\Component\Contents</Filter>
-    </ClCompile>
     <ClCompile Include="EngineGraphicDevice.cpp">
       <Filter>Graphic</Filter>
     </ClCompile>
@@ -72,6 +78,18 @@
     </ClCompile>
     <ClCompile Include="EngineCamera.cpp">
       <Filter>Object\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineResources.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTexture.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Object\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Object\Component\Contents</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +128,12 @@
     </Filter>
     <Filter Include="ThirdParty\Release">
       <UniqueIdentifier>{42b58209-9449-432c-875d-039114be1726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{7469f802-52a0-4c0c-8ad3-eb0770191785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Render">
+      <UniqueIdentifier>{eb196213-65d6-48c4-9995-e3cef6741e12}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

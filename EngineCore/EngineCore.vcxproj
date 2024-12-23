@@ -195,6 +195,14 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineResources.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineTexture.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="GameMode.h">
       <SubType>
       </SubType>
@@ -217,6 +225,10 @@
       </SubType>
     </ClInclude>
     <ClInclude Include="Renderer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -247,6 +259,14 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineResources.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineTexture.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="GameMode.cpp">
       <SubType>
       </SubType>
@@ -274,6 +294,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Renderer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
       <SubType>
       </SubType>
     </ClCompile>
