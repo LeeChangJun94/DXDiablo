@@ -52,7 +52,7 @@ void UEngineFile::FileOpen(const char* _Mode)
 		// char [] Arr1
 		// Arr0 + Arr1
 
-		MSGASSERT(GetPathToString() + + "파일 오픈에 실패했습니다");
+		MSGASSERT(GetPathToString() + +"파일 오픈에 실패했습니다");
 	}
 }
 
@@ -143,3 +143,11 @@ void UEngineFile::Close()
 	}
 }
 
+
+std::string UEngineFile::GetAllFileText()
+{
+	UEngineSerializer Ser;
+	Read(Ser);
+
+	return reinterpret_cast<const char*>(Ser.GetDataPtr());
+}
