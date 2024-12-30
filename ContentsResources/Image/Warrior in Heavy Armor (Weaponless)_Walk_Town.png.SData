@@ -1,0 +1,1644 @@
+fileFormatVersion: 2
+guid: 2baeb34a68874b943859a52b243d2bcb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8055088871708308502
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_0
+  - first:
+      213: -8218055925358929563
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_1
+  - first:
+      213: 8013142490437537468
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_2
+  - first:
+      213: 3593598712614169412
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_3
+  - first:
+      213: 7551358403816881216
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_4
+  - first:
+      213: -8966708329237672805
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_5
+  - first:
+      213: -7948544310254603120
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_6
+  - first:
+      213: -743799383630976650
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_7
+  - first:
+      213: -7915769045849474675
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_8
+  - first:
+      213: 6153845358502531517
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_9
+  - first:
+      213: 6463769122945289019
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_10
+  - first:
+      213: -2926725573382019628
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_11
+  - first:
+      213: -1689209918882522437
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_12
+  - first:
+      213: -8331652008450756446
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_13
+  - first:
+      213: 4764121390366766651
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_14
+  - first:
+      213: -7280850635096994837
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_15
+  - first:
+      213: 9149727475784166443
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_16
+  - first:
+      213: -8876371086183488692
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_17
+  - first:
+      213: -8050117126486017645
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_18
+  - first:
+      213: -4023064786339834809
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_19
+  - first:
+      213: 7260943375083954082
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_20
+  - first:
+      213: -6021905107902073838
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_21
+  - first:
+      213: -8729126916319592360
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_22
+  - first:
+      213: 3550689418857364813
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_23
+  - first:
+      213: 7221234489882287029
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_24
+  - first:
+      213: -8768458813068236188
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_25
+  - first:
+      213: -2372793738840240654
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_26
+  - first:
+      213: -3296954867246934558
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_27
+  - first:
+      213: -793357529987609174
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_28
+  - first:
+      213: -3196513254403673212
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_29
+  - first:
+      213: -6268902835897953337
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_30
+  - first:
+      213: 7037497603247760419
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_31
+  - first:
+      213: 3051215509578173741
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_32
+  - first:
+      213: -3082866328774045828
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_33
+  - first:
+      213: -8807924210223806891
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_34
+  - first:
+      213: -8000978818922130999
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_35
+  - first:
+      213: 6368324093444238391
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_36
+  - first:
+      213: -1977760241059355031
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_37
+  - first:
+      213: -1776371591070888956
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_38
+  - first:
+      213: -4620076669960627972
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_39
+  - first:
+      213: -8777272093273102711
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_40
+  - first:
+      213: 1721839314753994095
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_41
+  - first:
+      213: 5131616594174754428
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_42
+  - first:
+      213: 2072629438811519605
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_43
+  - first:
+      213: -7008620455822500632
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_44
+  - first:
+      213: -8495268056676685241
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_45
+  - first:
+      213: -7276598542920079230
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_46
+  - first:
+      213: 7624145495127515793
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_47
+  - first:
+      213: 7363096626653273303
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_48
+  - first:
+      213: 2867024646237453859
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_49
+  - first:
+      213: 2950047116120202408
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_50
+  - first:
+      213: -986947503839642802
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_51
+  - first:
+      213: 7320988842963822664
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_52
+  - first:
+      213: -6114086895724924685
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_53
+  - first:
+      213: -96393313796919070
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_54
+  - first:
+      213: 3904123957620664242
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_55
+  - first:
+      213: -6074951168382733973
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_56
+  - first:
+      213: -1198515677880660318
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_57
+  - first:
+      213: 7294471630835855222
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_58
+  - first:
+      213: -8141414328776954401
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_59
+  - first:
+      213: -2689564580965673775
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_60
+  - first:
+      213: -2959608709591606380
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_61
+  - first:
+      213: -248505982418739987
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_62
+  - first:
+      213: 8333512249857040466
+    second: Warrior in Heavy Armor (Weaponless)_Walk_Town_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6143060b6ac69cf60800000000000000
+      internalID: 8055088871708308502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569dfa05da993fd80800000000000000
+      internalID: -8218055925358929563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe4e1db3a6643f60800000000000000
+      internalID: 8013142490437537468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b2baa4df60fd130800000000000000
+      internalID: 3593598712614169412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c7a2f9570dbc860800000000000000
+      internalID: 7551358403816881216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c804f384adf8380800000000000000
+      internalID: -8966708329237672805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09472d1201911b190800000000000000
+      internalID: -7948544310254603120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6796582c66e7da5f0800000000000000
+      internalID: -743799383630976650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89fb1a0ef9852290800000000000000
+      internalID: -7915769045849474675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1da34cfb9d66550800000000000000
+      internalID: 6153845358502531517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bca4355cbe3b950800000000000000
+      internalID: 6463769122945289019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56383f89e2267d0800000000000000
+      internalID: -2926725573382019628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbad0f15788be88e0800000000000000
+      internalID: -1689209918882522437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a07f1c24a6006c80800000000000000
+      internalID: -8331652008450756446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b6a3c92f8d1240800000000000000
+      internalID: 4764121390366766651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_15
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebcd584ce835fa90800000000000000
+      internalID: -7280850635096994837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c2fb179ac5afe70800000000000000
+      internalID: 9149727475784166443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c432c71b68bc0d480800000000000000
+      internalID: -8876371086183488692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3993383ff1d384090800000000000000
+      internalID: -8050117126486017645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744d4d554e33b28c0800000000000000
+      internalID: -4023064786339834809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afda1e878d04c460800000000000000
+      internalID: 7260943375083954082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214f264b535ed6ca0800000000000000
+      internalID: -6021905107902073838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85048798159ebd680800000000000000
+      internalID: -8729126916319592360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_23
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d3bbec635964130800000000000000
+      internalID: 3550689418857364813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb9b31428af63460800000000000000
+      internalID: 7221234489882287029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aac63ba2d205680800000000000000
+      internalID: -8768458813068236188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd08278aa4221fd0800000000000000
+      internalID: -2372793738840240654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e55049240dde32d0800000000000000
+      internalID: -3296954867246934558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad0535a78d6df4f0800000000000000
+      internalID: -793357529987609174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f0778124b3a3d0800000000000000
+      internalID: -3196513254403673212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c31dd6b5126009a0800000000000000
+      internalID: -6268902835897953337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_31
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324ee3da8c63aa160800000000000000
+      internalID: 7037497603247760419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc1950758185a20800000000000000
+      internalID: 3051215509578173741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f096f58657735d0800000000000000
+      internalID: -3082866328774045828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5560c01e897f3c580800000000000000
+      internalID: -8807924210223806891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1d8bab720d6f090800000000000000
+      internalID: -8000978818922130999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c2e4ca505d06850800000000000000
+      internalID: 6368324093444238391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96624c41a859d84e0800000000000000
+      internalID: -1977760241059355031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ccf15137f0957e0800000000000000
+      internalID: -1776371591070888956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_39
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf85de33fb032efb0800000000000000
+      internalID: -4620076669960627972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986e18ff88dd03680800000000000000
+      internalID: -8777272093273102711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6db63cebb335e710800000000000000
+      internalID: 1721839314753994095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e394b9a1a273740800000000000000
+      internalID: 5131616594174754428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab06b4e7573cc10800000000000000
+      internalID: 2072629438811519605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecd92524d06cbe90800000000000000
+      internalID: -7008620455822500632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a201a56beba1a80800000000000000
+      internalID: -8495268056676685241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288af14ad24540b90800000000000000
+      internalID: -7276598542920079230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19268f0fee76ec960800000000000000
+      internalID: 7624145495127515793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc9b8ede59fe2660800000000000000
+      internalID: 7363096626653273303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef541c9b7b9c720800000000000000
+      internalID: 2867024646237453859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac920bd83ca0f820800000000000000
+      internalID: 2950047116120202408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bfdad6978ad42f0800000000000000
+      internalID: -986947503839642802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848e47d7090699560800000000000000
+      internalID: 7320988842963822664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0f176bc56662ba0800000000000000
+      internalID: -6114086895724924685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e07964baca89aef0800000000000000
+      internalID: -96393313796919070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_55
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b76215fd0c3e2630800000000000000
+      internalID: 3904123957620664242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61f3bc491071bba0800000000000000
+      internalID: -6074951168382733973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aecf2a47540e5fe0800000000000000
+      internalID: -1198515677880660318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa22cec4b2b3560800000000000000
+      internalID: 7294471630835855222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd69f39dc2e30f80800000000000000
+      internalID: -8141414328776954401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d49117734fbcaad0800000000000000
+      internalID: -2689564580965673775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bd3ae2f8b5de6d0800000000000000
+      internalID: -2959608709591606380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec1f5920212d8cf0800000000000000
+      internalID: -248505982418739987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Walk_Town_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25068180d3596a370800000000000000
+      internalID: 8333512249857040466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1223a81094484ff46a6a5eddf465d963
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

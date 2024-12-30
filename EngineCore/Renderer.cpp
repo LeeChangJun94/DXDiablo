@@ -5,6 +5,7 @@
 #include <EngineCore/EngineTexture.h>
 #include <EngineCore/Mesh.h>
 #include "EngineVertex.h"
+#include "EngineBlend.h"
 
 URenderer::URenderer()
 {
@@ -192,6 +193,7 @@ void URenderer::Render(UEngineCamera* _Camera, float _DeltaTime)
 	RasterizerSetting();
 	PixelShaderSetting();
 	OutPutMergeSetting();
+
 	// 인덱스 버퍼를 통해서 그리겠다.
 	UEngineCore::GetDevice().GetContext()->DrawIndexed(6, 0, 0);
 
@@ -487,6 +489,11 @@ void URenderer::PixelShaderSetting()
 
 void URenderer::OutPutMergeSetting()
 {
+	if (nullptr != Blend)
+	{
+		Blend->Setting();
+	}
+
 	// 배열 넣어줄수 있다. 
 	// 0번이면 sv_target0
 	ID3D11RenderTargetView* RTV = UEngineCore::GetDevice().GetRTV();
@@ -511,5 +518,17 @@ void URenderer::SetMesh(std::string_view _Name)
 	if (nullptr == Mesh)
 	{
 		MSGASSERT("존재하지 않는 매쉬를 세팅할수 없습니다.\n");
+	}
+}
+
+void URenderer::SetBlend(std::string_view _Name)
+{
+	std::shared_ptr<UEngineBlend> FindBlend = UEngineBlend::Find<UEngineBlend>(_Name);
+
+	Blend = FindBlend.get();
+
+	if (nullptr == Blend)
+	{
+		MSGASSERT("존재하지 않는 Blend를 세팅할수 없습니다.\n");
 	}
 }

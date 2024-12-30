@@ -41,7 +41,8 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 		}
 	}
 
-	UEngineSprite::CreateSpriteToMeta("Player.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Idle_Town.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Walk_Town.png", ".sdata");
 
 	// 주인공 APawn 상속 받으세요.
 	UEngineCore::CreateLevel<ATitleGameMode, APawn>("Titlelevel");
