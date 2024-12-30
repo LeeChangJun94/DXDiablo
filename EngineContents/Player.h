@@ -45,6 +45,8 @@ private:
 	std::shared_ptr<class USpriteRenderer> PlayerRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
+	FVector MousePos = { 0, 0 };
+
 	PlayerDirection8 PlayerDirection = PlayerDirection8::S;
 };
 

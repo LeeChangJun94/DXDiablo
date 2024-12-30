@@ -3,6 +3,8 @@
 #include <EngineCore/SpriteRenderer.h>
 #include <EnginePlatform/EngineInput.h>
 #include <EngineCore/DefaultSceneComponent.h>
+#include <EngineCore/EngineCore.h>
+#include <EngineBase/EngineMath.h>
 
 APlayer::APlayer()
 {
@@ -11,7 +13,6 @@ APlayer::APlayer()
 
 	// 랜더러를 만든다.
 	PlayerRenderer = CreateDefaultSubObject<USpriteRenderer>();
-	// LogoRenderer->SetSprite("Player.png", 0);
 
 	PlayerRenderer->CreateAnimation("Idle_S", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 0, 19, 0.1f);
 	{
@@ -159,7 +160,10 @@ void APlayer::Tick(float _DeltaTime)
 
 	Direction();
 
-
+	//MousePos = UEngineCore::MainWindow.GetMousePos();
+	//
+	//float AngleDeg = FVector::GetVectorAngleDeg(PlayerRenderer->GetTransformRef().Location, MousePos);
+		
 
 	if (UEngineInput::IsPress('A'))
 	{
