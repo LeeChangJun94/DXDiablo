@@ -1,0 +1,44 @@
+#include "PreCompile.h"
+#include "Zombie.h"
+#include <EngineCore/SpriteRenderer.h>
+#include <EngineCore/DefaultSceneComponent.h>
+#include <EngineCore/EngineCore.h>
+#include <EngineCore/CameraActor.h>
+#include <EngineBase/EngineMath.h>
+#include <EngineBase/EngineDebug.h>
+
+AZombie::AZombie()
+{
+	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
+	RootComponent = Default;
+
+	ZombieRenderer = CreateDefaultSubObject<USpriteRenderer>();
+
+	ZombieRenderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.1f);
+	{
+		USpriteRenderer::FrameAnimation* Animation = ZombieRenderer->FindAnimation("Attack_2");
+		Animation->IsAutoScale = true;
+		Animation->AutoScaleRatio = 1.0f;
+	}
+
+	ZombieRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
+	ZombieRenderer->SetupAttachment(RootComponent);
+
+	ZombieRenderer->ChangeAnimation("Attack_2");
+
+}
+
+AZombie::~AZombie()
+{
+}
+
+void AZombie::BeginPlay()
+{
+	AActor::BeginPlay();
+}
+
+void AZombie::Tick(float _DeltaTime)
+{
+	AActor::Tick(_DeltaTime);
+}
+

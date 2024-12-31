@@ -21,5 +21,6 @@ protected:
 
 private:
 	std::shared_ptr<class APlayer> Player;
+	std::shared_ptr<class AZombie> Zombie;
 };
 
