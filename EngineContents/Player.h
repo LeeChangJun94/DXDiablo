@@ -46,6 +46,12 @@ private:
 	std::shared_ptr<class USpriteRenderer> Child;
 
 	FVector MousePos = { 0, 0 };
+	float AngleDeg = 0.0f;
+	std::string Dir = "5";
+	std::string Idle = "Idle_";
+	//char Dir[2] = "5";
+	//char Idle[6] = "Idle_";
+
 
 	PlayerDirection8 PlayerDirection = PlayerDirection8::S;
 };

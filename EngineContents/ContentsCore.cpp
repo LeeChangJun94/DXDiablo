@@ -41,6 +41,19 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 		}
 	}
 
+	//{
+	//	UEngineDirectory Dir;
+	//	if (false == Dir.MoveParentToDirectory("ContentsResources"))
+	//	{
+	//		MSGASSERT("리소스 폴더를 찾지 못했습니다.");
+	//		return;
+	//	}
+	//	Dir.Append("Image/Tevi");
+	//
+	//	UEngineSprite::CreateSpriteToFolder(Dir.GetPathToString());
+	//}
+
+
 	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Idle_Town.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Walk_Town.png", ".sdata");
 

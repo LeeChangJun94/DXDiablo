@@ -156,9 +156,14 @@ public:
 
 	}
 
+	static float R2D(float _Value)
+	{
+		return _Value * (180.0f / 3.14159265358979323846264f);
+	}
+
 	static float GetVectorAngleDeg(const FVector& _Left, const FVector& _Right)
 	{
-		return GetVectorAngleRad(_Left, _Right) * UEngineMath::R2D;
+		return R2D(GetVectorAngleRad(_Left, _Right));
 	}
 
 	static float GetVectorAngleRad(const FVector& _Left, const FVector& _Right)

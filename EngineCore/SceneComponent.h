@@ -75,7 +75,6 @@ public:
 		TransformUpdate();
 	}
 
-
 	FTransform& GetTransformRef()
 	{
 		return Transform;

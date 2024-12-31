@@ -4,7 +4,10 @@
 #include <EnginePlatform/EngineInput.h>
 #include <EngineCore/DefaultSceneComponent.h>
 #include <EngineCore/EngineCore.h>
+#include <EngineCore/CameraActor.h>
 #include <EngineBase/EngineMath.h>
+#include <EngineBase/EngineDebug.h>
+
 
 APlayer::APlayer()
 {
@@ -14,119 +17,119 @@ APlayer::APlayer()
 	// 랜더러를 만든다.
 	PlayerRenderer = CreateDefaultSubObject<USpriteRenderer>();
 
-	PlayerRenderer->CreateAnimation("Idle_S", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 0, 19, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_2", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 0, 19, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_S");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_2");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_SW", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 20, 39, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_1", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 20, 39, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_SW");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_1");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_W", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 40, 59, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_4", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 40, 59, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_W");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_4");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_NW", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 60, 79, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_7", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 60, 79, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_NW");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_7");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_N", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 80, 99, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_8", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 80, 99, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_N");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_8");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_NE", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 100, 119, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_9", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 100, 119, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_NE");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_9");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_E", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 120, 139, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_6", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 120, 139, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_E");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_6");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Idle_SE", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 140, 159, 0.1f);
+	PlayerRenderer->CreateAnimation("Idle_3", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 140, 159, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_SE");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Idle_3");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_S", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 0, 7, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_2", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 0, 7, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_S");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_2");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_SW", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 8, 15, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_1", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 8, 15, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_SW");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_1");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_W", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 16, 23, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_4", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 16, 23, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_W");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_4");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_NW", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 24, 31, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_7", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 24, 31, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_NW");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_7");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_N", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 32, 39, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_8", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 32, 39, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_N");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_8");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_NE", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 40, 47, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_9", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 40, 47, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_NE");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_9");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_E", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 48, 55, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_6", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 48, 55, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_E");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_6");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->CreateAnimation("Move_SE", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
+	PlayerRenderer->CreateAnimation("Move_3", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
 	{
-		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_SE");
+		USpriteRenderer::FrameAnimation* Animation = PlayerRenderer->FindAnimation("Move_3");
 		Animation->IsAutoScale = true;
 		Animation->AutoScaleRatio = 1.0f;
 	}
 
-	PlayerRenderer->ChangeAnimation("Idle_S");
+	PlayerRenderer->ChangeAnimation("Idle_2");
 
 	// 부모가 존재하지 않는 root는 Relative든 Local이던 
 	// 결과는 같다. 
@@ -157,14 +160,9 @@ void APlayer::BeginPlay()
 void APlayer::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
-
+	
 	Direction();
-
-	//MousePos = UEngineCore::MainWindow.GetMousePos();
-	//
-	//float AngleDeg = FVector::GetVectorAngleDeg(PlayerRenderer->GetTransformRef().Location, MousePos);
-		
-
+	
 	if (UEngineInput::IsPress('A'))
 	{
 		AddRelativeLocation(FVector{ -100.0f * _DeltaTime, 0.0f, 0.0f });
@@ -206,83 +204,62 @@ void APlayer::Tick(float _DeltaTime)
 
 void APlayer::Direction()
 {
-	if (UEngineInput::IsDown('X'))
+	UEngineDebug::OutPutString(std::to_string(MousePos.X));
+	UEngineDebug::OutPutString(std::to_string(MousePos.Y));
+	UEngineDebug::OutPutString(std::to_string(AngleDeg));
+
+	std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetCamera(0);
+	MousePos = Camera->ScreenMousePosToWorldPos();
+	//FVector PlayerWLocation = PlayerRenderer->GetTransformRef().WorldLocation;
+
+	FVector MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
+	//MouseDir.Normalize();
+
+	AngleDeg = FVector::GetVectorAngleDeg({ 1, 0 }, MouseDir);
+
+	FVector MouseCross = FVector::Cross({ 1, 0 }, MouseDir);
+
+	if (0.0f > MouseCross.Z)
 	{
-		PlayerRenderer->ChangeAnimation("Move_S");
-	}
-	
-	if (UEngineInput::IsUp('X'))
-	{
-		PlayerRenderer->ChangeAnimation("Idle_S");
+		AngleDeg = 360.0f - AngleDeg;
 	}
 
-	if (UEngineInput::IsDown('Z'))
+	if (22.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Move_SW");
+		Dir = '6';
 	}
-	
-	if (UEngineInput::IsUp('Z'))
+	else if (67.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Idle_SW");
+		Dir = '9';
 	}
-
-	if (UEngineInput::IsDown('A'))
+	else if (112.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Move_W");
+		Dir = '8';
 	}
-
-	if (UEngineInput::IsUp('A'))
+	else if (157.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Idle_W");
+		Dir = '7';
 	}
-
-	if (UEngineInput::IsDown('Q'))
+	else if (202.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Move_NW");
+		Dir = '4';
 	}
-
-	if (UEngineInput::IsUp('Q'))
+	else if (247.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Idle_NW");
+		Dir = '1';
 	}
-
-	if (UEngineInput::IsDown('W'))
+	else if (292.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Move_N");
+		Dir = '2';
 	}
-
-	if (UEngineInput::IsUp('W'))
+	else if (337.5f > AngleDeg)
 	{
-		PlayerRenderer->ChangeAnimation("Idle_N");
+		Dir = '3';
+	}
+	else
+	{
+		Dir = '6';
 	}
 
-	if (UEngineInput::IsDown('E'))
-	{
-		PlayerRenderer->ChangeAnimation("Move_NE");
-	}
-
-	if (UEngineInput::IsUp('E'))
-	{
-		PlayerRenderer->ChangeAnimation("Idle_NE");
-	}
-
-	if (UEngineInput::IsDown('D'))
-	{
-		PlayerRenderer->ChangeAnimation("Move_E");
-	}
-
-	if (UEngineInput::IsUp('D'))
-	{
-		PlayerRenderer->ChangeAnimation("Idle_E");
-	}
-
-	if (UEngineInput::IsDown('C'))
-	{
-		PlayerRenderer->ChangeAnimation("Move_SE");
-	}
-
-	if (UEngineInput::IsUp('C'))
-	{
-		PlayerRenderer->ChangeAnimation("Idle_SE");
-	}
+	PlayerRenderer->ChangeAnimation(Idle + Dir);
 }

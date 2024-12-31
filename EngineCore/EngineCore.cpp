@@ -18,7 +18,7 @@ UEngineGraphicDevice& UEngineCore::GetDevice()
 // UEngineGraphicDevice EngienCore.dll::UEngineCore::Device;
 UEngineGraphicDevice UEngineCore::Device;
 
-UEngineWindow UEngineCore::MainWindow;
+//UEngineWindow UEngineCore::MainWindow;
 HMODULE UEngineCore::ContentsDLL = nullptr;
 std::shared_ptr<IContentsCore> UEngineCore::Core;
 UEngineInitData UEngineCore::Data;

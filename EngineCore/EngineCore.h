@@ -36,7 +36,7 @@ public:
 
 	ENGINEAPI static void OpenLevel(std::string_view _Name);
 
-	ENGINEAPI static UEngineWindow MainWindow;
+	ENGINEAPI inline static UEngineWindow MainWindow;
 
 	ENGINEAPI static FVector GetScreenScale();
 
