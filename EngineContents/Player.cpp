@@ -118,7 +118,7 @@ void APlayer::Direction()
 	UEngineDebug::OutPutString(std::to_string(AngleDeg));
 
 	std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetCamera(0);
-	MousePos = UEngineCore::GetMainWindow().GetMousePos();
+	MousePos = Camera->ScreenMousePosToWorldPos();
 	//FVector PlayerWLocation = PlayerRenderer->GetTransformRef().WorldLocation;
 
 	FVector MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
