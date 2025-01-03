@@ -14,12 +14,10 @@ AZombie::AZombie()
 
 	ZombieRenderer = CreateDefaultSubObject<USpriteRenderer>();
 
+	ZombieRenderer->SetAutoScale(true);
+	ZombieRenderer->SetAutoScaleRatio(1.0f);
+
 	ZombieRenderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.1f);
-	{
-		USpriteRenderer::FrameAnimation* Animation = ZombieRenderer->FindAnimation("Attack_2");
-		Animation->IsAutoScale = true;
-		Animation->AutoScaleRatio = 1.0f;
-	}
 
 	ZombieRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
 	ZombieRenderer->SetupAttachment(RootComponent);

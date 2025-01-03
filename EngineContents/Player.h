@@ -1,5 +1,6 @@
 #pragma once
 #include <EngineCore/Actor.h>
+#include <EngineCore/SpriteRenderer.h>
 
 enum class PlayerDirection8
 {
@@ -45,13 +46,12 @@ private:
 	std::shared_ptr<class USpriteRenderer> PlayerRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
+	std::shared_ptr<class URenderer> Renderer;
+
 	FVector MousePos = { 0, 0 };
 	float AngleDeg = 0.0f;
 	std::string Dir = "5";
 	std::string Idle = "Idle_";
-	//char Dir[2] = "5";
-	//char Idle[6] = "Idle_";
-
 
 	PlayerDirection8 PlayerDirection = PlayerDirection8::S;
 };

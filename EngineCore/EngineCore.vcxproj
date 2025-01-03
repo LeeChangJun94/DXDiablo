@@ -195,17 +195,54 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineConstantBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="EngineCore.h">
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineDeviceBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineEnums.h" />
     <ClInclude Include="EngineGraphicDevice.h">
       <SubType>
       </SubType>
     </ClInclude>
     <ClInclude Include="EngineGUI.h" />
     <ClInclude Include="EngineGUIWindow.h" />
+    <ClInclude Include="EngineInputLayOutInfo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineMaterial.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnginePixelShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineRasterizerState.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="EngineResources.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineSampler.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EngineShaderResources.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -218,6 +255,10 @@
       </SubType>
     </ClInclude>
     <ClInclude Include="EngineVertex.h" />
+    <ClInclude Include="EngineVertexShader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="GameMode.h">
       <SubType>
       </SubType>
@@ -230,7 +271,7 @@
     <ClInclude Include="imstb_rectpack.h" />
     <ClInclude Include="imstb_textedit.h" />
     <ClInclude Include="imstb_truetype.h" />
-    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="EngineIndexBuffer.h" />
     <ClInclude Include="Level.h">
       <SubType>
       </SubType>
@@ -262,7 +303,7 @@
       </SubType>
     </ClInclude>
     <ClInclude Include="ThirdParty\DirectxTex\Inc\DirectXTex.h" />
-    <ClInclude Include="VertexBuffer.h">
+    <ClInclude Include="EngineVertexBuffer.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -292,7 +333,15 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineConstantBuffer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="EngineCore.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineDeviceBuffer.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -306,7 +355,35 @@
     </ClCompile>
     <ClCompile Include="EngineGUI.cpp" />
     <ClCompile Include="EngineGUIWindow.cpp" />
+    <ClCompile Include="EngineInputLayOutInfo.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineMaterial.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnginePixelShader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineRasterizerState.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="EngineResources.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineSampler.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineShader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineShaderResources.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -315,6 +392,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="EngineTexture.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EngineVertexShader.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -328,7 +409,7 @@
     <ClCompile Include="imgui_impl_win32.cpp" />
     <ClCompile Include="imgui_tables.cpp" />
     <ClCompile Include="imgui_widgets.cpp" />
-    <ClCompile Include="IndexBuffer.cpp" />
+    <ClCompile Include="EngineIndexBuffer.cpp" />
     <ClCompile Include="Level.cpp">
       <SubType>
       </SubType>
@@ -364,10 +445,11 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="VertexBuffer.cpp">
+    <ClCompile Include="EngineVertexBuffer.cpp">
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineVertex.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ThirdParty\DirectxTex\Inc\DirectXTex.inl" />
