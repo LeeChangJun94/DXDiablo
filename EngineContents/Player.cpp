@@ -31,14 +31,15 @@ APlayer::APlayer()
 	PlayerRenderer->CreateAnimation("Idle_9", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 100, 119, 0.1f);
 	PlayerRenderer->CreateAnimation("Idle_6", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 120, 139, 0.1f);
 	PlayerRenderer->CreateAnimation("Idle_3", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 140, 159, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_2", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 0, 7, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_1", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 8, 15, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_4", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 16, 23, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_7", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 24, 31, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_8", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 32, 39, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_9", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 40, 47, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_6", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 48, 55, 0.1f);
-	PlayerRenderer->CreateAnimation("Move_3", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
+
+	PlayerRenderer->CreateAnimation("Walk_2", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 0, 7, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_1", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 8, 15, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_4", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 16, 23, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_7", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 24, 31, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_8", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 32, 39, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_9", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 40, 47, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_6", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 48, 55, 0.1f);
+	PlayerRenderer->CreateAnimation("Walk_3", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
 
 	PlayerRenderer->ChangeAnimation("Idle_2");
 
@@ -118,12 +119,18 @@ void APlayer::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
 	
-	Direction();
 	
-	if (UEngineInput::IsPress('A'))
+	
+	if (UEngineInput::IsPress(VK_LBUTTON))
 	{
-		AddRelativeLocation(FVector{ -100.0f * _DeltaTime, 0.0f, 0.0f });
+		Direction();
+
+		Move = true;
 	}
+
+	PlayerMove(_DeltaTime);
+	
+
 	if (UEngineInput::IsPress('D'))
 	{
 		AddRelativeLocation(FVector{ 100.0f * _DeltaTime, 0.0f, 0.0f });
@@ -169,8 +176,9 @@ void APlayer::Direction()
 	MousePos = Camera->ScreenMousePosToWorldPos();
 	//FVector PlayerWLocation = PlayerRenderer->GetTransformRef().WorldLocation;
 
-	FVector MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
-	//MouseDir.Normalize();
+	MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
+	Distance = MouseDir.Length();
+	MouseDir.Normalize();
 
 	AngleDeg = FVector::GetVectorAngleDeg({ 1, 0 }, MouseDir);
 
@@ -218,5 +226,24 @@ void APlayer::Direction()
 		Dir = '6';
 	}
 
-	PlayerRenderer->ChangeAnimation(Idle + Dir);
+	//PlayerRenderer->ChangeAnimation(Idle + Dir);
+}
+
+void APlayer::PlayerMove(float _DeltaTime)
+{
+	if (true == Move)
+	{
+		PlayerRenderer->ChangeAnimation(Walk + Dir);
+		FVector Dist = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
+		Distance = Dist.Length();
+
+		if (1.0f > Distance)
+		{
+			Move = false;
+			PlayerRenderer->ChangeAnimation(Idle + Dir);
+		}
+
+		AddRelativeLocation(MouseDir * Speed * _DeltaTime);
+		UEngineDebug::OutPutString(std::to_string(Distance));
+	}
 }

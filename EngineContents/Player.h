@@ -38,6 +38,7 @@ public:
 
 	void Direction();
 
+	void PlayerMove(float _DeltaTime);
 
 protected:
 	void BeginPlay() override;
@@ -53,10 +54,15 @@ private:
 
 	UEngineWinImage ColImage;
 
-	FVector MousePos = { 0, 0 };
+	FVector MousePos = { 0, 0, 0, 0 };
+	FVector MouseDir = { 0, 0, 0, 0 };
 	float AngleDeg = 0.0f;
+	float Speed = 200.0f;
+	float Distance = 0.0f;
 	std::string Dir = "5";
 	std::string Idle = "Idle_";
+	std::string Walk = "Walk_";
+	bool Move = false;
 
 	PlayerDirection8 PlayerDirection = PlayerDirection8::S;
 };
