@@ -14,7 +14,7 @@ AZombie::AZombie()
 
 	ZombieRenderer = CreateDefaultSubObject<USpriteRenderer>();
 
-	ZombieRenderer->SetAutoScale(true);
+	//ZombieRenderer->SetAutoScale(true);
 	ZombieRenderer->SetAutoScaleRatio(1.0f);
 
 	ZombieRenderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.1f);

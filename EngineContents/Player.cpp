@@ -7,6 +7,7 @@
 #include <EngineCore/CameraActor.h>
 #include <EngineBase/EngineMath.h>
 #include <EngineBase/EngineDebug.h>
+#include <EngineCore/TimeEventComponent.h>
 #include "MyCustomRenderer.h"
 
 
@@ -17,6 +18,7 @@ APlayer::APlayer()
 
 	// 랜더러를 만든다.
 	PlayerRenderer = CreateDefaultSubObject<USpriteRenderer>();
+	PlayerRenderer->SetupAttachment(RootComponent);
 
 	//PlayerRenderer->SetAutoScale(true);
 	PlayerRenderer->SetAutoScaleRatio(1.0f);
@@ -44,8 +46,13 @@ APlayer::APlayer()
 	// 결과는 같다. 
 	// 부모의 크기에 내가 영향을 받을수 있기 대문에 함수가 나뉜것이다.
 	// 부모가 없으면
-	PlayerRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
-	PlayerRenderer->SetupAttachment(RootComponent);
+
+	//Renderer = CreateDefaultSubObject<MyCustomRenderer>();
+	//Renderer->SetupAttachment(RootComponent);
+	//Renderer->SetRelativeScale3D({ 100.0f, 100.0f, 1.0f });
+
+	//PlayerRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
+	
 
 
 	//Child = CreateDefaultSubObject<USpriteRenderer>();
@@ -55,6 +62,31 @@ APlayer::APlayer()
 	//Child->SetScale3D({ 50.0f, 50.0f, 1.0f });
 	//// Child->SetScale3D({ 50.0f, 50.0f, 1.0f });
 	//Child->SetupAttachment(RootComponent);
+
+		// 인벤토리
+	//TimeEventComponent = CreateDefaultSubObject<UTimeEventComponent>();
+
+	//TimeEventComponent->AddEvent(2.0f,
+	//	[](float _Delta, float _Acc)
+	//	{
+	//		UEngineDebug::OutPutString("Update" + std::to_string(_Acc));
+	//	},
+	//	[]()
+	//	{
+	//		UEngineDebug::OutPutString("Test");
+	//	}, true
+	//);
+
+	///*TimeEventComponent->AddEndEvent(2.0f, []()
+	//	{
+	//		UEngineDebug::OutPutString("Test");
+	//	}, true
+	//);*/
+
+	//LogoRenderer = CreateDefaultSubObject<USpriteRenderer>();
+
+
+
 }
 
 APlayer::~APlayer()

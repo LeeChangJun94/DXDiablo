@@ -48,6 +48,8 @@ private:
 
 	std::shared_ptr<class URenderer> Renderer;
 
+	std::shared_ptr<class UTimeEventComponent> TimeEventComponent;
+
 	FVector MousePos = { 0, 0 };
 	float AngleDeg = 0.0f;
 	std::string Dir = "5";
