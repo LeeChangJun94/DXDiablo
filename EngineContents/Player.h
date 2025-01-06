@@ -1,6 +1,7 @@
 #pragma once
 #include <EngineCore/Actor.h>
 #include <EngineCore/SpriteRenderer.h>
+#include <EnginePlatform/EngineWinImage.h>
 
 enum class PlayerDirection8
 {
@@ -49,6 +50,8 @@ private:
 	std::shared_ptr<class URenderer> Renderer;
 
 	std::shared_ptr<class UTimeEventComponent> TimeEventComponent;
+
+	UEngineWinImage ColImage;
 
 	FVector MousePos = { 0, 0 };
 	float AngleDeg = 0.0f;

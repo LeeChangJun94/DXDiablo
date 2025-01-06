@@ -85,7 +85,23 @@ APlayer::APlayer()
 
 	//LogoRenderer = CreateDefaultSubObject<USpriteRenderer>();
 
+	//{
+	//	UEngineDirectory Dir;
+	//	if (false == Dir.MoveParentToDirectory("ContentsResources"))
+	//	{
+	//		MSGASSERT("리소스 폴더를 찾지 못했습니다.");
+	//		return;
+	//	}
+	//	Dir.Append("Image");
+	//	UEngineFile ImageFiles = Dir.GetFile("BackGround.png");
 
+	//	// 편한 인터페이스로 안됩니다.
+	//	ColImage.Load(nullptr, ImageFiles.GetPathToString());
+	//}
+
+	//UColor Color = ColImage.GetColor(FIntPoint{ 3, 3 }, UColor(255, 255, 255, 255));
+
+	//int a = 0;
 
 }
 
