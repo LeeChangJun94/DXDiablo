@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 653e54ba6e121e3459dc7b79cc8852f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -543993145298053788
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_0
+  - first:
+      213: 794287891987729512
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_1
+  - first:
+      213: -8933196751852469824
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_2
+  - first:
+      213: 1800594702447073883
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_3
+  - first:
+      213: -8878040079054691349
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_4
+  - first:
+      213: -8996270092974110882
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_5
+  - first:
+      213: -8676649332587174840
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_6
+  - first:
+      213: -4116854902971190476
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_7
+  - first:
+      213: 390825036409628538
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_8
+  - first:
+      213: -4129400923287616521
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_9
+  - first:
+      213: 799684016331789014
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_10
+  - first:
+      213: 4879916723116315345
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_11
+  - first:
+      213: -6901571661801813104
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_12
+  - first:
+      213: -2396154402109517268
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_13
+  - first:
+      213: -7347554914851402917
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_14
+  - first:
+      213: -8295211718590788946
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_15
+  - first:
+      213: 8459789957736283919
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_16
+  - first:
+      213: 6771207154323255412
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_17
+  - first:
+      213: -5078519448865562899
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_18
+  - first:
+      213: 8199391543555072625
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_19
+  - first:
+      213: 8650554818568878196
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_20
+  - first:
+      213: -3453364461982711765
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_21
+  - first:
+      213: 2809754042753027777
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_22
+  - first:
+      213: -2486657577907223814
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_23
+  - first:
+      213: -4380194362814548003
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_24
+  - first:
+      213: -2851302934575050549
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_25
+  - first:
+      213: 7360710878535498737
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_26
+  - first:
+      213: 5540257804124233040
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_27
+  - first:
+      213: -7668556946182118117
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_28
+  - first:
+      213: 3019042172825710889
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_29
+  - first:
+      213: 6260406117616204606
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_30
+  - first:
+      213: 6250135018245358172
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_31
+  - first:
+      213: -7279963631732909161
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_32
+  - first:
+      213: 1734356674552807280
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_33
+  - first:
+      213: 3659742124790650108
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_34
+  - first:
+      213: -4396655509630456677
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_35
+  - first:
+      213: 1971813118954837462
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_36
+  - first:
+      213: 1590653908002803721
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_37
+  - first:
+      213: -8906896043349716857
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_38
+  - first:
+      213: 2673570927518090345
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_39
+  - first:
+      213: 4299970738175174443
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_40
+  - first:
+      213: 6199888322271590072
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_41
+  - first:
+      213: 6302814128888262938
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_42
+  - first:
+      213: -970558057641504129
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_43
+  - first:
+      213: -6017300579401650212
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_44
+  - first:
+      213: 4294299143977042099
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_45
+  - first:
+      213: -3920347955110923880
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_46
+  - first:
+      213: 650004285061748222
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_47
+  - first:
+      213: 5044082063345454056
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_48
+  - first:
+      213: -6974141115621556935
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_49
+  - first:
+      213: 4994152806490023954
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_50
+  - first:
+      213: 294912042694577385
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_51
+  - first:
+      213: -4114356813385165857
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_52
+  - first:
+      213: 8933650184031695275
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_53
+  - first:
+      213: -8024878391883885620
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_54
+  - first:
+      213: -7357782185090332925
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_55
+  - first:
+      213: 721062239562955521
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_56
+  - first:
+      213: -4090663724077251610
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_57
+  - first:
+      213: -1425288299413998995
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_58
+  - first:
+      213: 8473141206972165375
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_59
+  - first:
+      213: -7425495779540186269
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_60
+  - first:
+      213: -3027376136548185177
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_61
+  - first:
+      213: -5999193826442876659
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_62
+  - first:
+      213: -3555245638514855580
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_63
+  - first:
+      213: 2504003955456520232
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_64
+  - first:
+      213: -5694728396847265844
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_65
+  - first:
+      213: -5308218577998723314
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_66
+  - first:
+      213: 2197553086254244525
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_67
+  - first:
+      213: 5290629940219943159
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_68
+  - first:
+      213: -5911719317567077235
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_69
+  - first:
+      213: 2605340183025738580
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_70
+  - first:
+      213: 693964848288354611
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_71
+  - first:
+      213: -4807574497194669283
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_72
+  - first:
+      213: 3376183098887220202
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_73
+  - first:
+      213: -987744346853977914
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_74
+  - first:
+      213: -6576750219659845021
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_75
+  - first:
+      213: 2309185388097942247
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_76
+  - first:
+      213: 7053515043134809461
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_77
+  - first:
+      213: -8965839862935012760
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_78
+  - first:
+      213: -6180475733495746800
+    second: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651346dd195378f0800000000000000
+      internalID: -543993145298053788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c825321a0e50b00800000000000000
+      internalID: 794287891987729512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1092162e8e60480800000000000000
+      internalID: -8933196751852469824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5adec7875ffcf810800000000000000
+      internalID: 1800594702447073883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3a342069ddac480800000000000000
+      internalID: -8878040079054691349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57cec4c304d62380800000000000000
+      internalID: -8996270092974110882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844e2822769569780800000000000000
+      internalID: -8676649332587174840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433b39c174efdd6c0800000000000000
+      internalID: -4116854902971190476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a776688cc4d7c6500800000000000000
+      internalID: 390825036409628538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f385402dbb61b6c0800000000000000
+      internalID: -4129400923287616521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2930e306c091b00800000000000000
+      internalID: 799684016331789014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d216de9762f8b340800000000000000
+      internalID: 4879916723116315345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b8662c321b830a0800000000000000
+      internalID: -6901571661801813104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22164344462fbed0800000000000000
+      internalID: -2396154402109517268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b4b94ebbd380a90800000000000000
+      internalID: -7347554914851402917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa0db054ec71ec80800000000000000
+      internalID: -8295211718590788946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fb9490526376570800000000000000
+      internalID: 8459789957736283919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470750e080928fd50800000000000000
+      internalID: 6771207154323255412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee9479e7797589b0800000000000000
+      internalID: -5078519448865562899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17221f7aa271ac170800000000000000
+      internalID: 8199391543555072625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47877de56c1fc0870800000000000000
+      internalID: 8650554818568878196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20009b815f2310d0800000000000000
+      internalID: -3453364461982711765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce03884a604ef620800000000000000
+      internalID: 2809754042753027777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af28ec69b1e9d7dd0800000000000000
+      internalID: -2486657577907223814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7354d2f6c6633c0800000000000000
+      internalID: -4380194362814548003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc010ad76132e68d0800000000000000
+      internalID: -2851302934575050549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb36799b8f762660800000000000000
+      internalID: 7360710878535498737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d19ea8e13f2ec40800000000000000
+      internalID: 5540257804124233040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15e5f25610d39590800000000000000
+      internalID: -7668556946182118117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_29
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92133315cdac5e920800000000000000
+      internalID: 3019042172825710889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b3236e13e61e650800000000000000
+      internalID: 6260406117616204606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528eb83fa0fcb650800000000000000
+      internalID: 6250135018245358172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b1cc8d5af58fa90800000000000000
+      internalID: -7279963631732909161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3c8cd43ca11810800000000000000
+      internalID: 1734356674552807280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf41ea582140ac230800000000000000
+      internalID: 3659742124790650108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c66b4cb11fbf2c0800000000000000
+      internalID: -4396655509630456677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d512c6a5994d5b10800000000000000
+      internalID: 1971813118954837462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900181b3d43231610800000000000000
+      internalID: 1590653908002803721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780dec44d39546480800000000000000
+      internalID: -8906896043349716857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9640788e79e6a1520800000000000000
+      internalID: 2673570927518090345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b276189aa909cab30800000000000000
+      internalID: 4299970738175174443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b63718a49d6a0650800000000000000
+      internalID: 6199888322271590072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11b2b57e08187750800000000000000
+      internalID: 6302814128888262938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72926cb692e782f0800000000000000
+      internalID: -970558057641504129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf230a01014e7ca0800000000000000
+      internalID: -6017300579401650212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0040cb15a689b30800000000000000
+      internalID: 4294299143977042099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8913fa34e402899c0800000000000000
+      internalID: -3920347955110923880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef556911477450900800000000000000
+      internalID: 650004285061748222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb00a379ed200640800000000000000
+      internalID: 5044082063345454056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_49
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d3eed1b9fd63f90800000000000000
+      internalID: -6974141115621556935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218abd0748bce4540800000000000000
+      internalID: 4994152806490023954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec8bc8b0fcb71400800000000000000
+      internalID: 294912042694577385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd318fae64ed6e6c0800000000000000
+      internalID: -4114356813385165857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1ffc68283bafb70800000000000000
+      internalID: 8933650184031695275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc39d06ce97e1a090800000000000000
+      internalID: -8024878391883885620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3074efaf518e3e990800000000000000
+      internalID: -7357782185090332925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bf81a594ab10a00800000000000000
+      internalID: 721062239562955521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e38cc6240b0b37c0800000000000000
+      internalID: -4090663724077251610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6278ead7db583ce0800000000000000
+      internalID: -1425288299413998995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcec4df805a69570800000000000000
+      internalID: 8473141206972165375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b48533ee653f890800000000000000
+      internalID: -7425495779540186269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab0d8b81799cf5d0800000000000000
+      internalID: -3027376136548185177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09e72cfff49ebca0800000000000000
+      internalID: -5999193826442876659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461b013adea39aec0800000000000000
+      internalID: -3555245638514855580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820b829a45200c220800000000000000
+      internalID: 2504003955456520232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c69de1b248f0b0800000000000000
+      internalID: -5694728396847265844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_66
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07c144d35b6556b0800000000000000
+      internalID: -5308218577998723314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_67
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26f3983e64f7e10800000000000000
+      internalID: 2197553086254244525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f81bd056e71c6940800000000000000
+      internalID: 5290629940219943159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_69
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8489903a9a55fda0800000000000000
+      internalID: -5911719317567077235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453ec40c717082420800000000000000
+      internalID: 2605340183025738580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331d5dc4a5571a900800000000000000
+      internalID: 693964848288354611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b0c776770184db0800000000000000
+      internalID: -4807574497194669283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeba9d104ac9ade20800000000000000
+      internalID: 3376183098887220202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c05ed4ffb3da42f0800000000000000
+      internalID: -987744346853977914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362e3b43580bab4a0800000000000000
+      internalID: -6576750219659845021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2b91a30efdb0020800000000000000
+      internalID: 2309185388097942247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ace38f8e13e160800000000000000
+      internalID: 7053515043134809461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ab8b0d520f29380800000000000000
+      internalID: -8965839862935012760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Idle_Dungeon_79
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f6012e01a8a3aa0800000000000000
+      internalID: -6180475733495746800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8e948941d294ee84ca1890c73099cb29
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

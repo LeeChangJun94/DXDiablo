@@ -62,6 +62,16 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Idle_Town.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Walk_Town.png", ".sdata");
 
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Walk_Town.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Attack.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Die.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Hit.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Idle_Town.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", ".sdata");
+	
+
+
 	UEngineSprite::CreateSpriteToMeta("Zombie_Attack.png", ".sdata");
 
 	// 주인공 APawn 상속 받으세요.

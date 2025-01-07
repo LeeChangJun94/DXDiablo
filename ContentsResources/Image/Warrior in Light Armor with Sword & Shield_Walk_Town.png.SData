@@ -1,0 +1,1644 @@
+fileFormatVersion: 2
+guid: 54c3a2cb1ace255409ab895329d275cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9174947800378426851
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_0
+  - first:
+      213: 129182954093548052
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_1
+  - first:
+      213: 8006548377016484216
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_2
+  - first:
+      213: -7654205741388395056
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_3
+  - first:
+      213: -6450343464773680185
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_4
+  - first:
+      213: -2259898784215512237
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_5
+  - first:
+      213: -1655300733131055067
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_6
+  - first:
+      213: -9067482595819312261
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_7
+  - first:
+      213: -5734618890785626948
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_8
+  - first:
+      213: 5045555584391590202
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_9
+  - first:
+      213: 6812917512806624972
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_10
+  - first:
+      213: -7359950166492226267
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_11
+  - first:
+      213: -2981424434964833264
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_12
+  - first:
+      213: -1098070969415818042
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_13
+  - first:
+      213: -3226249674176591337
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_14
+  - first:
+      213: -905440077905381423
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_15
+  - first:
+      213: -4119115364649512552
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_16
+  - first:
+      213: 6881196279419487578
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_17
+  - first:
+      213: -7698914505275818727
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_18
+  - first:
+      213: 1632154262859572910
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_19
+  - first:
+      213: -2340141122832006267
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_20
+  - first:
+      213: 6848585642388865035
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_21
+  - first:
+      213: 2873557621650810839
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_22
+  - first:
+      213: -5304967842980456973
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_23
+  - first:
+      213: 9071246055694643442
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_24
+  - first:
+      213: -3379039051405626474
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_25
+  - first:
+      213: 166739133094483773
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_26
+  - first:
+      213: 693861204758154728
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_27
+  - first:
+      213: 1438575430112375112
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_28
+  - first:
+      213: -8838653583835934144
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_29
+  - first:
+      213: -6193988604990554174
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_30
+  - first:
+      213: -5105055357417006752
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_31
+  - first:
+      213: -6535153367005810496
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_32
+  - first:
+      213: -6146939954413509618
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_33
+  - first:
+      213: 7669862523849617965
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_34
+  - first:
+      213: -4572380359883814706
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_35
+  - first:
+      213: -6934168648829544527
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_36
+  - first:
+      213: 9105325130128055309
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_37
+  - first:
+      213: 2264585881705678294
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_38
+  - first:
+      213: 2619499253850855433
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_39
+  - first:
+      213: 853378787501940768
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_40
+  - first:
+      213: 2374356668482717452
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_41
+  - first:
+      213: 4533005272123947367
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_42
+  - first:
+      213: 1764160996556909508
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_43
+  - first:
+      213: -2195357523516148837
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_44
+  - first:
+      213: 4191370231411907243
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_45
+  - first:
+      213: 2409141993706317400
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_46
+  - first:
+      213: -6432559333939201223
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_47
+  - first:
+      213: -4927932947675680595
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_48
+  - first:
+      213: 6384919084371655612
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_49
+  - first:
+      213: -175112395615305054
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_50
+  - first:
+      213: -3670682877778637614
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_51
+  - first:
+      213: 4934625902476684497
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_52
+  - first:
+      213: 973731514279405350
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_53
+  - first:
+      213: 894149476070733898
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_54
+  - first:
+      213: -3752271062376039201
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_55
+  - first:
+      213: -5461145207213259249
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_56
+  - first:
+      213: 5859228691061665165
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_57
+  - first:
+      213: 8224978974191001891
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_58
+  - first:
+      213: -8294348999509888705
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_59
+  - first:
+      213: -7236345789892085880
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_60
+  - first:
+      213: 3742970881879279549
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_61
+  - first:
+      213: -1459784287684647059
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_62
+  - first:
+      213: 805272708650959353
+    second: Warrior in Light Armor with Sword & Shield_Walk_Town_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a31b526990ca080800000000000000
+      internalID: -9174947800378426851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41218c95633fac100800000000000000
+      internalID: 129182954093548052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8714c011459fc1f60800000000000000
+      internalID: 8006548377016484216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd0ac29e6cc6c590800000000000000
+      internalID: -7654205741388395056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c307ee4bc6cb76a0800000000000000
+      internalID: -6450343464773680185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b4f7a770a33a0e0800000000000000
+      internalID: -2259898784215512237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a74dd0c03709e0800000000000000
+      internalID: -1655300733131055067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b2725ee94d92280800000000000000
+      internalID: -9067482595819312261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb46a7c808a8a60b0800000000000000
+      internalID: -5734618890785626948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31362e421a650640800000000000000
+      internalID: 5045555584391590202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce60eaa1685c8e50800000000000000
+      internalID: 6812917512806624972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d57a971543cd990800000000000000
+      internalID: -7359950166492226267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c504dc54adf96d0800000000000000
+      internalID: -2981424434964833264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c42dc9654ed2c0f0800000000000000
+      internalID: -1098070969415818042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a0cf5c30f0a33d0800000000000000
+      internalID: -3226249674176591337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_15
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73c0fdb0b3f63f0800000000000000
+      internalID: -905440077905381423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891563d5666f5d6c0800000000000000
+      internalID: -4119115364649512552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55c988de8bee7f50800000000000000
+      internalID: 6881196279419487578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dbeec4c06f72590800000000000000
+      internalID: -7698914505275818727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6626097a396a610800000000000000
+      internalID: 1632154262859572910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58380512c06268fd0800000000000000
+      internalID: -2340141122832006267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00cd6c3b501b0f50800000000000000
+      internalID: 6848585642388865035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7ec10ae6de0e720800000000000000
+      internalID: 2873557621650810839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_23
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5974e8ad7f066b0800000000000000
+      internalID: -5304967842980456973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b7d3e93a83ed70800000000000000
+      internalID: 9071246055694643442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6937bcab2ed3b11d0800000000000000
+      internalID: -3379039051405626474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37d04eab50605200800000000000000
+      internalID: 166739133094483773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edc809e61711a900800000000000000
+      internalID: 693861204758154728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f3765bb8d6f310800000000000000
+      internalID: 1438575430112375112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042d9ba056bc65580800000000000000
+      internalID: -8838653583835934144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf78b05e288a0aa0800000000000000
+      internalID: -6193988604990554174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_31
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069547e33333729b0800000000000000
+      internalID: -5105055357417006752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0bbee23a87e45a0800000000000000
+      internalID: -6535153367005810496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e689edaea1baa0800000000000000
+      internalID: -6146939954413509618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22332a2453d07a60800000000000000
+      internalID: 7669862523849617965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec80727c944ab80c0800000000000000
+      internalID: -4572380359883814706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b75dd94a52e4cf90800000000000000
+      internalID: -6934168648829544527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c58b9b6fc9c5e70800000000000000
+      internalID: 9105325130128055309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d58e627cdc6d6f10800000000000000
+      internalID: 2264585881705678294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_39
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9085e2351b45a5420800000000000000
+      internalID: 2619499253850855433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02028ef5c7fc7db00800000000000000
+      internalID: 853378787501940768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c070ef26fc863f020800000000000000
+      internalID: 2374356668482717452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769bbe1374878ee30800000000000000
+      internalID: 4533005272123947367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbaf56541f8b7810800000000000000
+      internalID: 1764160996556909508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b6dfb6f58881e0800000000000000
+      internalID: -2195357523516148837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1475c40dba2a30800000000000000
+      internalID: 4191370231411907243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856675c01edfe6120800000000000000
+      internalID: 2409141993706317400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b3eefed55fab6a0800000000000000
+      internalID: -6432559333939201223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0f8d8e7177c9bb0800000000000000
+      internalID: -4927932947675680595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbb597141acb9850800000000000000
+      internalID: 6384919084371655612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a205973430e19df0800000000000000
+      internalID: -175112395615305054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc45eaee5d1f0dc0800000000000000
+      internalID: -3670682877778637614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc60901d105b7440800000000000000
+      internalID: 4934625902476684497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6272a3737a3638d00800000000000000
+      internalID: 973731514279405350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a483c490638a86c00800000000000000
+      internalID: 894149476070733898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_55
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc391269514debc0800000000000000
+      internalID: -3752271062376039201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f060a315e5d1634b0800000000000000
+      internalID: -5461145207213259249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8de1847379205150800000000000000
+      internalID: 5859228691061665165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32126b99ccef42270800000000000000
+      internalID: 8224978974191001891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31b811c78d84ec80800000000000000
+      internalID: -8294348999509888705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b69908d5539b90800000000000000
+      internalID: -7236345789892085880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db78b0b9f24b1f330800000000000000
+      internalID: 3742970881879279549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d672cd3bcedcdbbe0800000000000000
+      internalID: -1459784287684647059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Walk_Town_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f105721347ec2b00800000000000000
+      internalID: 805272708650959353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c4dffbf276cd6a94cbf60a1157ccc9c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

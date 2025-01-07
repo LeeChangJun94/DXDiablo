@@ -1,0 +1,4140 @@
+fileFormatVersion: 2
+guid: 4d6ee505b2e98634999f7ff16f4fffd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7408749458648905272
+    second: Warrior in Light Armor with Sword & Shield_Die_0
+  - first:
+      213: 5771117072091041058
+    second: Warrior in Light Armor with Sword & Shield_Die_1
+  - first:
+      213: 5119994889130192305
+    second: Warrior in Light Armor with Sword & Shield_Die_2
+  - first:
+      213: -6066974275318093845
+    second: Warrior in Light Armor with Sword & Shield_Die_3
+  - first:
+      213: -5432763148526961587
+    second: Warrior in Light Armor with Sword & Shield_Die_4
+  - first:
+      213: 2003586547920108252
+    second: Warrior in Light Armor with Sword & Shield_Die_5
+  - first:
+      213: -355696581094361682
+    second: Warrior in Light Armor with Sword & Shield_Die_6
+  - first:
+      213: 6867868419168868041
+    second: Warrior in Light Armor with Sword & Shield_Die_7
+  - first:
+      213: -2683956915030130106
+    second: Warrior in Light Armor with Sword & Shield_Die_8
+  - first:
+      213: 7173171059181780338
+    second: Warrior in Light Armor with Sword & Shield_Die_9
+  - first:
+      213: 61529513454908597
+    second: Warrior in Light Armor with Sword & Shield_Die_10
+  - first:
+      213: -5669100767729713848
+    second: Warrior in Light Armor with Sword & Shield_Die_11
+  - first:
+      213: -5795000663567819307
+    second: Warrior in Light Armor with Sword & Shield_Die_12
+  - first:
+      213: -7373147623805524289
+    second: Warrior in Light Armor with Sword & Shield_Die_13
+  - first:
+      213: 2705027956568794430
+    second: Warrior in Light Armor with Sword & Shield_Die_14
+  - first:
+      213: 8932696702667888382
+    second: Warrior in Light Armor with Sword & Shield_Die_15
+  - first:
+      213: 8501982247153066015
+    second: Warrior in Light Armor with Sword & Shield_Die_16
+  - first:
+      213: 4453942917821076512
+    second: Warrior in Light Armor with Sword & Shield_Die_17
+  - first:
+      213: -1700153183616171214
+    second: Warrior in Light Armor with Sword & Shield_Die_18
+  - first:
+      213: -7068834500631782774
+    second: Warrior in Light Armor with Sword & Shield_Die_19
+  - first:
+      213: -4875501995610517192
+    second: Warrior in Light Armor with Sword & Shield_Die_20
+  - first:
+      213: 5522234606616421692
+    second: Warrior in Light Armor with Sword & Shield_Die_21
+  - first:
+      213: 7980763877662983246
+    second: Warrior in Light Armor with Sword & Shield_Die_22
+  - first:
+      213: 8588456409118224352
+    second: Warrior in Light Armor with Sword & Shield_Die_23
+  - first:
+      213: -6852478254387805676
+    second: Warrior in Light Armor with Sword & Shield_Die_24
+  - first:
+      213: 5788021401091527221
+    second: Warrior in Light Armor with Sword & Shield_Die_25
+  - first:
+      213: 722672207603509794
+    second: Warrior in Light Armor with Sword & Shield_Die_26
+  - first:
+      213: -5581699265787031604
+    second: Warrior in Light Armor with Sword & Shield_Die_27
+  - first:
+      213: -1600689234209004022
+    second: Warrior in Light Armor with Sword & Shield_Die_28
+  - first:
+      213: -3232342661571543417
+    second: Warrior in Light Armor with Sword & Shield_Die_29
+  - first:
+      213: -5157178720229812438
+    second: Warrior in Light Armor with Sword & Shield_Die_30
+  - first:
+      213: -8905441515882438716
+    second: Warrior in Light Armor with Sword & Shield_Die_31
+  - first:
+      213: -2084012462022898846
+    second: Warrior in Light Armor with Sword & Shield_Die_32
+  - first:
+      213: 6001428235248341261
+    second: Warrior in Light Armor with Sword & Shield_Die_33
+  - first:
+      213: 2932074046617182901
+    second: Warrior in Light Armor with Sword & Shield_Die_34
+  - first:
+      213: -6114442390516542321
+    second: Warrior in Light Armor with Sword & Shield_Die_35
+  - first:
+      213: -6373714379606731418
+    second: Warrior in Light Armor with Sword & Shield_Die_36
+  - first:
+      213: 6126791928728886007
+    second: Warrior in Light Armor with Sword & Shield_Die_37
+  - first:
+      213: -373019416842114694
+    second: Warrior in Light Armor with Sword & Shield_Die_38
+  - first:
+      213: -6080511737184591965
+    second: Warrior in Light Armor with Sword & Shield_Die_39
+  - first:
+      213: -7594427460503141034
+    second: Warrior in Light Armor with Sword & Shield_Die_40
+  - first:
+      213: 5516255590364426080
+    second: Warrior in Light Armor with Sword & Shield_Die_41
+  - first:
+      213: 5622827323953152240
+    second: Warrior in Light Armor with Sword & Shield_Die_42
+  - first:
+      213: -1630067982445285873
+    second: Warrior in Light Armor with Sword & Shield_Die_43
+  - first:
+      213: 7067419887236742494
+    second: Warrior in Light Armor with Sword & Shield_Die_44
+  - first:
+      213: -8103897446547954043
+    second: Warrior in Light Armor with Sword & Shield_Die_45
+  - first:
+      213: 8742939621449602898
+    second: Warrior in Light Armor with Sword & Shield_Die_46
+  - first:
+      213: 9165863070370006498
+    second: Warrior in Light Armor with Sword & Shield_Die_47
+  - first:
+      213: 1994799827527245836
+    second: Warrior in Light Armor with Sword & Shield_Die_48
+  - first:
+      213: -6480200276007081383
+    second: Warrior in Light Armor with Sword & Shield_Die_49
+  - first:
+      213: 3594673168150971558
+    second: Warrior in Light Armor with Sword & Shield_Die_50
+  - first:
+      213: -1228888906852544891
+    second: Warrior in Light Armor with Sword & Shield_Die_51
+  - first:
+      213: -236334361440339115
+    second: Warrior in Light Armor with Sword & Shield_Die_52
+  - first:
+      213: -3963648822275482796
+    second: Warrior in Light Armor with Sword & Shield_Die_53
+  - first:
+      213: -9202948342167320972
+    second: Warrior in Light Armor with Sword & Shield_Die_54
+  - first:
+      213: -6571813835288771681
+    second: Warrior in Light Armor with Sword & Shield_Die_55
+  - first:
+      213: 8669825157786762959
+    second: Warrior in Light Armor with Sword & Shield_Die_56
+  - first:
+      213: 6433997084651374692
+    second: Warrior in Light Armor with Sword & Shield_Die_57
+  - first:
+      213: -847300335529196147
+    second: Warrior in Light Armor with Sword & Shield_Die_58
+  - first:
+      213: 3720354360810423775
+    second: Warrior in Light Armor with Sword & Shield_Die_59
+  - first:
+      213: -9019409784977501059
+    second: Warrior in Light Armor with Sword & Shield_Die_60
+  - first:
+      213: -2262693528795783645
+    second: Warrior in Light Armor with Sword & Shield_Die_61
+  - first:
+      213: -7963492594179869989
+    second: Warrior in Light Armor with Sword & Shield_Die_62
+  - first:
+      213: -4452291364546458967
+    second: Warrior in Light Armor with Sword & Shield_Die_63
+  - first:
+      213: -1189657591264517255
+    second: Warrior in Light Armor with Sword & Shield_Die_64
+  - first:
+      213: 4088143511191973326
+    second: Warrior in Light Armor with Sword & Shield_Die_65
+  - first:
+      213: -4374454745736170536
+    second: Warrior in Light Armor with Sword & Shield_Die_66
+  - first:
+      213: -3628725489768003690
+    second: Warrior in Light Armor with Sword & Shield_Die_67
+  - first:
+      213: -1096375757107306438
+    second: Warrior in Light Armor with Sword & Shield_Die_68
+  - first:
+      213: 5849642329742704181
+    second: Warrior in Light Armor with Sword & Shield_Die_69
+  - first:
+      213: -6026957038497888945
+    second: Warrior in Light Armor with Sword & Shield_Die_70
+  - first:
+      213: 1088064092048800043
+    second: Warrior in Light Armor with Sword & Shield_Die_71
+  - first:
+      213: -2963294435901195777
+    second: Warrior in Light Armor with Sword & Shield_Die_72
+  - first:
+      213: -7947242990461586171
+    second: Warrior in Light Armor with Sword & Shield_Die_73
+  - first:
+      213: -6784162829519988881
+    second: Warrior in Light Armor with Sword & Shield_Die_74
+  - first:
+      213: -8383811760917424766
+    second: Warrior in Light Armor with Sword & Shield_Die_75
+  - first:
+      213: -5890460227609660587
+    second: Warrior in Light Armor with Sword & Shield_Die_76
+  - first:
+      213: -5186457808462485816
+    second: Warrior in Light Armor with Sword & Shield_Die_77
+  - first:
+      213: 7096379035784476195
+    second: Warrior in Light Armor with Sword & Shield_Die_78
+  - first:
+      213: 6893876891607008492
+    second: Warrior in Light Armor with Sword & Shield_Die_79
+  - first:
+      213: 4476213576726768455
+    second: Warrior in Light Armor with Sword & Shield_Die_80
+  - first:
+      213: 5821148840820898658
+    second: Warrior in Light Armor with Sword & Shield_Die_81
+  - first:
+      213: 6309064152469276290
+    second: Warrior in Light Armor with Sword & Shield_Die_82
+  - first:
+      213: -7752623190204845556
+    second: Warrior in Light Armor with Sword & Shield_Die_83
+  - first:
+      213: -3035905874309732114
+    second: Warrior in Light Armor with Sword & Shield_Die_84
+  - first:
+      213: -7184970141919460087
+    second: Warrior in Light Armor with Sword & Shield_Die_85
+  - first:
+      213: 8196328469784836224
+    second: Warrior in Light Armor with Sword & Shield_Die_86
+  - first:
+      213: -3740688864999248604
+    second: Warrior in Light Armor with Sword & Shield_Die_87
+  - first:
+      213: 1501401643774442965
+    second: Warrior in Light Armor with Sword & Shield_Die_88
+  - first:
+      213: -3917334054592174799
+    second: Warrior in Light Armor with Sword & Shield_Die_89
+  - first:
+      213: 8264685680874503268
+    second: Warrior in Light Armor with Sword & Shield_Die_90
+  - first:
+      213: -5803620613232682142
+    second: Warrior in Light Armor with Sword & Shield_Die_91
+  - first:
+      213: 5449234980228710726
+    second: Warrior in Light Armor with Sword & Shield_Die_92
+  - first:
+      213: -2228449748048915139
+    second: Warrior in Light Armor with Sword & Shield_Die_93
+  - first:
+      213: 8022161340085297209
+    second: Warrior in Light Armor with Sword & Shield_Die_94
+  - first:
+      213: -1074488096488650182
+    second: Warrior in Light Armor with Sword & Shield_Die_95
+  - first:
+      213: 5459306096117255438
+    second: Warrior in Light Armor with Sword & Shield_Die_96
+  - first:
+      213: 1246263276667469933
+    second: Warrior in Light Armor with Sword & Shield_Die_97
+  - first:
+      213: 7601662250888876332
+    second: Warrior in Light Armor with Sword & Shield_Die_98
+  - first:
+      213: -1547269588453588379
+    second: Warrior in Light Armor with Sword & Shield_Die_99
+  - first:
+      213: 2287273476670721287
+    second: Warrior in Light Armor with Sword & Shield_Die_100
+  - first:
+      213: 8867526833904592946
+    second: Warrior in Light Armor with Sword & Shield_Die_101
+  - first:
+      213: 7139837971796744465
+    second: Warrior in Light Armor with Sword & Shield_Die_102
+  - first:
+      213: 1880981540975395880
+    second: Warrior in Light Armor with Sword & Shield_Die_103
+  - first:
+      213: -7476515913822732210
+    second: Warrior in Light Armor with Sword & Shield_Die_104
+  - first:
+      213: -636439140488579898
+    second: Warrior in Light Armor with Sword & Shield_Die_105
+  - first:
+      213: -5321679670411074720
+    second: Warrior in Light Armor with Sword & Shield_Die_106
+  - first:
+      213: -6260355168903530614
+    second: Warrior in Light Armor with Sword & Shield_Die_107
+  - first:
+      213: 4669158664449741548
+    second: Warrior in Light Armor with Sword & Shield_Die_108
+  - first:
+      213: 5270944099023915356
+    second: Warrior in Light Armor with Sword & Shield_Die_109
+  - first:
+      213: 6185629209425404162
+    second: Warrior in Light Armor with Sword & Shield_Die_110
+  - first:
+      213: -2146385232233030385
+    second: Warrior in Light Armor with Sword & Shield_Die_111
+  - first:
+      213: -6688310193771069832
+    second: Warrior in Light Armor with Sword & Shield_Die_112
+  - first:
+      213: -6439611622117987745
+    second: Warrior in Light Armor with Sword & Shield_Die_113
+  - first:
+      213: 8080282083259388608
+    second: Warrior in Light Armor with Sword & Shield_Die_114
+  - first:
+      213: -7568785051407163245
+    second: Warrior in Light Armor with Sword & Shield_Die_115
+  - first:
+      213: 1966894509059898422
+    second: Warrior in Light Armor with Sword & Shield_Die_116
+  - first:
+      213: -5961292552095852657
+    second: Warrior in Light Armor with Sword & Shield_Die_117
+  - first:
+      213: -4670590190251069728
+    second: Warrior in Light Armor with Sword & Shield_Die_118
+  - first:
+      213: -1164456313764913579
+    second: Warrior in Light Armor with Sword & Shield_Die_119
+  - first:
+      213: -1482273500799064357
+    second: Warrior in Light Armor with Sword & Shield_Die_120
+  - first:
+      213: -9143595106838988783
+    second: Warrior in Light Armor with Sword & Shield_Die_121
+  - first:
+      213: 8019330182227650257
+    second: Warrior in Light Armor with Sword & Shield_Die_122
+  - first:
+      213: 9011868734565428155
+    second: Warrior in Light Armor with Sword & Shield_Die_123
+  - first:
+      213: 2754573469120699570
+    second: Warrior in Light Armor with Sword & Shield_Die_124
+  - first:
+      213: 1651992054842976351
+    second: Warrior in Light Armor with Sword & Shield_Die_125
+  - first:
+      213: -3519732962895261219
+    second: Warrior in Light Armor with Sword & Shield_Die_126
+  - first:
+      213: -7040544049643342630
+    second: Warrior in Light Armor with Sword & Shield_Die_127
+  - first:
+      213: 5811203679053813551
+    second: Warrior in Light Armor with Sword & Shield_Die_128
+  - first:
+      213: 975294762331106913
+    second: Warrior in Light Armor with Sword & Shield_Die_129
+  - first:
+      213: 1621034817952935423
+    second: Warrior in Light Armor with Sword & Shield_Die_130
+  - first:
+      213: -6164885905523301105
+    second: Warrior in Light Armor with Sword & Shield_Die_131
+  - first:
+      213: -4503724660418278347
+    second: Warrior in Light Armor with Sword & Shield_Die_132
+  - first:
+      213: 9155147267330680526
+    second: Warrior in Light Armor with Sword & Shield_Die_133
+  - first:
+      213: -7457460142474790323
+    second: Warrior in Light Armor with Sword & Shield_Die_134
+  - first:
+      213: 1138539366850294085
+    second: Warrior in Light Armor with Sword & Shield_Die_135
+  - first:
+      213: -4458685247176665082
+    second: Warrior in Light Armor with Sword & Shield_Die_136
+  - first:
+      213: 8104195252527502463
+    second: Warrior in Light Armor with Sword & Shield_Die_137
+  - first:
+      213: 7911683882371834123
+    second: Warrior in Light Armor with Sword & Shield_Die_138
+  - first:
+      213: 7463667023158486340
+    second: Warrior in Light Armor with Sword & Shield_Die_139
+  - first:
+      213: -4735314461709889411
+    second: Warrior in Light Armor with Sword & Shield_Die_140
+  - first:
+      213: -2388944219082264853
+    second: Warrior in Light Armor with Sword & Shield_Die_141
+  - first:
+      213: 4651664443950965892
+    second: Warrior in Light Armor with Sword & Shield_Die_142
+  - first:
+      213: 4711118913123756906
+    second: Warrior in Light Armor with Sword & Shield_Die_143
+  - first:
+      213: 6515915770600861290
+    second: Warrior in Light Armor with Sword & Shield_Die_144
+  - first:
+      213: -4694230951719570504
+    second: Warrior in Light Armor with Sword & Shield_Die_145
+  - first:
+      213: -8256977456562566123
+    second: Warrior in Light Armor with Sword & Shield_Die_146
+  - first:
+      213: 8690997050922352409
+    second: Warrior in Light Armor with Sword & Shield_Die_147
+  - first:
+      213: 8293408676150096871
+    second: Warrior in Light Armor with Sword & Shield_Die_148
+  - first:
+      213: 189251346853098281
+    second: Warrior in Light Armor with Sword & Shield_Die_149
+  - first:
+      213: 3086271250331408087
+    second: Warrior in Light Armor with Sword & Shield_Die_150
+  - first:
+      213: 9118472719296519031
+    second: Warrior in Light Armor with Sword & Shield_Die_151
+  - first:
+      213: 4300533432479395914
+    second: Warrior in Light Armor with Sword & Shield_Die_152
+  - first:
+      213: 4536138190614854492
+    second: Warrior in Light Armor with Sword & Shield_Die_153
+  - first:
+      213: -2613848971776563451
+    second: Warrior in Light Armor with Sword & Shield_Die_154
+  - first:
+      213: -619050962809171886
+    second: Warrior in Light Armor with Sword & Shield_Die_155
+  - first:
+      213: 6719882211287272245
+    second: Warrior in Light Armor with Sword & Shield_Die_156
+  - first:
+      213: -814304817599470046
+    second: Warrior in Light Armor with Sword & Shield_Die_157
+  - first:
+      213: 7311680956639118620
+    second: Warrior in Light Armor with Sword & Shield_Die_158
+  - first:
+      213: 5998555321657508305
+    second: Warrior in Light Armor with Sword & Shield_Die_159
+  - first:
+      213: 5520646625872652430
+    second: Warrior in Light Armor with Sword & Shield_Die_160
+  - first:
+      213: 2365040361016848768
+    second: Warrior in Light Armor with Sword & Shield_Die_161
+  - first:
+      213: 7660274888334410061
+    second: Warrior in Light Armor with Sword & Shield_Die_162
+  - first:
+      213: 6568145041920298010
+    second: Warrior in Light Armor with Sword & Shield_Die_163
+  - first:
+      213: 434358953474646914
+    second: Warrior in Light Armor with Sword & Shield_Die_164
+  - first:
+      213: 8590772244597565312
+    second: Warrior in Light Armor with Sword & Shield_Die_165
+  - first:
+      213: -1240687417159823761
+    second: Warrior in Light Armor with Sword & Shield_Die_166
+  - first:
+      213: 3624572075169394633
+    second: Warrior in Light Armor with Sword & Shield_Die_167
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c94d5fde95de2990800000000000000
+      internalID: -7408749458648905272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dcd2f7660271050800000000000000
+      internalID: 5771117072091041058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdab6a8930ed0740800000000000000
+      internalID: 5119994889130192305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be76b327a07cdcba0800000000000000
+      internalID: -6066974275318093845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb73f43b2fa94b0800000000000000
+      internalID: -5432763148526961587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda7781995b2ecb10800000000000000
+      internalID: 2003586547920108252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5bc0418df401bf0800000000000000
+      internalID: -355696581094361682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c61fa090f19f4f50800000000000000
+      internalID: 6867868419168868041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6420d2fe76ba0cad0800000000000000
+      internalID: -2683956915030130106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d74afb2193c8360800000000000000
+      internalID: 7173171059181780338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4bea834c89ad000800000000000000
+      internalID: 61529513454908597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d739f43ee4351b0800000000000000
+      internalID: -5669100767729713848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd13e68995049fa0800000000000000
+      internalID: -5795000663567819307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb66e8efc415da990800000000000000
+      internalID: -7373147623805524289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35a8ca38903a8520800000000000000
+      internalID: 2705027956568794430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef692d8d25057fb70800000000000000
+      internalID: 8932696702667888382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f106c30fecb1df570800000000000000
+      internalID: 8501982247153066015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024979a5c759fcd30800000000000000
+      internalID: 4453942917821076512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2330fc2ffa7d768e0800000000000000
+      internalID: -1700153183616171214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a11d5597476ed90800000000000000
+      internalID: -7068834500631782774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 672
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8315de934ccb65cb0800000000000000
+      internalID: -4875501995610517192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35adbddd1be2ac40800000000000000
+      internalID: 5522234606616421692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e440f5c767e51ce60800000000000000
+      internalID: 7980763877662983246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef2b6ab993503770800000000000000
+      internalID: 8588456409118224352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4124028655b17e0a0800000000000000
+      internalID: -6852478254387805676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5325b6c4cce235050800000000000000
+      internalID: 5788021401091527221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a214f3b82770a00800000000000000
+      internalID: 722672207603509794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf84b34712d982b0800000000000000
+      internalID: -5581699265787031604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a062e2f4f9539c9e0800000000000000
+      internalID: -1600689234209004022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78effa899796423d0800000000000000
+      internalID: -3232342661571543417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_30
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a279f7127450e68b0800000000000000
+      internalID: -5157178720229812438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_31
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf9fc5df14896480800000000000000
+      internalID: -8905441515882438716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_32
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b43a515b91413e0800000000000000
+      internalID: -2084012462022898846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011afade2b594350800000000000000
+      internalID: 6001428235248341261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_34
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b262c38fc1d0b820800000000000000
+      internalID: 2932074046617182901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_35
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84dba1aa03252ba0800000000000000
+      internalID: -6114442390516542321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_36
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665ddb78a840c87a0800000000000000
+      internalID: -6373714379606731418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa9d9c4cccb60550800000000000000
+      internalID: 6126791928728886007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_38
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a796dc411d4c2daf0800000000000000
+      internalID: -373019416842114694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_39
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afd48c7acead9ba0800000000000000
+      internalID: -6080511737184591965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_40
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6550d30367c2b9690800000000000000
+      internalID: -7594427460503141034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_41
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 576
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f2fe9ab3dad8c40800000000000000
+      internalID: 5516255590364426080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0869df8ab480e40800000000000000
+      internalID: 5622827323953152240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6c927ec5d069e0800000000000000
+      internalID: -1630067982445285873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5df64151f4841260800000000000000
+      internalID: 7067419887236742494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586605a653c298f80800000000000000
+      internalID: -8103897446547954043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257113d7349255970800000000000000
+      internalID: 8742939621449602898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_47
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5864156efa33f70800000000000000
+      internalID: 9165863070370006498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a5cdcfd3feab10800000000000000
+      internalID: 1994799827527245836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aa53bbe24b116a0800000000000000
+      internalID: -6480200276007081383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a444477338d2e130800000000000000
+      internalID: 3594673168150971558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_51
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ec2a6dc0c12fee0800000000000000
+      internalID: -1228888906852544891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_52
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b3122862f58bcf0800000000000000
+      internalID: -236334361440339115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_53
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bdfdd756a4ef8c0800000000000000
+      internalID: -3963648822275482796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_54
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476c8dafd3f884080800000000000000
+      internalID: -9202948342167320972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_55
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f938d91c22a3cc4a0800000000000000
+      internalID: -6571813835288771681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_56
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceff9adb08615870800000000000000
+      internalID: 8669825157786762959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_57
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4684b8c72462a4950800000000000000
+      internalID: 6433997084651374692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_58
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8586b285d8cd34f0800000000000000
+      internalID: -847300335529196147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_59
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54ea2749a51a330800000000000000
+      internalID: 3720354360810423775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_60
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74dbb2669e94d280800000000000000
+      internalID: -9019409784977501059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_61
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e5d8c493c4990e0800000000000000
+      internalID: -2262693528795783645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_62
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 480
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd274709dadfb7190800000000000000
+      internalID: -7963492594179869989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa4babd7984632c0800000000000000
+      internalID: -4452291364546458967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973e45c49bc7d7fe0800000000000000
+      internalID: -1189657591264517255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd6a6f0dd00cb830800000000000000
+      internalID: 4088143511191973326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3bf5ae590da43c0800000000000000
+      internalID: -4374454745736170536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69709f2946d24adc0800000000000000
+      internalID: -3628725489768003690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30e449ce04e8c0f0800000000000000
+      internalID: -1096375757107306438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_69
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ef667c4ba1e2150800000000000000
+      internalID: 5849642329742704181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_70
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f450bc37182fb5ca0800000000000000
+      internalID: -6026957038497888945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_71
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b293d63e684991f00800000000000000
+      internalID: 1088064092048800043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_72
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b737296340e6d0800000000000000
+      internalID: -2963294435901195777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_73
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505f2d14b98b5b190800000000000000
+      internalID: -7947242990461586171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_74
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f675d00c9dfc9d1a0800000000000000
+      internalID: -6784162829519988881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_75
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28556ce6f97b6ab80800000000000000
+      internalID: -8383811760917424766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_76
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55372c9c1a1e04ea0800000000000000
+      internalID: -5890460227609660587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_77
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6ea0c2a100608b0800000000000000
+      internalID: -5186457808462485816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_78
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326767382276b7260800000000000000
+      internalID: 7096379035784476195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_79
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce48281f188fbaf50800000000000000
+      internalID: 6893876891607008492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_80
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b64933884be1e30800000000000000
+      internalID: 4476213576726768455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_81
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b7ec96700e8c050800000000000000
+      internalID: 5821148840820898658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_82
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28605197b6c4e8750800000000000000
+      internalID: 6309064152469276290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_83
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 384
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02726e9846296490800000000000000
+      internalID: -7752623190204845556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee82f3631bb4ed5d0800000000000000
+      internalID: -3035905874309732114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9054a1939bbd94c90800000000000000
+      internalID: -7184970141919460087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_86
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08832f731553fb170800000000000000
+      internalID: 8196328469784836224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de57adb47661cc0800000000000000
+      internalID: -3740688864999248604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddfc5a17dc06d410800000000000000
+      internalID: 1501401643774442965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_89
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1352e79ae65d2a9c0800000000000000
+      internalID: -3917334054592174799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_90
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c38cca6df02b270800000000000000
+      internalID: 8264685680874503268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_91
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b91291dc5657fa0800000000000000
+      internalID: -5803620613232682142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_92
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6414a2ed7529f9b40800000000000000
+      internalID: 5449234980228710726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_93
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d355cbfc2c4f211e0800000000000000
+      internalID: -2228449748048915139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930e7ae4c31745f60800000000000000
+      internalID: 8022161340085297209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_95
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a8865e4c6a611f0800000000000000
+      internalID: -1074488096488650182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d813348f953cb40800000000000000
+      internalID: 5459306096117255438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_97
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60016ed8dd9b4110800000000000000
+      internalID: 1246263276667469933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_98
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c215ab6ba878e7960800000000000000
+      internalID: 7601662250888876332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_99
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5628570d18ef68ae0800000000000000
+      internalID: -1547269588453588379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_100
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d8129cb170ebf10800000000000000
+      internalID: 2287273476670721287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_101
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238a02b5ca8cf0b70800000000000000
+      internalID: 8867526833904592946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_102
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1195ace8eccc51360800000000000000
+      internalID: 7139837971796744465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_103
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c7e2eeb69a1a10800000000000000
+      internalID: 1880981540975395880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_104
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 288
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e408a0f73641e3890800000000000000
+      internalID: -7476515913822732210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4f50649f9ea27f0800000000000000
+      internalID: -636439140488579898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063eab409889526b0800000000000000
+      internalID: -5321679670411074720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8779b58420ce19a0800000000000000
+      internalID: -6260355168903530614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d67a211f2cc040800000000000000
+      internalID: 4669158664449741548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59034d3bb7262940800000000000000
+      internalID: 5270944099023915356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201e41c3ef4c7d550800000000000000
+      internalID: 6185629209425404162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d1b99d0028632e0800000000000000
+      internalID: -2146385232233030385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eb6a0a0595e23a0800000000000000
+      internalID: -6688310193771069832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a2e242957e1a6a0800000000000000
+      internalID: -6439611622117987745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c211a95ebde22070800000000000000
+      internalID: 8080282083259388608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390e69dc81646f690800000000000000
+      internalID: -7568785051407163245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c7e2b8220db4b10800000000000000
+      internalID: 1966894509059898422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f871526120c354da0800000000000000
+      internalID: -5961292552095852657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee29a2c7fabe2fb0800000000000000
+      internalID: -4670590190251069728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ed495f62507dfe0800000000000000
+      internalID: -1164456313764913579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_120
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6a5ecba18ed6be0800000000000000
+      internalID: -1482273500799064357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_121
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118bcd6f1bc6b1180800000000000000
+      internalID: -9143595106838988783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_122
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d66f3000526a4f60800000000000000
+      internalID: 8019330182227650257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_123
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbba83efdd6901d70800000000000000
+      internalID: 9011868734565428155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_124
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc97aec9f53a3620800000000000000
+      internalID: 2754573469120699570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_125
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 192
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58eea0750e0de610800000000000000
+      internalID: 1651992054842976351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd11562c485672fc0800000000000000
+      internalID: -3519732962895261219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4b48f3d76fa4e90800000000000000
+      internalID: -7040544049643342630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27127ff4fa85a050800000000000000
+      internalID: 5811203679053813551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_129
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6b044b61f88d00800000000000000
+      internalID: 975294762331106913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_130
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdef9c04921f7610800000000000000
+      internalID: 1621034817952935423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_131
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05a8709eece17aa0800000000000000
+      internalID: -6164885905523301105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c0a99784e8f71c0800000000000000
+      internalID: -4503724660418278347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_133
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec622affeed9d0f70800000000000000
+      internalID: 9155147267330680526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_134
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4af7210387c18890800000000000000
+      internalID: -7457460142474790323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_135
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541f8eb9587eccf00800000000000000
+      internalID: 1138539366850294085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_136
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60892cc04619f12c0800000000000000
+      internalID: -4458685247176665082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_137
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f741f41f4a2e77070800000000000000
+      internalID: 8104195252527502463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_138
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e4f7b292fbcd60800000000000000
+      internalID: 7911683882371834123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_139
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445a8250d95449760800000000000000
+      internalID: 7463667023158486340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_140
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70130af598c84eb0800000000000000
+      internalID: -4735314461709889411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_141
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee061d3e3c8ded0800000000000000
+      internalID: -2388944219082264853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_142
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484230c8a280e8040800000000000000
+      internalID: 4651664443950965892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_143
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bad5fd0b1416140800000000000000
+      internalID: 4711118913123756906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_144
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea70ddede2d6a50800000000000000
+      internalID: 6515915770600861290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_145
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b37c1d02ddbadeb0800000000000000
+      internalID: -4694230951719570504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_146
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 96
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c0e2720c2596d80800000000000000
+      internalID: -8256977456562566123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fb13c55cf9c9870800000000000000
+      internalID: 8690997050922352409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3b117204b181370800000000000000
+      internalID: 8293408676150096871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_149
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9237176e81b50a200800000000000000
+      internalID: 189251346853098281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d61184b953a4da20800000000000000
+      internalID: 3086271250331408087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_151
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b52cf50a25b8e70800000000000000
+      internalID: 9118472719296519031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_152
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4030a32f509eab30800000000000000
+      internalID: 4300533432479395914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_153
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b7eaf96a993fe30800000000000000
+      internalID: 4536138190614854492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_154
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507ecbc753eb9bbd0800000000000000
+      internalID: -2613848971776563451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_155
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25055efdd60b867f0800000000000000
+      internalID: -619050962809171886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_156
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b8e388441d14d50800000000000000
+      internalID: 6719882211287272245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_157
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2262810351203b4f0800000000000000
+      internalID: -814304817599470046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_158
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c158673571f487560800000000000000
+      internalID: 7311680956639118620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_159
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1cce888462f3350800000000000000
+      internalID: 5998555321657508305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_160
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8829994bd64d9c40800000000000000
+      internalID: 5520646625872652430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_161
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081fed58daf42d020800000000000000
+      internalID: 2365040361016848768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_162
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d418401dc63ce4a60800000000000000
+      internalID: 7660274888334410061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_163
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c07e8bd1db62b50800000000000000
+      internalID: 6568145041920298010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_164
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283edd6ba27270600800000000000000
+      internalID: 434358953474646914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_165
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087e58137dd883770800000000000000
+      internalID: 8590772244597565312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_166
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e44e61e5138cee0800000000000000
+      internalID: -1240687417159823761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Light Armor with Sword & Shield_Die_167
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfa54b39111d4230800000000000000
+      internalID: 3624572075169394633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2997e42f4848c6f4bae0dd65a848a24c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

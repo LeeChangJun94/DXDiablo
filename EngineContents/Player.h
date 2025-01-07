@@ -63,8 +63,10 @@ private:
 	float Speed = 200.0f;
 	float Distance = 0.0f;
 	std::string Dir = "5";
-	std::string Idle = "Idle_";
-	std::string Walk = "Walk_";
+	std::string State = "Idle_";
+	std::string Pos = "Town_";
+	std::string Equipment = "Sword & Shield_";
+
 	bool Move = false;
 
 	PlayerDirection8 PlayerDirection = PlayerDirection8::S;

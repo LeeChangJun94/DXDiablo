@@ -23,26 +23,128 @@ APlayer::APlayer()
 
 	//PlayerRenderer->SetAutoScale(true);
 	PlayerRenderer->SetAutoScaleRatio(1.0f);
+	
+	// Sword & Shield
+	{
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_2", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 0, 7, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_1", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 8, 15, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_4", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 16, 23, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_7", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 24, 31, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_8", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 32, 39, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_9", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 40, 47, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_6", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 48, 55, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_3", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 56, 63, 0.1f);
+		
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Attack.png", 0, 15, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Attack.png", 16, 31, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Attack.png", 32, 47, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Attack.png", 48, 63, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Attack.png", 64, 79, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Attack.png", 80, 95, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Attack.png", 96, 111, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Attack.png", 112, 127, 0.05f);
 
-	PlayerRenderer->CreateAnimation("Idle_2", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 0, 19, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_1", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 20, 39, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_4", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 40, 59, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_7", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 60, 79, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_8", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 80, 99, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_9", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 100, 119, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_6", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 120, 139, 0.1f);
-	PlayerRenderer->CreateAnimation("Idle_3", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 140, 159, 0.1f);
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_2", 15, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_2");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_1", 31, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_1");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_4", 47, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_4");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_7", 63, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_7");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_8", 79, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_8");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_9", 95, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_9");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_6", 111, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_6");
+			});
+		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_3", 127, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_3");
+			});
 
-	PlayerRenderer->CreateAnimation("Walk_2", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 0, 7, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_1", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 8, 15, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_4", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 16, 23, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_7", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 24, 31, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_8", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 32, 39, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_9", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 40, 47, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_6", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 48, 55, 0.1f);
-	PlayerRenderer->CreateAnimation("Walk_3", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Die.png", 0, 20, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Die.png", 21, 41, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Die.png", 42, 62, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Die.png", 63, 83, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Die.png", 84, 104, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Die.png", 105, 125, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Die.png", 126, 146, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Die.png", 147, 167, 0.1f);
 
-	PlayerRenderer->ChangeAnimation("Idle_2");
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Hit.png", 0, 5, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Hit.png", 6, 11, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Hit.png", 12, 17, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Hit.png", 18, 23, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Hit.png", 24, 29, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Hit.png", 30, 35, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Hit.png", 36, 41, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Hit.png", 42, 47, 0.1f);
+
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 0, 9, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 10, 19, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 20, 29, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 30, 39, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 40, 49, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 50, 59, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 60, 69, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 70, 79, 0.1f);
+
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_2", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 0, 19, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_1", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 20, 39, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_4", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 40, 59, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_7", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 60, 79, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_8", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 80, 99, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_9", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 100, 119, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_6", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 120, 139, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Town_3", "Warrior in Light Armor with Sword & Shield_Idle_Town.png", 140, 159, 0.1f);
+
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 0, 7, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 8, 15, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 16, 23, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 24, 31, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 32, 39, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 40, 47, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 48, 55, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Walk_Dungeon.png", 56, 63, 0.1f);
+	}
+	
+	// Weaponless
+	{
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_2", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 0, 19, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_1", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 20, 39, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_4", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 40, 59, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_7", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 60, 79, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_8", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 80, 99, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_9", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 100, 119, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_6", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 120, 139, 0.1f);
+		PlayerRenderer->CreateAnimation("Idle_Weaponless_Town_3", "Warrior in Heavy Armor (Weaponless)_Idle_Town.png", 140, 159, 0.1f);
+
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_2", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 0, 7, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_1", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 8, 15, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_4", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 16, 23, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_7", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 24, 31, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_8", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 32, 39, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_9", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 40, 47, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_6", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 48, 55, 0.1f);
+		PlayerRenderer->CreateAnimation("Walk_Weaponless_Town_3", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
+	}
+
+	PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_2");
 
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);
@@ -50,12 +152,12 @@ APlayer::APlayer()
 	Collision->SetScale3D({ 50.0f, 50.0f });
 
 
-	Collision->SetCollisionEnter([](UCollision* _This, UCollision* _Other)
-		{
-			_Other->GetActor()->Destroy();
-			// _Other->Destroy();
-			UEngineDebug::OutPutString("Enter");
-		});
+	//Collision->SetCollisionEnter([](UCollision* _This, UCollision* _Other)
+	//	{
+	//		_Other->GetActor()->Destroy();
+	//		// _Other->Destroy();
+	//		UEngineDebug::OutPutString("Enter");
+	//	});
 
 	//Collision->SetCollisionStay([](UCollision* _This, UCollision* _Other)
 	//	{
@@ -143,9 +245,9 @@ void APlayer::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
 	
-	std::vector<UCollision*> Result;
-
-	Collision->CollisionCheck("Monster", Result);
+	//std::vector<UCollision*> Result;
+	//
+	//Collision->CollisionCheck("Monster", Result);
 
 	//if (공격 상태일때만)
 //{
@@ -156,11 +258,20 @@ void APlayer::Tick(float _DeltaTime)
 //	}
 //}
 	
-	if (UEngineInput::IsPress(VK_LBUTTON))
+	if (UEngineInput::IsDown(VK_LBUTTON) && !UEngineInput::IsPress(VK_SHIFT))
+	{
+		FVector Dist = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
+		Distance = Dist.Length();
+		Direction();
+		Move = true;
+	}
+
+	if (UEngineInput::IsDown(VK_LBUTTON) && UEngineInput::IsPress(VK_SHIFT))
 	{
 		Direction();
-
-		Move = true;
+		State = "Attack_";
+		Pos = "Dungeon_";
+		PlayerRenderer->ChangeAnimation(State + Equipment + Pos + Dir);
 	}
 
 	PlayerMove(_DeltaTime);
@@ -203,8 +314,9 @@ void APlayer::Tick(float _DeltaTime)
 
 void APlayer::Direction()
 {
-	UEngineDebug::OutPutString(std::to_string(MousePos.X));
-	UEngineDebug::OutPutString(std::to_string(MousePos.Y));
+	UEngineDebug::OutPutString(MousePos.ToString());
+	//UEngineDebug::OutPutString(std::to_string(MousePos.X));
+	//UEngineDebug::OutPutString(std::to_string(MousePos.Y));
 	UEngineDebug::OutPutString(std::to_string(AngleDeg));
 
 	std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetCamera(0);
@@ -270,17 +382,18 @@ void APlayer::PlayerMove(float _DeltaTime)
 {
 	if (true == Move)
 	{
-		FVector Dist = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
-		Distance = Dist.Length();
-		PlayerRenderer->ChangeAnimation(Walk + Dir);
+		State = "Walk_";
+		PlayerRenderer->ChangeAnimation(State + Equipment + Pos + Dir);
 
-		if (1.0f > Distance)
+		if (0.0f >= Distance)
 		{
 			Move = false;
-			PlayerRenderer->ChangeAnimation(Idle + Dir);
+			State = "Idle_";
+			PlayerRenderer->ChangeAnimation(State + Equipment + Pos + Dir);
 		}
 
+		Distance -= (MouseDir * Speed * _DeltaTime).Length();
 		AddRelativeLocation(MouseDir * Speed * _DeltaTime);
-		UEngineDebug::OutPutString(std::to_string(Distance));
+		//UEngineDebug::OutPutString(std::to_string(Distance));
 	}
 }
