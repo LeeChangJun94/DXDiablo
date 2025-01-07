@@ -25,6 +25,11 @@ public:
 ATitleGameMode::ATitleGameMode()
 {
 
+	GetWorld()->CreateCollisionProfile("Monster");
+	GetWorld()->CreateCollisionProfile("Player");
+
+	GetWorld()->LinkCollisionProfile("Player", "Monster");
+
 	// 카메라를 일정거리 뒤로 가서 
 	// 카메라 위치조정을 무조건 해줘야 할것이다.
 	std::shared_ptr<ACameraActor> Camera = GetWorld()->GetMainCamera();
@@ -55,6 +60,10 @@ void ATitleGameMode::Tick(float _DeltaTime)
 	// 부모 호출
 	AActor::Tick(_DeltaTime);
 
+	//if (nullptr == Logo && true == Logo->IsDestroy())
+	//{
+	//	Logo = nullptr;
+	//}
 
 
 }

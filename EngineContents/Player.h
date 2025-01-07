@@ -48,7 +48,9 @@ private:
 	std::shared_ptr<class USpriteRenderer> PlayerRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
-	std::shared_ptr<class URenderer> Renderer;
+	std::shared_ptr<class UCollision> Collision;
+
+	//std::shared_ptr<class URenderer> Renderer;
 
 	std::shared_ptr<class UTimeEventComponent> TimeEventComponent;
 
@@ -56,6 +58,7 @@ private:
 
 	FVector MousePos = { 0, 0, 0, 0 };
 	FVector MouseDir = { 0, 0, 0, 0 };
+	
 	float AngleDeg = 0.0f;
 	float Speed = 200.0f;
 	float Distance = 0.0f;

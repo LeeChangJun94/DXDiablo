@@ -6,6 +6,7 @@
 #include <EngineCore/CameraActor.h>
 #include <EngineBase/EngineMath.h>
 #include <EngineBase/EngineDebug.h>
+#include <EngineCore/Collision.h>
 
 AZombie::AZombie()
 {
@@ -15,7 +16,7 @@ AZombie::AZombie()
 	ZombieRenderer = CreateDefaultSubObject<USpriteRenderer>();
 
 	//ZombieRenderer->SetAutoScale(true);
-	ZombieRenderer->SetAutoScaleRatio(1.0f);
+	//ZombieRenderer->SetAutoScaleRatio(1.0f);
 
 	ZombieRenderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.1f);
 
@@ -24,6 +25,10 @@ AZombie::AZombie()
 
 	ZombieRenderer->ChangeAnimation("Attack_2");
 
+	Collision = CreateDefaultSubObject<UCollision>();
+	Collision->SetupAttachment(RootComponent);
+	Collision->SetCollisionProfileName("Monster");
+	Collision->SetScale3D({ 50.0f, 50.0f });
 }
 
 AZombie::~AZombie()

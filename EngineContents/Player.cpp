@@ -8,6 +8,7 @@
 #include <EngineBase/EngineMath.h>
 #include <EngineBase/EngineDebug.h>
 #include <EngineCore/TimeEventComponent.h>
+#include <EngineCore/Collision.h>
 #include "MyCustomRenderer.h"
 
 
@@ -42,6 +43,29 @@ APlayer::APlayer()
 	PlayerRenderer->CreateAnimation("Walk_3", "Warrior in Heavy Armor (Weaponless)_Walk_Town.png", 56, 63, 0.1f);
 
 	PlayerRenderer->ChangeAnimation("Idle_2");
+
+	Collision = CreateDefaultSubObject<UCollision>();
+	Collision->SetupAttachment(RootComponent);
+	Collision->SetCollisionProfileName("Player");
+	Collision->SetScale3D({ 50.0f, 50.0f });
+
+
+	Collision->SetCollisionEnter([](UCollision* _This, UCollision* _Other)
+		{
+			_Other->GetActor()->Destroy();
+			// _Other->Destroy();
+			UEngineDebug::OutPutString("Enter");
+		});
+
+	//Collision->SetCollisionStay([](UCollision* _This, UCollision* _Other)
+	//	{
+	//		UEngineDebug::OutPutString("Stay");
+	//	});
+
+	//Collision->SetCollisionEnd([](UCollision* _This, UCollision* _Other)
+	//	{
+	//		UEngineDebug::OutPutString("End");
+	//	});
 
 	// 부모가 존재하지 않는 root는 Relative든 Local이던 
 	// 결과는 같다. 
@@ -119,7 +143,18 @@ void APlayer::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
 	
-	
+	std::vector<UCollision*> Result;
+
+	Collision->CollisionCheck("Monster", Result);
+
+	//if (공격 상태일때만)
+//{
+//	std::vector<UCollision*> Result;
+//	if (true == Collision->CollisionCheck("Monster", Result))
+//	{
+//		Result[0]->GetActor()->Destroy();
+//	}
+//}
 	
 	if (UEngineInput::IsPress(VK_LBUTTON))
 	{
@@ -174,9 +209,11 @@ void APlayer::Direction()
 
 	std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetCamera(0);
 	MousePos = Camera->ScreenMousePosToWorldPos();
+	
 	//FVector PlayerWLocation = PlayerRenderer->GetTransformRef().WorldLocation;
 
 	MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
+
 	Distance = MouseDir.Length();
 	MouseDir.Normalize();
 
@@ -233,9 +270,9 @@ void APlayer::PlayerMove(float _DeltaTime)
 {
 	if (true == Move)
 	{
-		PlayerRenderer->ChangeAnimation(Walk + Dir);
 		FVector Dist = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
 		Distance = Dist.Length();
+		PlayerRenderer->ChangeAnimation(Walk + Dir);
 
 		if (1.0f > Distance)
 		{
