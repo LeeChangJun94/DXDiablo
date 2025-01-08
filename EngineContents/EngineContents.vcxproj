@@ -171,6 +171,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Fallen.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Hidden.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="MyCustomRenderer.h">
       <SubType>
       </SubType>
@@ -210,6 +218,14 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Fallen.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Hidden.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="ContentsCore_Resources.cpp" />
     <ClCompile Include="MyCustomRenderer.cpp">
       <SubType>

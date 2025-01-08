@@ -77,23 +77,56 @@ APlayer::APlayer()
 				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_3");
 			});
 
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Die.png", 0, 20, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Die.png", 21, 41, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Die.png", 42, 62, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Die.png", 63, 83, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Die.png", 84, 104, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Die.png", 105, 125, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Die.png", 126, 146, 0.1f);
-		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Die.png", 147, 167, 0.1f);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Die.png", 0, 20, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Die.png", 21, 41, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Die.png", 42, 62, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Die.png", 63, 83, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Die.png", 84, 104, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Die.png", 105, 125, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Die.png", 126, 146, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Die_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Die.png", 147, 167, 0.1f, false);
 
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Hit.png", 0, 5, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Hit.png", 6, 11, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Hit.png", 12, 17, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Hit.png", 18, 23, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Hit.png", 24, 29, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Hit.png", 30, 35, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Hit.png", 36, 41, 0.1f);
-		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Hit.png", 42, 47, 0.1f);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Hit.png", 0, 5, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Hit.png", 6, 11, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Hit.png", 12, 17, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Hit.png", 18, 23, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Hit.png", 24, 29, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Hit.png", 30, 35, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Hit.png", 36, 41, 0.1f, false);
+		PlayerRenderer->CreateAnimation("Hit_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Hit.png", 42, 47, 0.1f, false);
+
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_2", 5, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_2");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_1", 11, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_1");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_4", 17, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_4");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_7", 23, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_7");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_8", 29, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_8");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_9", 35, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_9");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_6", 41, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_6");
+			});
+		PlayerRenderer->SetAnimationEvent("Hit_Sword & Shield_Dungeon_3", 47, [this]()
+			{
+				PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_3");
+			});
 
 		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 0, 9, 0.1f);
 		PlayerRenderer->CreateAnimation("Idle_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Idle_Dungeon.png", 10, 19, 0.1f);
@@ -145,7 +178,7 @@ APlayer::APlayer()
 	}
 
 	PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_2");
-
+	//PlayerRenderer->AddRelativeLocation({ 0.0f,0.0f, 100.f });
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);
 	Collision->SetCollisionProfileName("Player");
@@ -263,9 +296,31 @@ void APlayer::Tick(float _DeltaTime)
 	
 	if (UEngineInput::IsDown(VK_LBUTTON) && !UEngineInput::IsPress(VK_LSHIFT))
 	{
-		FVector Dist = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
-		Distance = Dist.Length();
 		Direction();
+		
+		float WindowSizehX = UEngineCore::GetScreenScale().hX();
+		float WindowSizehY = UEngineCore::GetScreenScale().hY();
+
+		if (-WindowSizehX > MousePos.X)
+		{
+			return;
+		}
+		if (WindowSizehX < MousePos.X)
+		{
+			return;
+		}
+		if (-WindowSizehY > MousePos.Y)
+		{
+			return;
+		}
+		if (WindowSizehY < MousePos.Y)
+		{
+			return;
+		}
+		
+		
+		Distance = (MousePos - PlayerRenderer->GetTransformRef().WorldLocation).Length();
+
 		Move = true;
 	}
 
@@ -273,6 +328,7 @@ void APlayer::Tick(float _DeltaTime)
 	{
 		Direction();
 		Distance = 0.0f;
+		Move = false;
 		State = "Attack_";
 		Pos = "Dungeon_";
 		PlayerRenderer->ChangeAnimation(State + Equipment + Pos + Dir);
@@ -318,19 +374,17 @@ void APlayer::Tick(float _DeltaTime)
 
 void APlayer::Direction()
 {
+	std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetCamera(0);
+	MousePos = Camera->ScreenMousePosToWorldPos();
+	MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
+
+
 	UEngineDebug::OutPutString(MousePos.ToString());
 	//UEngineDebug::OutPutString(std::to_string(MousePos.X));
 	//UEngineDebug::OutPutString(std::to_string(MousePos.Y));
 	UEngineDebug::OutPutString(std::to_string(AngleDeg));
 
-	std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetCamera(0);
-	MousePos = Camera->ScreenMousePosToWorldPos();
-	
-	//FVector PlayerWLocation = PlayerRenderer->GetTransformRef().WorldLocation;
-
-	MouseDir = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
-
-	Distance = MouseDir.Length();
+	//Distance = MouseDir.Length();
 	MouseDir.Normalize();
 
 	AngleDeg = FVector::GetVectorAngleDeg({ 1, 0 }, MouseDir);

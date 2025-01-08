@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: facaa11127b287d4fb5ce2764c56be11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2336427137028465911
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_0
+  - first:
+      213: -3930550166320553180
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_1
+  - first:
+      213: 4260881193503105032
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_2
+  - first:
+      213: -4606188648831733859
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_3
+  - first:
+      213: -3472290218442029374
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_4
+  - first:
+      213: 344086547865116707
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_5
+  - first:
+      213: -8806546970390534955
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_6
+  - first:
+      213: -2494733505089049167
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_7
+  - first:
+      213: 7101942200159110161
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_8
+  - first:
+      213: -2084376510830171727
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_9
+  - first:
+      213: -486339011214976985
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_10
+  - first:
+      213: 7614468169164545163
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_11
+  - first:
+      213: -1299660243665018852
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_12
+  - first:
+      213: 9090370124465707831
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_13
+  - first:
+      213: 7730625694702400261
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_14
+  - first:
+      213: -3070702732737649493
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_15
+  - first:
+      213: -3733040889832914047
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_16
+  - first:
+      213: 348353950211083276
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_17
+  - first:
+      213: -5353466410515660664
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_18
+  - first:
+      213: 1992671234207527242
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_19
+  - first:
+      213: 2231073707385909551
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_20
+  - first:
+      213: 4231909823708425185
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_21
+  - first:
+      213: 830276284652246738
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_22
+  - first:
+      213: -4955711655351301757
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_23
+  - first:
+      213: 1228560066439087039
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_24
+  - first:
+      213: -9066680435261907860
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_25
+  - first:
+      213: 5696555279326190665
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_26
+  - first:
+      213: 3268890874722748570
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_27
+  - first:
+      213: -5675918276944993546
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_28
+  - first:
+      213: 8053619242482365708
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_29
+  - first:
+      213: -1387159288189284543
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_30
+  - first:
+      213: -6817104131177209849
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_31
+  - first:
+      213: 6405085698708037175
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_32
+  - first:
+      213: -3513925761779658076
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_33
+  - first:
+      213: 7463387440732075022
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_34
+  - first:
+      213: 7771102856527993730
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_35
+  - first:
+      213: -6248952930399769545
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_36
+  - first:
+      213: -4454137398800758835
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_37
+  - first:
+      213: -3179616379065485080
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_38
+  - first:
+      213: 698900004648199826
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_39
+  - first:
+      213: -3275688143506513968
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_40
+  - first:
+      213: -565095833504972415
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_41
+  - first:
+      213: -1443944154185938897
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_42
+  - first:
+      213: -8411681038287651852
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_43
+  - first:
+      213: -8021535172764839137
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_44
+  - first:
+      213: 1308998040528523226
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_45
+  - first:
+      213: -4422910343966702263
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_46
+  - first:
+      213: -8359564559803285601
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_47
+  - first:
+      213: 406395496440325259
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_48
+  - first:
+      213: 854752208865915712
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_49
+  - first:
+      213: 6603528585926284367
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_50
+  - first:
+      213: -9054453756135213598
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_51
+  - first:
+      213: 652095390762225080
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_52
+  - first:
+      213: -8998024211556151918
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_53
+  - first:
+      213: -1714794664559691132
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_54
+  - first:
+      213: 5256730620454755135
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_55
+  - first:
+      213: -419044703637719524
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_56
+  - first:
+      213: -6421301698864132893
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_57
+  - first:
+      213: 742876709304801029
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_58
+  - first:
+      213: -1913703113854007575
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_59
+  - first:
+      213: -7371888568558578627
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_60
+  - first:
+      213: 407549743912021415
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_61
+  - first:
+      213: -1964451087550698103
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_62
+  - first:
+      213: -4997926567835314711
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_63
+  - first:
+      213: 9018863903667354305
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_64
+  - first:
+      213: -1284670319189405067
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_65
+  - first:
+      213: -2168741764661099025
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_66
+  - first:
+      213: 5713197927518072068
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_67
+  - first:
+      213: 7396729381144423304
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_68
+  - first:
+      213: -5184292909071085903
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_69
+  - first:
+      213: 6570630483101445097
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_70
+  - first:
+      213: -3421014759009332979
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_71
+  - first:
+      213: -2506608917388264900
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_72
+  - first:
+      213: 7471069897665069713
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_73
+  - first:
+      213: 7697407754268267483
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_74
+  - first:
+      213: -8426952604846168490
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_75
+  - first:
+      213: -785070129347440259
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_76
+  - first:
+      213: -6413946119042134524
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_77
+  - first:
+      213: 3505358880720696747
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_78
+  - first:
+      213: -3202558492035800914
+    second: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f42a2a2a18ac6020800000000000000
+      internalID: 2336427137028465911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4236c9cd271e379c0800000000000000
+      internalID: -3930550166320553180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80025e0ded0b12b30800000000000000
+      internalID: 4260881193503105032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fa2f914d78310c0800000000000000
+      internalID: -4606188648831733859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c603bc7172ffcfc0800000000000000
+      internalID: -3472290218442029374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320ad7964e076c400800000000000000
+      internalID: 344086547865116707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d46414803cd8c580800000000000000
+      internalID: -8806546970390534955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bde6e3481de06dd0800000000000000
+      internalID: -2494733505089049167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11407d7adca2f8260800000000000000
+      internalID: 7101942200159110161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 672
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9accd5b9ec213e0800000000000000
+      internalID: -2084376510830171727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728dd1cfe3d2049f0800000000000000
+      internalID: -486339011214976985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c5298e4760ca960800000000000000
+      internalID: 7614468169164545163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1026afe4eda6fde0800000000000000
+      internalID: -1299660243665018852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b1a91277b772e70800000000000000
+      internalID: 9090370124465707831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5037e385c13b84b60800000000000000
+      internalID: 7730625694702400261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4e954422ca265d0800000000000000
+      internalID: -3070702732737649493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1834085d613913cc0800000000000000
+      internalID: -3733040889832914047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c8f62721a95d400800000000000000
+      internalID: 348353950211083276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8808a3cd9aaa4b5b0800000000000000
+      internalID: -5353466410515660664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 576
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41341d0ee367ab10800000000000000
+      internalID: 1992671234207527242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21737457bd56fe10800000000000000
+      internalID: 2231073707385909551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb60a32093caba30800000000000000
+      internalID: 4231909823708425185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d024c1ebb58b00800000000000000
+      internalID: 830276284652246738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389c5858186c93bb0800000000000000
+      internalID: -4955711655351301757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb305590fd8bc0110800000000000000
+      internalID: 1228560066439087039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cda347e2eac2280800000000000000
+      internalID: -9066680435261907860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1d9b48da3e0f40800000000000000
+      internalID: 5696555279326190665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a988d556eee6d5d20800000000000000
+      internalID: 3268890874722748570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2eb8046661b31b0800000000000000
+      internalID: -5675918276944993546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_29
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 480
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c057968f70434cf60800000000000000
+      internalID: 8053619242482365708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f08941af1dfbce0800000000000000
+      internalID: -1387159288189284543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700a55849e7c461a0800000000000000
+      internalID: -6817104131177209849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e5d63e18f63e850800000000000000
+      internalID: 6405085698708037175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2970223270c3fc0800000000000000
+      internalID: -3513925761779658076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0472f9a557439760800000000000000
+      internalID: 7463387440732075022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bdf5cffd088db60800000000000000
+      internalID: 7771102856527993730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ca26d0b624749a0800000000000000
+      internalID: -6248952930399769545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c2b382a9bf22c0800000000000000
+      internalID: -4454137398800758835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8b9c3efbbbfd3d0800000000000000
+      internalID: -3179616379065485080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 384
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296239ee9ddf2b900800000000000000
+      internalID: 698900004648199826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfd5532dfa6a82d0800000000000000
+      internalID: -3275688143506513968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18102eb55506828f0800000000000000
+      internalID: -565095833504972415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28ce3e217416fbe0800000000000000
+      internalID: -1443944154185938897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbb9f4a9a4b34b80800000000000000
+      internalID: -8411681038287651852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13dc02a248cda090800000000000000
+      internalID: -8021535172764839137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf826158ce7a2210800000000000000
+      internalID: 1308998040528523226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945c67ac97aae92c0800000000000000
+      internalID: -4422910343966702263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ffaffd25cdcfb80800000000000000
+      internalID: -8359564559803285601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84e4a30d8ec3a500800000000000000
+      internalID: 406395496440325259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_49
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 288
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043fe64fa90bcdb00800000000000000
+      internalID: 854752208865915712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44164c034274ab50800000000000000
+      internalID: 6603528585926284367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5fb56084e185280800000000000000
+      internalID: -9054453756135213598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd4d0e8d45bc0900800000000000000
+      internalID: 652095390762225080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc4d537a8902380800000000000000
+      internalID: -8998024211556151918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a3f248653d338e0800000000000000
+      internalID: -1714794664559691132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bdf10e5a8a3f840800000000000000
+      internalID: 5256730620454755135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c163aaeef014f2af0800000000000000
+      internalID: -419044703637719524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec479b5024f2e6a0800000000000000
+      internalID: -6421301698864132893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50716026e6a3f4a00800000000000000
+      internalID: 742876709304801029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e64c2d38292175e0800000000000000
+      internalID: -1913703113854007575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d349d43a76ac1b990800000000000000
+      internalID: -7371888568558578627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad6d223558e7a500800000000000000
+      internalID: 407549743912021415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d29ebd42edcb4e0800000000000000
+      internalID: -1964451087550698103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e550b6444cc3aab0800000000000000
+      internalID: -4997926567835314711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca7fa7bfe0792d70800000000000000
+      internalID: 9018863903667354305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725a33b62feb2ee0800000000000000
+      internalID: -1284670319189405067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_66
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe542d30bd417e1e0800000000000000
+      internalID: -2168741764661099025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_67
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d6639ce3b594f40800000000000000
+      internalID: 5713197927518072068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88beecebe2676a660800000000000000
+      internalID: 7396729381144423304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_69
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 96
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1becd371111bd08b0800000000000000
+      internalID: -5184292909071085903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb6d979c919f2b50800000000000000
+      internalID: 6570630483101445097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0151e5b33d1680d0800000000000000
+      internalID: -3421014759009332979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3afe30687cb63dd0800000000000000
+      internalID: -2506608917388264900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c07e0d729ea760800000000000000
+      internalID: 7471069897665069713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd35f74e19fa2da60800000000000000
+      internalID: 7697407754268267483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6566719f0437d0b80800000000000000
+      internalID: -8426952604846168490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71d97870eeda15f0800000000000000
+      internalID: -785070129347440259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e8ffdbcf51df6a0800000000000000
+      internalID: -6413946119042134524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba53e9f645985a030800000000000000
+      internalID: 3505358880720696747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior in Heavy Armor (Weaponless)_Idle_Dungeon_79
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0abc5f40a3e83d0800000000000000
+      internalID: -3202558492035800914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: af9a5a2c01ad9fe49aa4d3339eb0db74
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

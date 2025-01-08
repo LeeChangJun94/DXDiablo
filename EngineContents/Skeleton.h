@@ -22,5 +22,7 @@ protected:
 private:
 	std::shared_ptr<class USpriteRenderer> SkeletonRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
+
+	std::shared_ptr<class UCollision> Collision;
 };
 

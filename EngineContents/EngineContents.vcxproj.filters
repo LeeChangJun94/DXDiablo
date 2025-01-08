@@ -25,6 +25,12 @@
     <ClInclude Include="MyCustomRenderer.h">
       <Filter>Render</Filter>
     </ClInclude>
+    <ClInclude Include="Hidden.h">
+      <Filter>Monster\MonsterType</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallen.h">
+      <Filter>Monster\MonsterType</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -51,6 +57,12 @@
     <ClCompile Include="ContentsCore_Resources.cpp" />
     <ClCompile Include="MyCustomRenderer.cpp">
       <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Hidden.cpp">
+      <Filter>Monster\MonsterType</Filter>
+    </ClCompile>
+    <ClCompile Include="Fallen.cpp">
+      <Filter>Monster\MonsterType</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
