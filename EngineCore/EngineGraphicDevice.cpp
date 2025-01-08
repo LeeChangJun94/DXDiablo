@@ -358,9 +358,6 @@ void UEngineGraphicDevice::RenderStart()
     ArrRtv[0] = RTV; // SV_Target0
     Context->OMSetRenderTargets(1, &ArrRtv[0], DepthTex->GetDSV());
 
-    std::shared_ptr<UEngineDepthStencilState> DepthState = UEngineDepthStencilState::Find<UEngineDepthStencilState>("BaseDepth");
-    DepthState->Setting();
-
     // 뎁스텍스처가 
     // 블랜드 스테이트등과 비슷한 녀석이다.
     // Context->OMSetDepthStencilState();

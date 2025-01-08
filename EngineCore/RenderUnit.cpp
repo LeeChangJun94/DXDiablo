@@ -37,13 +37,13 @@ void URenderUnit::MaterialResourcesCheck()
 			{
 				continue;
 			}
-		
+
 			if (false == Resources[i].IsConstantBuffer("FTransform"))
 			{
 				continue;
 			}
-		
-		
+
+
 			FTransform& Ref = ParentRenderer->GetTransformRef();
 			Resources[i].ConstantBufferLinkData("FTransform", Ref);
 		}
@@ -183,6 +183,8 @@ void URenderUnit::Render(class UEngineCamera* _Camera, float _DeltaTime)
 	//	OutPutMergeSetting();
 	// 랜더타겟이라는 것을 바뀔겁니다.
 	Material->GetBlend()->Setting();
+
+	Material->GetDepthStencilState()->Setting();
 
 	UEngineCore::GetDevice().GetContext()->DrawIndexed(Mesh->GetIndexBuffer()->GetIndexCount(), 0, 0);
 }
