@@ -15,7 +15,17 @@ class TestWindow : public UEngineGUIWindow
 public:
 	void OnGUI() override
 	{
-		ImGui::Button("WindowButton");
+		if (true == ImGui::Button("WindowButton"))
+		{
+			std::shared_ptr<AZombie> NewZombie = GetWorld()->SpawnActor<AZombie>();
+			NewZombie->SetActorLocation({ 300.0f, 200.0f, 0.0f });
+		}
+
+		if (true == ImGui::Button("FreeCameraOn"))
+		{
+			GetWorld()->GetMainCamera()->FreeCameraSwitch();
+		}
+
 		ImGui::SameLine(); // ÇÑ°£ ¶ç±â
 		ImGui::Text("test");
 
@@ -43,7 +53,7 @@ ATitleGameMode::ATitleGameMode()
 	}
 
 	{
-		Zombie = GetWorld()->SpawnActor<AZombie>();
+		//Zombie = GetWorld()->SpawnActor<AZombie>();
 	}
 
 

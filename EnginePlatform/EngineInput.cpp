@@ -160,7 +160,7 @@ UEngineInput::UEngineInput()
 	Keys.insert({ VK_UP, UEngineKey(VK_UP) });
 	Keys.insert({ VK_DOWN, UEngineKey(VK_DOWN) });
 
-	Keys.insert({ VK_SHIFT		, UEngineKey(VK_SHIFT) });
+	Keys.insert({ VK_LSHIFT		, UEngineKey(VK_LSHIFT) });
 	Keys.insert({ VK_SPACE		, UEngineKey(VK_SPACE) });
 	Keys.insert({ VK_PRIOR		, UEngineKey(VK_PRIOR) });
 	Keys.insert({ VK_NEXT		, UEngineKey(VK_NEXT) });

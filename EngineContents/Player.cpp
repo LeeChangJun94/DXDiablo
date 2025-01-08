@@ -152,6 +152,9 @@ APlayer::APlayer()
 	Collision->SetScale3D({ 50.0f, 50.0f });
 
 
+	//GetWorld()->GetMainCamera()->AttachToActor(this);
+
+
 	//Collision->SetCollisionEnter([](UCollision* _This, UCollision* _Other)
 	//	{
 	//		_Other->GetActor()->Destroy();
@@ -258,7 +261,7 @@ void APlayer::Tick(float _DeltaTime)
 //	}
 //}
 	
-	if (UEngineInput::IsDown(VK_LBUTTON) && !UEngineInput::IsPress(VK_SHIFT))
+	if (UEngineInput::IsDown(VK_LBUTTON) && !UEngineInput::IsPress(VK_LSHIFT))
 	{
 		FVector Dist = MousePos - PlayerRenderer->GetTransformRef().WorldLocation;
 		Distance = Dist.Length();
@@ -266,9 +269,10 @@ void APlayer::Tick(float _DeltaTime)
 		Move = true;
 	}
 
-	if (UEngineInput::IsDown(VK_LBUTTON) && UEngineInput::IsPress(VK_SHIFT))
+	if (UEngineInput::IsDown(VK_LBUTTON) && UEngineInput::IsPress(VK_LSHIFT))
 	{
 		Direction();
+		Distance = 0.0f;
 		State = "Attack_";
 		Pos = "Dungeon_";
 		PlayerRenderer->ChangeAnimation(State + Equipment + Pos + Dir);

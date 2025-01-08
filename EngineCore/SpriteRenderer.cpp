@@ -97,6 +97,9 @@ void USpriteRenderer::ComponentTick(float _DeltaTime)
 	// 애니메이션 진행시키는 코드를 ComponentTick으로 옮겼다. 
 	if (nullptr != CurAnimation)
 	{
+		FrameAnimation* EventAnimation = nullptr;
+		int EventFrame = -1;
+
 		CurAnimation->IsEnd = false;
 		std::vector<int>& Indexs = CurAnimation->FrameIndex;
 		std::vector<float>& Times = CurAnimation->FrameTime;
@@ -108,20 +111,18 @@ void USpriteRenderer::ComponentTick(float _DeltaTime)
 
 		float CurFrameTime = Times[CurAnimation->CurIndex];
 
-		bool EventCheck = false;
-		int PrevFrame = 0;
-
 		//                           0.1 0.1 0.1
 		if (CurAnimation->CurTime > CurFrameTime)
 		{
-			EventCheck = true;
 
 			CurAnimation->CurTime -= CurFrameTime;
 			++CurAnimation->CurIndex;
 
 			if (CurAnimation->Events.contains(CurIndex))
 			{
-				CurAnimation->Events[CurIndex]();
+				EventAnimation = CurAnimation;
+				EventFrame = CurIndex;
+				// CurAnimation->Events[CurIndex]();
 			}
 
 			// 애니메이션 앤드
@@ -142,7 +143,9 @@ void USpriteRenderer::ComponentTick(float _DeltaTime)
 
 					if (CurAnimation->Events.contains(CurIndex))
 					{
-						CurAnimation->Events[CurIndex]();
+						EventAnimation = CurAnimation;
+						EventFrame = CurIndex;
+						// CurAnimation->Events[CurIndex]();
 					}
 				}
 				else
@@ -152,19 +155,18 @@ void USpriteRenderer::ComponentTick(float _DeltaTime)
 				}
 			}
 
-			PrevFrame = Indexs[CurAnimation->CurIndex];
 		}
+
 
 		CurIndex = Indexs[CurAnimation->CurIndex];
 
-		if (true == EventCheck)
+		if (nullptr != EventAnimation)
 		{
-			if (CurAnimation->Events.contains(CurIndex))
+			if (EventAnimation->Events.contains(CurIndex))
 			{
-				CurAnimation->Events[PrevFrame]();
+				EventAnimation->Events[CurIndex]();
 			}
 		}
-
 	}
 
 
