@@ -35,14 +35,14 @@ APlayer::APlayer()
 		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_6", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 48, 55, 0.1f);
 		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_3", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 56, 63, 0.1f);
 		
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Attack.png", 0, 15, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Attack.png", 16, 31, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Attack.png", 32, 47, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Attack.png", 48, 63, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Attack.png", 64, 79, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Attack.png", 80, 95, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Attack.png", 96, 111, 0.05f);
-		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Attack.png", 112, 127, 0.05f);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_2", "Warrior in Light Armor with Sword & Shield_Attack.png", 0, 15, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_1", "Warrior in Light Armor with Sword & Shield_Attack.png", 16, 31, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_4", "Warrior in Light Armor with Sword & Shield_Attack.png", 32, 47, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_7", "Warrior in Light Armor with Sword & Shield_Attack.png", 48, 63, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_8", "Warrior in Light Armor with Sword & Shield_Attack.png", 64, 79, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_9", "Warrior in Light Armor with Sword & Shield_Attack.png", 80, 95, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_6", "Warrior in Light Armor with Sword & Shield_Attack.png", 96, 111, 0.05f, false);
+		PlayerRenderer->CreateAnimation("Attack_Sword & Shield_Dungeon_3", "Warrior in Light Armor with Sword & Shield_Attack.png", 112, 127, 0.05f, false);
 
 		PlayerRenderer->SetAnimationEvent("Attack_Sword & Shield_Dungeon_2", 15, [this]()
 			{

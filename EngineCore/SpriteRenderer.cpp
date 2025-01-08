@@ -108,9 +108,13 @@ void USpriteRenderer::ComponentTick(float _DeltaTime)
 
 		float CurFrameTime = Times[CurAnimation->CurIndex];
 
+		bool EventCheck = false;
+		int PrevFrame = 0;
+
 		//                           0.1 0.1 0.1
 		if (CurAnimation->CurTime > CurFrameTime)
 		{
+			EventCheck = true;
 
 			CurAnimation->CurTime -= CurFrameTime;
 			++CurAnimation->CurIndex;
@@ -148,10 +152,19 @@ void USpriteRenderer::ComponentTick(float _DeltaTime)
 				}
 			}
 
+			PrevFrame = Indexs[CurAnimation->CurIndex];
 		}
 
-
 		CurIndex = Indexs[CurAnimation->CurIndex];
+
+		if (true == EventCheck)
+		{
+			if (CurAnimation->Events.contains(CurIndex))
+			{
+				CurAnimation->Events[PrevFrame]();
+			}
+		}
+
 	}
 
 
