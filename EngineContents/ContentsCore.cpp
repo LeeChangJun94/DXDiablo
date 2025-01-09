@@ -108,6 +108,13 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 	UEngineSprite::CreateSpriteToMeta("Skeleton with Sword & Shield_Idle.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Skeleton with Sword & Shield_Walk.png", ".sdata");
 
+	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Attack.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Die.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Hit.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Idle.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Special.png", ".sdata");
+	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Walk.png", ".sdata");
+
 	UEngineSprite::CreateSpriteToMeta("Zombie_Attack.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Zombie_Die.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Zombie_Hit.png", ".sdata");
@@ -135,12 +142,7 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 	UEngineSprite::CreateSpriteToMeta("Hidden_Special.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Hidden_Walk.png", ".sdata");
 
-	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Attack.png", ".sdata");
-	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Die.png", ".sdata");
-	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Hit.png", ".sdata");
-	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Idle.png", ".sdata");
-	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Special.png", ".sdata");
-	UEngineSprite::CreateSpriteToMeta("Skeleton with Two Axes_Walk.png", ".sdata");
+
 	
 
 	// 주인공 APawn 상속 받으세요.

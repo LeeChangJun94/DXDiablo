@@ -171,6 +171,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Butcher.h" />
     <ClInclude Include="ContentsEditorGUI.h">
       <SubType>
       </SubType>
@@ -187,6 +188,9 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="Skeleton_Axe.h" />
+    <ClInclude Include="Skeleton_King.h" />
+    <ClInclude Include="Skeleton_Sword.h" />
     <ClInclude Include="TileMapEditor.h">
       <SubType>
       </SubType>
@@ -199,7 +203,7 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="Skeleton.h">
+    <ClInclude Include="Skeleton_Bow.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -226,6 +230,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Butcher.cpp" />
     <ClCompile Include="ContentsEditorGUI.cpp">
       <SubType>
       </SubType>
@@ -243,6 +248,9 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Skeleton_Axe.cpp" />
+    <ClCompile Include="Skeleton_King.cpp" />
+    <ClCompile Include="Skeleton_Sword.cpp" />
     <ClCompile Include="TileMapEditor.cpp">
       <SubType>
       </SubType>
@@ -255,7 +263,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="Skeleton.cpp">
+    <ClCompile Include="Skeleton_Bow.cpp">
       <SubType>
       </SubType>
     </ClCompile>

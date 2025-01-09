@@ -13,7 +13,7 @@
     <ClInclude Include="Monster.h">
       <Filter>Monster</Filter>
     </ClInclude>
-    <ClInclude Include="Skeleton.h">
+    <ClInclude Include="Skeleton_Bow.h">
       <Filter>Monster\MonsterType</Filter>
     </ClInclude>
     <ClInclude Include="Scavenger.h">
@@ -37,6 +37,18 @@
     <ClInclude Include="ContentsEditorGUI.h">
       <Filter>GUI</Filter>
     </ClInclude>
+    <ClInclude Include="Skeleton_Axe.h">
+      <Filter>Monster\MonsterType</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton_Sword.h">
+      <Filter>Monster\MonsterType</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton_King.h">
+      <Filter>Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Butcher.h">
+      <Filter>Monster\Boss</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -51,7 +63,7 @@
     <ClCompile Include="Monster.cpp">
       <Filter>Monster</Filter>
     </ClCompile>
-    <ClCompile Include="Skeleton.cpp">
+    <ClCompile Include="Skeleton_Bow.cpp">
       <Filter>Monster\MonsterType</Filter>
     </ClCompile>
     <ClCompile Include="Scavenger.cpp">
@@ -76,6 +88,18 @@
     <ClCompile Include="ContentsEditorGUI.cpp">
       <Filter>GUI</Filter>
     </ClCompile>
+    <ClCompile Include="Skeleton_Axe.cpp">
+      <Filter>Monster\MonsterType</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton_Sword.cpp">
+      <Filter>Monster\MonsterType</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton_King.cpp">
+      <Filter>Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Butcher.cpp">
+      <Filter>Monster\Boss</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="GameMode">
@@ -95,6 +119,9 @@
     </Filter>
     <Filter Include="GUI">
       <UniqueIdentifier>{be62a4d6-4d73-46c8-a092-6f6d3cf39210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Boss">
+      <UniqueIdentifier>{51ce7b0f-3824-470b-b625-c1cf110c71a4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

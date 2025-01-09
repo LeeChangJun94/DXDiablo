@@ -3,8 +3,15 @@
 
 enum EMonsterType
 {
-	Zombie,
+	Fallen,
 	Hidden,
+	Scavenger,
+	Skeleton_Axe,
+	Skeleton_Bow,
+	Skeleton_Sword,
+	Zombie,
+	Butcher,
+	Skeleton_King,
 };
 
 
