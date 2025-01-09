@@ -18,6 +18,9 @@ public:
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
+
+	void Serialize(UEngineSerializer& _Ser) override;
+	void DeSerialize(UEngineSerializer& _Ser) override;
 private:
 	std::shared_ptr<class USpriteRenderer> ZombieRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;

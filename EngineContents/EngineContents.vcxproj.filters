@@ -31,6 +31,12 @@
     <ClInclude Include="Fallen.h">
       <Filter>Monster\MonsterType</Filter>
     </ClInclude>
+    <ClInclude Include="TileMapEditor.h">
+      <Filter>GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsEditorGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -64,6 +70,12 @@
     <ClCompile Include="Fallen.cpp">
       <Filter>Monster\MonsterType</Filter>
     </ClCompile>
+    <ClCompile Include="TileMapEditor.cpp">
+      <Filter>GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentsEditorGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="GameMode">
@@ -80,6 +92,9 @@
     </Filter>
     <Filter Include="Render">
       <UniqueIdentifier>{3a1ff5db-4b8a-4854-b7d1-8f0e015cfadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{be62a4d6-4d73-46c8-a092-6f6d3cf39210}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -23,7 +23,10 @@ APlayer::APlayer()
 
 	//PlayerRenderer->SetAutoScale(true);
 	PlayerRenderer->SetAutoScaleRatio(1.0f);
-	
+	//PlayerRenderer->BillboardOn();
+
+	//GetWorld()->GetMainCamera()->AttachToActor(this);
+
 	// Sword & Shield
 	{
 		PlayerRenderer->CreateAnimation("Walk_Sword & Shield_Town_2", "Warrior in Light Armor with Sword & Shield_Walk_Town.png", 0, 7, 0.1f);

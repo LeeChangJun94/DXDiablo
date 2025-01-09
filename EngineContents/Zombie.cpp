@@ -10,6 +10,8 @@
 
 AZombie::AZombie()
 {
+	MonsterTypeValue = EMonsterType::Zombie;
+
 	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
 	RootComponent = Default;
 
@@ -156,3 +158,19 @@ void AZombie::Tick(float _DeltaTime)
 	AActor::Tick(_DeltaTime);
 }
 
+
+void AZombie::Serialize(UEngineSerializer& _Ser)
+{
+	_Ser << GetActorLocation();
+	//_Ser << std::string("Test.png");
+	//_Ser << FVector(50.0f, 50.0f);
+}
+
+
+void AZombie::DeSerialize(UEngineSerializer& _Ser)
+{
+	FVector SavePos;
+	_Ser >> SavePos;
+	SetActorLocation(SavePos);
+
+}

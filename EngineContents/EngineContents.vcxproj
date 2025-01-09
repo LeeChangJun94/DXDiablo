@@ -171,6 +171,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ContentsEditorGUI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="Fallen.h">
       <SubType>
       </SubType>
@@ -180,6 +184,10 @@
       </SubType>
     </ClInclude>
     <ClInclude Include="MyCustomRenderer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TileMapEditor.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -218,6 +226,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ContentsEditorGUI.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Fallen.cpp">
       <SubType>
       </SubType>
@@ -228,6 +240,10 @@
     </ClCompile>
     <ClCompile Include="ContentsCore_Resources.cpp" />
     <ClCompile Include="MyCustomRenderer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TileMapEditor.cpp">
       <SubType>
       </SubType>
     </ClCompile>

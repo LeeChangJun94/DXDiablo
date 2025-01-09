@@ -1,6 +1,13 @@
 #pragma once
 #include <EngineCore/Actor.h>
 
+enum EMonsterType
+{
+	Zombie,
+	Hidden,
+};
+
+
 // Ό³Έν :
 class AMonster : public AActor
 {
@@ -14,6 +21,8 @@ public:
 	AMonster(AMonster&& _Other) noexcept = delete;
 	AMonster& operator=(const AMonster& _Other) = delete;
 	AMonster& operator=(AMonster&& _Other) noexcept = delete;
+
+	EMonsterType MonsterTypeValue;
 
 protected:
 	void BeginPlay() override;

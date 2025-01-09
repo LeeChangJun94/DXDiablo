@@ -1,8 +1,8 @@
 #pragma once
-#include <EngineCore/Actor.h>
+#include <EngineCore/GameMode.h>
 
 // Ό³Έν :
-class ATitleGameMode : public AActor
+class ATitleGameMode : public AGameMode
 {
 public:
 	// constrcuter destructer
@@ -18,7 +18,7 @@ public:
 	void Tick(float _DeltaTime);
 
 protected:
-
+	void LevelChangeStart() override;
 private:
 	std::shared_ptr<class APlayer> Player;
 	std::shared_ptr<class AZombie> Zombie;

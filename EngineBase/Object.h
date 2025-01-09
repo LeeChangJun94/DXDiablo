@@ -1,9 +1,10 @@
 #pragma once
 #include <string>
 #include <memory>
+#include "EngineSerializer.h"
 
 // Ό³Έν : std::enable_shared_from_this<UObject>
-class UObject : public std::enable_shared_from_this<UObject>
+class UObject : public std::enable_shared_from_this<UObject>, public ISerializObject
 {
 public:
 	// constrcuter destructer
@@ -22,7 +23,7 @@ public:
 	template<typename ChildPtrType>
 	std::shared_ptr<ChildPtrType> GetThis()
 	{
-		return std::dynamic_pointer_cast<ChildPtrType>(shared_from_this());
+		return std::static_pointer_cast<ChildPtrType>(shared_from_this());
 	}
 
 	std::string GetName() const
@@ -128,6 +129,13 @@ public:
 	{
 		Order = _Order;
 	}
+
+	bool& GetIsActiveValueRef()
+	{
+		return IsActiveValue;
+	}
+
+
 
 protected:
 
