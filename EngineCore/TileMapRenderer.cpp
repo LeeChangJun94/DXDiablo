@@ -21,10 +21,11 @@ UTileMapRenderer::~UTileMapRenderer()
 {
 }
 
-void UTileMapRenderer::SetTileSetting(std::string_view _Name, FVector _TileSize, FVector _ImageSize, FVector _Pivot)
+void UTileMapRenderer::SetTileSetting(ETileMapType _Type, std::string_view _Name, FVector _TileSize, FVector _ImageSize, FVector _Pivot)
 {
 	Sprite = UEngineSprite::Find<UEngineSprite>(_Name).get();
 
+	TileMapType = _Type;
 	TileSize = _TileSize;
 	ImageSize = _ImageSize;
 	TilePivot = _Pivot;
@@ -34,6 +35,53 @@ void UTileMapRenderer::BeginPlay()
 {
 	URenderer::BeginPlay();
 
+}
+
+FTileIndex UTileMapRenderer::WorldPosToTileIndex(FVector _Pos)
+{
+	FTileIndex Result = FTileIndex();
+	switch (TileMapType)
+	{
+	case Rect:
+	{
+		FVector ConvertVector = _Pos /= TileSize;
+		Result.X = ConvertVector.iX();
+		Result.Y = ConvertVector.iY();
+		break;
+	}
+	case Iso:
+	{
+		Result.X = (_Pos.X / TileSize.hX() + _Pos.Y / TileSize.hY()) / 2;
+		Result.Y = (_Pos.Y / TileSize.hY() - _Pos.X / TileSize.hX()) / 2;
+		break;
+	}
+	default:
+		break;
+	}
+
+	return Result;
+}
+
+FVector UTileMapRenderer::TileIndexToWorldPos(FTileIndex _Index)
+{
+	FVector Result;
+	switch (TileMapType)
+	{
+	case Rect:
+		Result.X = _Index.X * TileSize.X;
+		Result.Y = _Index.Y * TileSize.X;
+		break;
+	case Iso:
+	{
+		Result.X = (_Index.X - _Index.Y) * TileSize.hX();
+		Result.Y = (_Index.X + _Index.Y) * TileSize.hY();
+		break;
+	}
+	default:
+		break;
+	}
+
+	return Result;
 }
 
 void UTileMapRenderer::Render(UEngineCamera* _Camera, float _DeltaTime)
@@ -51,7 +99,7 @@ void UTileMapRenderer::Render(UEngineCamera* _Camera, float _DeltaTime)
 	{
 		return;
 	}
-	
+
 	URenderUnit& Unit = GetRenderUnit();
 
 	FTransform Trans;
@@ -69,7 +117,7 @@ void UTileMapRenderer::Render(UEngineCamera* _Camera, float _DeltaTime)
 		//}
 
 		FTileData& Tile = TilePair.second;
-		TileIndex Index;
+		FTileIndex Index;
 
 		GetRenderUnit().SetTexture("TileMapTex", Sprite->GetTexture(Tile.SpriteIndex));
 		Tile.SpriteData = Sprite->GetSpriteData(Tile.SpriteIndex);
@@ -77,7 +125,9 @@ void UTileMapRenderer::Render(UEngineCamera* _Camera, float _DeltaTime)
 
 		Index.Key = TilePair.first;
 
-		Pos.Position({ Index.X * TileSize.X, Index.Y * TileSize.Y });
+		FVector ConvertPos = TileIndexToWorldPos(Index);
+
+		Pos.Position({ ConvertPos.X, ConvertPos.Y, 0.0f });
 
 		Trans.WVP = Scale * Pos * RendererTrans.View * RendererTrans.Projection;
 
@@ -93,35 +143,36 @@ void UTileMapRenderer::Render(UEngineCamera* _Camera, float _DeltaTime)
 
 void UTileMapRenderer::SetTile(FVector _Pos, int _Spriteindex)
 {
-	_Pos /= TileSize;
+	// 이공식이?????
+	FTileIndex Index = WorldPosToTileIndex(_Pos);
 
-	SetTile(_Pos.iX(), _Pos.iY(), _Spriteindex);
+	SetTile(Index.X, Index.Y, _Spriteindex);
 }
 
 void UTileMapRenderer::RemoveTile(FVector _Pos)
 {
-	_Pos /= TileSize;
+	FTileIndex Index = WorldPosToTileIndex(_Pos);
 
-	RemoveTile(_Pos.iX(), _Pos.iY());
+	RemoveTile(Index.X, Index.Y);
 }
 
 void UTileMapRenderer::SetTile(int _X, int _Y, int _Spriteindex)
 {
-	TileIndex Index = { _X,  _Y };
+	FTileIndex Index = { _X,  _Y };
 
 	FTileData& NewTile = Tiles[Index.Key];
 
 	NewTile.SpriteIndex = _Spriteindex;
-	NewTile.SpriteData.CuttingPos = {0.0f, 0.0f};
+	NewTile.SpriteData.CuttingPos = { 0.0f, 0.0f };
 	NewTile.SpriteData.CuttingSize = { 1.0f, 1.0f };
 	NewTile.SpriteData.Pivot = { 0.5f, 0.5f };
 	NewTile.ColorData.PlusColor = { 0.0f, 0.0f, 0.0f, 0.0f };
-	NewTile.ColorData.MulColor = { 1.0f, 1.0f, 1.0f, 1.0f };	
+	NewTile.ColorData.MulColor = { 1.0f, 1.0f, 1.0f, 1.0f };
 }
 
 void UTileMapRenderer::RemoveTile(int _X, int _Y)
 {
-	TileIndex Index = { _X,  _Y };
+	FTileIndex Index = { _X,  _Y };
 
 	if (false == Tiles.contains(Index.Key))
 	{
@@ -131,7 +182,7 @@ void UTileMapRenderer::RemoveTile(int _X, int _Y)
 	Tiles.erase(Index.Key);
 }
 
-void UTileMapRenderer::RenderTransUpdate(UEngineCamera* _Camera) 
+void UTileMapRenderer::RenderTransUpdate(UEngineCamera* _Camera)
 {
 }
 

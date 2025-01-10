@@ -84,7 +84,7 @@ public:
 				{
 					for (int x = 0; x < TileCountX; x++)
 					{
-						TileMapRenderer->SetTile(x, y, 0);
+						TileMapRenderer->SetTile(x, y, SelectTileIndex);
 					}
 				}
 			}
@@ -366,7 +366,7 @@ ATileMapEditor::ATileMapEditor()
 
 	TileMapRenderer = CreateDefaultSubObject<UTileMapRenderer>();
 	TileMapRenderer->SetupAttachment(RootComponent);
-	TileMapRenderer->SetTileSetting("Church Dungeon.png", { 64.0f, 64.0f }, { 64.0f, 64.0f }, { 0.0f, 0.0f });
+	TileMapRenderer->SetTileSetting(ETileMapType::Iso, "Church Dungeon.png", { 128.0f, 63.0f }, { 128.0f, 192.0f }, { 0.0f, 0.0f });
 
 
 

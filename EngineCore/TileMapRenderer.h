@@ -4,9 +4,14 @@
 #include "SpriteRenderer.h"
 #include <unordered_map>
 
+enum ETileMapType
+{
+	Rect,
+	Iso,
+};
 
 
-struct TileIndex
+struct FTileIndex
 {
 	union
 	{
@@ -24,7 +29,7 @@ struct FTileData
 {
 	bool IsBlock = false;
 	int SpriteIndex = 0;
-	TileIndex Index;
+	FTileIndex Index;
 	ResultColor ColorData;
 	FSpriteData SpriteData;
 };
@@ -75,7 +80,7 @@ public:
 	// 그런데 Unordered map이되면 중간에 얼마든지 크기를 기울수 있습니다.
 	// ENGINEAPI void CreateTileMap(int _X, int _Y, )
 
-	ENGINEAPI void SetTileSetting(std::string_view _Name, FVector _TileSize, FVector _ImageSize, FVector _Pivot);
+	ENGINEAPI void SetTileSetting(ETileMapType _Type, std::string_view _Name, FVector _TileSize, FVector _ImageSize, FVector _Pivot);
 
 
 	ENGINEAPI void SetTile(FVector _Pos, int _Spriteindex);
@@ -91,6 +96,10 @@ public:
 		return Sprite;
 	}
 
+	FTileIndex WorldPosToTileIndex(FVector _Pos);
+
+	FVector TileIndexToWorldPos(FTileIndex _Pos);
+
 protected:
 	ENGINEAPI void Render(class UEngineCamera* _Camera, float _DeltaTime) override;
 	void BeginPlay() override;
@@ -104,6 +113,8 @@ private:
 	FVector TileSize;
 	FVector ImageSize;
 	FVector TilePivot;
+
+	ETileMapType TileMapType = ETileMapType::Rect;
 
 	class UEngineSprite* Sprite = nullptr;
 	// map보다 빠르다.
