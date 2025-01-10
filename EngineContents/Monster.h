@@ -3,7 +3,8 @@
 
 enum EMonsterType
 {
-	Fallen,
+	Fallen_Sword,
+	Fallen_Spear,
 	Hidden,
 	Scavenger,
 	Skeleton_Axe,
@@ -31,11 +32,16 @@ public:
 
 	EMonsterType MonsterTypeValue;
 
+	std::shared_ptr<class USpriteRenderer> GetRenderer()
+	{
+		return Renderer;
+	}
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
 private:
-	std::shared_ptr<class USpriteRenderer> PlayerRenderer;
+	std::shared_ptr<class USpriteRenderer> Renderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
 

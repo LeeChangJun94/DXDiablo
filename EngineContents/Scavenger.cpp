@@ -15,13 +15,6 @@ AScavenger::AScavenger()
 	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
 	RootComponent = Default;
 
-	//Scavenger_Attack.png", 
-	//	Scavenger_Die.png", ".s
-	//	Scavenger_Hit.png", ".s
-	//	Scavenger_Idle.png", ".
-	//	Scavenger_Special.png",
-	//	Scavenger_Walk.png", ".
-
 	ScavengerRenderer = CreateDefaultSubObject<USpriteRenderer>();
 
 	//ZombieRenderer->SetAutoScale(true);
@@ -184,7 +177,7 @@ AScavenger::AScavenger()
 	ScavengerRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
 	ScavengerRenderer->SetupAttachment(RootComponent);
 
-	ScavengerRenderer->ChangeAnimation("Idle_2");
+	ScavengerRenderer->ChangeAnimation("Special_2");
 
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);

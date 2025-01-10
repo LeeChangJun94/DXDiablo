@@ -15,6 +15,7 @@ public:
 	AZombie& operator=(const AZombie& _Other) = delete;
 	AZombie& operator=(AZombie&& _Other) noexcept = delete;
 
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;

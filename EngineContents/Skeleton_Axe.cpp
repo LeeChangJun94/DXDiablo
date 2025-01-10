@@ -177,7 +177,7 @@ ASkeleton_Axe::ASkeleton_Axe()
 	Skeleton_AxeRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
 	Skeleton_AxeRenderer->SetupAttachment(RootComponent);
 
-	Skeleton_AxeRenderer->ChangeAnimation("Idle_2");
+	Skeleton_AxeRenderer->ChangeAnimation("Special_2");
 
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);

@@ -16,6 +16,7 @@ public:
 	AScavenger& operator=(const AScavenger& _Other) = delete;
 	AScavenger& operator=(AScavenger&& _Other) noexcept = delete;
 
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;

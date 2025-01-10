@@ -3,6 +3,15 @@
 #include "TitleLogo.h"
 #include "Player.h"
 #include "Zombie.h"
+#include "Skeleton_Sword.h"
+#include "Skeleton_Axe.h"
+#include "Skeleton_Bow.h"
+#include "Skeleton_King.h"
+#include "Scavenger.h"
+#include "Hidden.h"
+#include "Fallen_Spear.h"
+#include "Fallen_Sword.h"
+#include "Butcher.h"
 #include <EngineCore/CameraActor.h>
 #include <EngineCore/SpriteRenderer.h>
 #include <EngineCore/EngineGUIWindow.h>
@@ -22,15 +31,36 @@ public:
 			NewZombie->SetActorLocation({ 300.0f, 200.0f, 0.0f });
 		}
 
+		if (true == ImGui::Button("Idle"))
+		{
+			if (TitleGameMode)
+			{
+
+			TitleGameMode->Player->GetRenderer()->ChangeAnimation("Attack");
+			TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack");;
+			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack");;
+			}
+		}
+
 		if (true == ImGui::Button("FreeCameraOn"))
 		{
 			GetWorld()->GetMainCamera()->FreeCameraSwitch();
 		}
 
+
+
 		ImGui::SameLine(); // ÇÑ°£ ¶ç±â
 		ImGui::Text("test");
 
 	}
+	ATitleGameMode* TitleGameMode;
 };
 
 ATitleGameMode::ATitleGameMode()
@@ -55,6 +85,47 @@ ATitleGameMode::ATitleGameMode()
 
 	{
 		Zombie = GetWorld()->SpawnActor<AZombie>();
+		Zombie->SetActorLocation({ 250.0f, 0.0f, 0.0f });
+	}
+	
+	{
+		Skeleton_Sword = GetWorld()->SpawnActor<ASkeleton_Sword>();
+		Skeleton_Sword->SetActorLocation({ 350.0f, 0.0f, 0.0f });
+	}
+
+	{
+		Skeleton_Bow = GetWorld()->SpawnActor<ASkeleton_Bow>();
+		Skeleton_Bow->SetActorLocation({ 150.0f, 0.0f, 0.0f });
+	}
+
+	{
+		Skeleton_Axe = GetWorld()->SpawnActor<ASkeleton_Axe>();
+		Skeleton_Axe->SetActorLocation({ 100.0f, 0.0f, 0.0f });
+	}
+	
+	{
+		Skeleton_King = GetWorld()->SpawnActor<ASkeleton_King>();
+		Skeleton_King->SetActorLocation({ 50.0f, 0.0f, 0.0f });
+	}
+
+	{
+		Scavenger = GetWorld()->SpawnActor<AScavenger>();
+		Scavenger->SetActorLocation({ 0.0f, 0.0f, 0.0f });
+	}
+	
+	{
+		Hidden = GetWorld()->SpawnActor<AHidden>();
+		Hidden->SetActorLocation({ 400.0f, 0.0f, 0.0f });
+	}
+
+	{
+		Fallen_Sword = GetWorld()->SpawnActor<AFallen_Sword>();
+		Fallen_Sword->SetActorLocation({ 450.0f, 0.0f, 0.0f });
+	}
+
+	{
+		Fallen_Spear = GetWorld()->SpawnActor<AFallen_Spear>();
+		Fallen_Spear->SetActorLocation({ -50.0f, 0.0f, 0.0f });
 	}
 
 

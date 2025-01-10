@@ -28,7 +28,7 @@
     <ClInclude Include="Hidden.h">
       <Filter>Monster\MonsterType</Filter>
     </ClInclude>
-    <ClInclude Include="Fallen.h">
+    <ClInclude Include="Fallen_Spear.h">
       <Filter>Monster\MonsterType</Filter>
     </ClInclude>
     <ClInclude Include="TileMapEditor.h">
@@ -48,6 +48,9 @@
     </ClInclude>
     <ClInclude Include="Butcher.h">
       <Filter>Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallen_Sword.h">
+      <Filter>Monster\MonsterType</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -79,7 +82,7 @@
     <ClCompile Include="Hidden.cpp">
       <Filter>Monster\MonsterType</Filter>
     </ClCompile>
-    <ClCompile Include="Fallen.cpp">
+    <ClCompile Include="Fallen_Spear.cpp">
       <Filter>Monster\MonsterType</Filter>
     </ClCompile>
     <ClCompile Include="TileMapEditor.cpp">
@@ -99,6 +102,9 @@
     </ClCompile>
     <ClCompile Include="Butcher.cpp">
       <Filter>Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fallen_Sword.cpp">
+      <Filter>Monster\MonsterType</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

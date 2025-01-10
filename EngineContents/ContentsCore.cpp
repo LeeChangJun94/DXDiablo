@@ -144,11 +144,10 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 
 	UEngineSprite::CreateSpriteToMeta("Church Dungeon.png", ".sdata");
 	
-
 	// 주인공 APawn 상속 받으세요.
 	UEngineCore::CreateLevel<ATitleGameMode, APawn>("Titlelevel");
 	UEngineCore::CreateLevel<ATileMapEditor, APawn>("TileMapEditor");
-	UEngineCore::OpenLevel("TileMapEditor");
+	UEngineCore::OpenLevel("Titlelevel");
 
 	UEngineGUI::AllWindowOff();
 

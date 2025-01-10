@@ -15,6 +15,7 @@ public:
 	ASkeleton_Axe& operator=(const ASkeleton_Axe& _Other) = delete;
 	ASkeleton_Axe& operator=(ASkeleton_Axe&& _Other) noexcept = delete;
 
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;

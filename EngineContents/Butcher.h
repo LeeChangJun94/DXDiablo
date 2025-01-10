@@ -15,6 +15,7 @@ public:
 	AButcher& operator=(const AButcher& _Other) = delete;
 	AButcher& operator=(AButcher&& _Other) noexcept = delete;
 
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;

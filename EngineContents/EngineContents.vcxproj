@@ -171,12 +171,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Fallen_Sword.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="Butcher.h" />
     <ClInclude Include="ContentsEditorGUI.h">
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="Fallen.h">
+    <ClInclude Include="Fallen_Spear.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -230,12 +234,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Fallen_Sword.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Butcher.cpp" />
     <ClCompile Include="ContentsEditorGUI.cpp">
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="Fallen.cpp">
+    <ClCompile Include="Fallen_Spear.cpp">
       <SubType>
       </SubType>
     </ClCompile>

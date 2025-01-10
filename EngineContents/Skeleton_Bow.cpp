@@ -176,7 +176,7 @@ ASkeleton_Bow::ASkeleton_Bow()
 	Skeleton_BowRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
 	Skeleton_BowRenderer->SetupAttachment(RootComponent);
 
-	Skeleton_BowRenderer->ChangeAnimation("Idle_2");
+	Skeleton_BowRenderer->ChangeAnimation("Special_2");
 
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);

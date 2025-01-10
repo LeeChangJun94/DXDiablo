@@ -15,6 +15,7 @@ public:
 	ASkeleton_King& operator=(const ASkeleton_King& _Other) = delete;
 	ASkeleton_King& operator=(ASkeleton_King&& _Other) noexcept = delete;
 
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;

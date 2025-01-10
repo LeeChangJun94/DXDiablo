@@ -15,6 +15,7 @@ public:
 	AHidden& operator=(const AHidden& _Other) = delete;
 	AHidden& operator=(AHidden&& _Other) noexcept = delete;
 
+
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
