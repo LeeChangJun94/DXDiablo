@@ -142,7 +142,7 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 	UEngineSprite::CreateSpriteToMeta("Hidden_Special.png", ".sdata");
 	UEngineSprite::CreateSpriteToMeta("Hidden_Walk.png", ".sdata");
 
-
+	UEngineSprite::CreateSpriteToMeta("Church Dungeon.png", ".sdata");
 	
 
 	// 주인공 APawn 상속 받으세요.

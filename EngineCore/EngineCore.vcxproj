@@ -315,6 +315,7 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="TileMapRenderer.h" />
     <ClInclude Include="TimeEventComponent.h">
       <SubType>
       </SubType>
@@ -470,6 +471,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="EngineVertex.cpp" />
+    <ClCompile Include="TileMapRenderer.cpp" />
     <ClCompile Include="TimeEventComponent.cpp">
       <SubType>
       </SubType>

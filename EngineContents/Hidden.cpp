@@ -20,7 +20,7 @@ AHidden::AHidden()
 	//ZombieRenderer->SetAutoScale(true);
 	//ZombieRenderer->SetAutoScaleRatio(1.0f);
 
-	HiddenRenderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.1f, false);
+	/*HiddenRenderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.1f, false);
 
 	HiddenRenderer->CreateAnimation("Attack_2", "Scavenger_Attack.png", 0, 11, 0.1f, false);
 	HiddenRenderer->CreateAnimation("Attack_1", "Scavenger_Attack.png", 0, 11, 0.1f, false);
@@ -179,7 +179,7 @@ AHidden::AHidden()
 	HiddenRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
 	HiddenRenderer->SetupAttachment(RootComponent);
 
-	HiddenRenderer->ChangeAnimation("Idle_2");
+	HiddenRenderer->ChangeAnimation("Idle_2");*/
 
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);

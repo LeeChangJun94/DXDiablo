@@ -1,0 +1,5388 @@
+fileFormatVersion: 2
+guid: ee51057f72debbb43b43a79c544bff29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7105240968874308170
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_0
+  - first:
+      213: -7775746438958761816
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_1
+  - first:
+      213: -2118816619231050986
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_2
+  - first:
+      213: -7181539301207554267
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_3
+  - first:
+      213: -8747306820000017205
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_4
+  - first:
+      213: -5047979684012584561
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_5
+  - first:
+      213: 8954966945942227631
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_6
+  - first:
+      213: 7773252622909356175
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_7
+  - first:
+      213: 7821560766319812452
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_8
+  - first:
+      213: -9022847597035748533
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_9
+  - first:
+      213: -1630113445270225018
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_10
+  - first:
+      213: 8513389808831590604
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_11
+  - first:
+      213: 4238076344164704569
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_12
+  - first:
+      213: -4044634819122040664
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_13
+  - first:
+      213: -5476381935279597327
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_14
+  - first:
+      213: -4070046077643343328
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_15
+  - first:
+      213: 6738695663262831872
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_16
+  - first:
+      213: 3135963173152074915
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_17
+  - first:
+      213: -5628210912155842968
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_18
+  - first:
+      213: -7172563848221090087
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_19
+  - first:
+      213: -8341764407951728148
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_20
+  - first:
+      213: 2014064116004719139
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_21
+  - first:
+      213: 5301873348459510054
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_22
+  - first:
+      213: -9056758306511765085
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_23
+  - first:
+      213: 317473011321896499
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_24
+  - first:
+      213: 4294602632445292095
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_25
+  - first:
+      213: 6944233600407524166
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_26
+  - first:
+      213: -7670418676729353962
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_27
+  - first:
+      213: 6515451832437044257
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_28
+  - first:
+      213: 2679820411962144511
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_29
+  - first:
+      213: 5945687478362121139
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_30
+  - first:
+      213: 4377944755836353136
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_31
+  - first:
+      213: -865584469130933188
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_32
+  - first:
+      213: 8329626971267604708
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_33
+  - first:
+      213: -5685566579572966411
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_34
+  - first:
+      213: -891156291002270743
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_35
+  - first:
+      213: 2776472225407261917
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_36
+  - first:
+      213: -306591567867133178
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_37
+  - first:
+      213: -4156579484869322887
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_38
+  - first:
+      213: 8766860967111954923
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_39
+  - first:
+      213: -7698117572792675867
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_40
+  - first:
+      213: -2397628042068555207
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_41
+  - first:
+      213: -3566494032522830459
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_42
+  - first:
+      213: -1778243451173989023
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_43
+  - first:
+      213: -2040361040354104125
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_44
+  - first:
+      213: -905205593484044186
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_45
+  - first:
+      213: 1642345710257776384
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_46
+  - first:
+      213: -7865283253586120378
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_47
+  - first:
+      213: 7796082529180406344
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_48
+  - first:
+      213: -4772737328348778646
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_49
+  - first:
+      213: -147545902467159770
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_50
+  - first:
+      213: 4844253620613662971
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_51
+  - first:
+      213: 8057320713979254497
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_52
+  - first:
+      213: -7948062840935667141
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_53
+  - first:
+      213: 799367154604989553
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_54
+  - first:
+      213: 4944019454005366173
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_55
+  - first:
+      213: -830137578811735714
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_56
+  - first:
+      213: -5494751233717384785
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_57
+  - first:
+      213: 7549898926102471955
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_58
+  - first:
+      213: 4142437038495987746
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_59
+  - first:
+      213: -4295334754352608759
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_60
+  - first:
+      213: 6540708783126778983
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_61
+  - first:
+      213: 8840539039804096585
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_62
+  - first:
+      213: -917469206858042528
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_63
+  - first:
+      213: 7227651080322453689
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_64
+  - first:
+      213: -849571412248167464
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_65
+  - first:
+      213: 3058292746331037063
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_66
+  - first:
+      213: -2464208734717102122
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_67
+  - first:
+      213: 2924922265174108696
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_68
+  - first:
+      213: 3956189454643587644
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_69
+  - first:
+      213: -7964311344924031772
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_70
+  - first:
+      213: -1277593196418418832
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_71
+  - first:
+      213: -7753958873350181266
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_72
+  - first:
+      213: 4049281829414824005
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_73
+  - first:
+      213: -1660178320190419710
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_74
+  - first:
+      213: 1700713259228219309
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_75
+  - first:
+      213: 8189700973439962670
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_76
+  - first:
+      213: 3283463391830262013
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_77
+  - first:
+      213: -4538672559383294454
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_78
+  - first:
+      213: -1386355717708950609
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_79
+  - first:
+      213: -2617506313358966169
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_80
+  - first:
+      213: -8897231870025156087
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_81
+  - first:
+      213: 822777727437905002
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_82
+  - first:
+      213: -8512097338523360756
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_83
+  - first:
+      213: -2137835467901877932
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_84
+  - first:
+      213: 4735875172924646564
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_85
+  - first:
+      213: 7121615694205370673
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_86
+  - first:
+      213: 5364449849935387178
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_87
+  - first:
+      213: 7457566049318541608
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_88
+  - first:
+      213: -5142164997441501948
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_89
+  - first:
+      213: 5981008664033522029
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_90
+  - first:
+      213: 4984898260913729905
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_91
+  - first:
+      213: 181219386487536614
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_92
+  - first:
+      213: 5292085242910029678
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_93
+  - first:
+      213: 4582007301333013666
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_94
+  - first:
+      213: 7728206493328078914
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_95
+  - first:
+      213: 7986209392913686721
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_96
+  - first:
+      213: -8421607619453018813
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_97
+  - first:
+      213: 8168196108649651483
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_98
+  - first:
+      213: -1109938359227040300
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_99
+  - first:
+      213: 8366294044144819093
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_100
+  - first:
+      213: 8065585121576423465
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_101
+  - first:
+      213: -3140698031865869302
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_102
+  - first:
+      213: 5785998596912012584
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_103
+  - first:
+      213: 4003712237338615602
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_104
+  - first:
+      213: 136049908660478525
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_105
+  - first:
+      213: -3186224553518268266
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_106
+  - first:
+      213: 7045882884682076505
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_107
+  - first:
+      213: -2700868799110305404
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_108
+  - first:
+      213: -1652581279521227127
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_109
+  - first:
+      213: -9146092628877239929
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_110
+  - first:
+      213: 8633053037302491808
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_111
+  - first:
+      213: -1571011085569384541
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_112
+  - first:
+      213: 3707646230903189954
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_113
+  - first:
+      213: -8698150821202401759
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_114
+  - first:
+      213: 1124260123912731532
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_115
+  - first:
+      213: 3362356989956551044
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_116
+  - first:
+      213: 9213674827604499032
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_117
+  - first:
+      213: 5942679426187387472
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_118
+  - first:
+      213: 2904055684662991703
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_119
+  - first:
+      213: -5655402491601970436
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_120
+  - first:
+      213: -6587110948525022462
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_121
+  - first:
+      213: -3927551495536445574
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_122
+  - first:
+      213: -6424816956797396201
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_123
+  - first:
+      213: -4242007940483276847
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_124
+  - first:
+      213: 181080701541483187
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_125
+  - first:
+      213: -7559324436453443213
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_126
+  - first:
+      213: 7724966663478999715
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_127
+  - first:
+      213: 1493091427742357544
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_128
+  - first:
+      213: 2604013064130913725
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_129
+  - first:
+      213: -6339809257951607827
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_130
+  - first:
+      213: -3812196787267804989
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_131
+  - first:
+      213: 8856548185155993601
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_132
+  - first:
+      213: 4416560966315258151
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_133
+  - first:
+      213: -5085496813075359506
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_134
+  - first:
+      213: -3657820662886920746
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_135
+  - first:
+      213: -4168739305665199140
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_136
+  - first:
+      213: 2660495403482563891
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_137
+  - first:
+      213: 1308497967374266405
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_138
+  - first:
+      213: 7942330682089959105
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_139
+  - first:
+      213: 3547093935009612241
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_140
+  - first:
+      213: 2732518630382639454
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_141
+  - first:
+      213: -739804809205599445
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_142
+  - first:
+      213: 2653677161364749673
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_143
+  - first:
+      213: -4795072559510953565
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_144
+  - first:
+      213: -4088199982173665549
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_145
+  - first:
+      213: -8854136599979690621
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_146
+  - first:
+      213: 8290534151267966360
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_147
+  - first:
+      213: 6635668899356724062
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_148
+  - first:
+      213: 9153883793895604547
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_149
+  - first:
+      213: 7015079913084282376
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_150
+  - first:
+      213: 8914609241995615813
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_151
+  - first:
+      213: 6521813927089426562
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_152
+  - first:
+      213: -158498766230291146
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_153
+  - first:
+      213: 3378620061066422282
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_154
+  - first:
+      213: -4057312433752358345
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_155
+  - first:
+      213: 6888063625651752596
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_156
+  - first:
+      213: -5749593561254491200
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_157
+  - first:
+      213: -5992864113192188890
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_158
+  - first:
+      213: -36449909499741291
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_159
+  - first:
+      213: 7383206776295315865
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_160
+  - first:
+      213: -7734441097347636066
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_161
+  - first:
+      213: 1452954509361142154
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_162
+  - first:
+      213: -2535694138074183749
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_163
+  - first:
+      213: -7745568520927010768
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_164
+  - first:
+      213: 3606317246163042558
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_165
+  - first:
+      213: 8942191513787998032
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_166
+  - first:
+      213: 8114864331359927199
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_167
+  - first:
+      213: -1486819793532565060
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_168
+  - first:
+      213: -3413232133873485773
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_169
+  - first:
+      213: 3278005986242697513
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_170
+  - first:
+      213: 1588116649181892757
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_171
+  - first:
+      213: -258741394254016668
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_172
+  - first:
+      213: 8749936230259445559
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_173
+  - first:
+      213: -5249270059335706564
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_174
+  - first:
+      213: 8945838058873924904
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_175
+  - first:
+      213: -1031242572997493670
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_176
+  - first:
+      213: 2210952065507687289
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_177
+  - first:
+      213: 3863004277646370506
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_178
+  - first:
+      213: -768687895822081032
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_179
+  - first:
+      213: -2866921688593232059
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_180
+  - first:
+      213: 3177293281787639725
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_181
+  - first:
+      213: 1129511123879058820
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_182
+  - first:
+      213: 6446623874704019941
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_183
+  - first:
+      213: 2362339283457457869
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_184
+  - first:
+      213: 1677592491217549796
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_185
+  - first:
+      213: -2012486609604716402
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_186
+  - first:
+      213: 3037713218886226412
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_187
+  - first:
+      213: 1076211143093451221
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_188
+  - first:
+      213: -185750040273368249
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_189
+  - first:
+      213: 8533279003694135471
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_190
+  - first:
+      213: -6502021728686899356
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_191
+  - first:
+      213: -9001137753606738227
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_192
+  - first:
+      213: -8257170340786424471
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_193
+  - first:
+      213: 4451012995300022157
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_194
+  - first:
+      213: -1546060423629652551
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_195
+  - first:
+      213: -7226367421623821401
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_196
+  - first:
+      213: -6441691391571374441
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_197
+  - first:
+      213: -7088393834099755322
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_198
+  - first:
+      213: -5583092972630531319
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_199
+  - first:
+      213: 320965604863506181
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_200
+  - first:
+      213: 585344058929801279
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_201
+  - first:
+      213: -8537350392509049342
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_202
+  - first:
+      213: -5725243612434646343
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_203
+  - first:
+      213: 5160370849720056239
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_204
+  - first:
+      213: 7306329832426394465
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_205
+  - first:
+      213: 6586022900450699817
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_206
+  - first:
+      213: 3915626087008638520
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_207
+  - first:
+      213: 6243308213101035027
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_208
+  - first:
+      213: 8750007408517273425
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_209
+  - first:
+      213: 2032388854591489131
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_210
+  - first:
+      213: 7311861600795903594
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_211
+  - first:
+      213: 7494762941484459607
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_212
+  - first:
+      213: 5792718371494042235
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_213
+  - first:
+      213: 7737695795176343042
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_214
+  - first:
+      213: 4427458669025098265
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_215
+  - first:
+      213: -4377625561521425378
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_216
+  - first:
+      213: 3947492349678036055
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_217
+  - first:
+      213: -4679988514323950549
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_218
+  - first:
+      213: -3655143334428543370
+    second: PC Computer - Diablo Diablo Hellfire - Church Dungeon_219
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a423e491403ea9260800000000000000
+      internalID: 7105240968874308170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8ba5abfcff61490800000000000000
+      internalID: -7775746438958761816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6130a82c2837892e0800000000000000
+      internalID: -2118816619231050986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52744031e0c065c90800000000000000
+      internalID: -7181539301207554267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc41c8cdac25b9680800000000000000
+      internalID: -8747306820000017205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f819a050939f1f9b0800000000000000
+      internalID: -5047979684012584561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa404cedfe664c70800000000000000
+      internalID: 8954966945942227631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88b2e9731420eb60800000000000000
+      internalID: 7773252622909356175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fdf999314cb8c60800000000000000
+      internalID: 7821560766319812452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4382346ae768c280800000000000000
+      internalID: -9022847597035748533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f741f457ca069e0800000000000000
+      internalID: -1630113445270225018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc076dddce2a52670800000000000000
+      internalID: 8513389808831590604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9316ce01bfba0da30800000000000000
+      internalID: 4238076344164704569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0fd08bf029ed7c0800000000000000
+      internalID: -4044634819122040664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f81b4d15abfff3b0800000000000000
+      internalID: -5476381935279597327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab89a08aa4487c0800000000000000
+      internalID: -4070046077643343328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0051f3aa008a48d50800000000000000
+      internalID: 6738695663262831872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acaf6414ed258b20800000000000000
+      internalID: 3135963173152074915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86649f3bef394e1b0800000000000000
+      internalID: -5628210912155842968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1920
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de19f19e2fe57c90800000000000000
+      internalID: -7172563848221090087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce16a00b7791c3c80800000000000000
+      internalID: -8341764407951728148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a825d74a463fb10800000000000000
+      internalID: 2014064116004719139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293a0b48b9049940800000000000000
+      internalID: 5301873348459510054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a14cc31e4eef4280800000000000000
+      internalID: -9056758306511765085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7d919504e76400800000000000000
+      internalID: 317473011321896499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eeb56275e799b30800000000000000
+      internalID: 4294602632445292095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6435f9ddaafde5060800000000000000
+      internalID: 6944233600407524166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61966076ad23d8590800000000000000
+      internalID: -7670418676729353962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124f397dbe88b6a50800000000000000
+      internalID: 6515451832437044257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff638d46772a03520800000000000000
+      internalID: 2679820411962144511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_30
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3234d8243538250800000000000000
+      internalID: 5945687478362121139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_31
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af8e16f8591cc30800000000000000
+      internalID: 4377944755836353136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c0b5ae283dcf3f0800000000000000
+      internalID: -865584469130933188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_33
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02bed1997c89370800000000000000
+      internalID: 8329626971267604708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_34
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb78bdb15fc811b0800000000000000
+      internalID: -5685566579572966411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_35
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb747b231af1a3f0800000000000000
+      internalID: -891156291002270743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc532457c2088620800000000000000
+      internalID: 2776472225407261917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_37
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603462ae794cebbf0800000000000000
+      internalID: -306591567867133178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_38
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97710b32bfcd056c0800000000000000
+      internalID: -4156579484869322887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_39
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1728
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be112fbc9952aa970800000000000000
+      internalID: 8766860967111954923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1108a9adaca2590800000000000000
+      internalID: -7698117572792675867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a0df8bff9e9bed0800000000000000
+      internalID: -2397628042068555207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d1de1d294418ec0800000000000000
+      internalID: -3566494032522830459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1651c90b0096257e0800000000000000
+      internalID: -1778243451173989023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca520b17e2fa3e0800000000000000
+      internalID: -2040361040354104125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668dfa70f401073f0800000000000000
+      internalID: -905205593484044186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0072d42d8b8cac610800000000000000
+      internalID: 1642345710257776384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641bb2c8d86e8d290800000000000000
+      internalID: -7865283253586120378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425d6f31cf313c60800000000000000
+      internalID: 7796082529180406344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_49
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f2689dfa4d3cdb0800000000000000
+      internalID: -4772737328348778646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_50
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629616f88cfc3fdf0800000000000000
+      internalID: -147545902467159770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_51
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8c392800f3a3340800000000000000
+      internalID: 4844253620613662971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_52
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e65126ff7a51df60800000000000000
+      internalID: 8057320713979254497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_53
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a2c81f4fec2b190800000000000000
+      internalID: -7948062840935667141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_54
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c585f113ce71b00800000000000000
+      internalID: 799367154604989553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_55
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d4c96bf7fac9440800000000000000
+      internalID: 4944019454005366173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_56
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5149343542ca74f0800000000000000
+      internalID: -830137578811735714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_57
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c2298dd8beb3b0800000000000000
+      internalID: -5494751233717384785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_58
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315e07c7211a6c860800000000000000
+      internalID: 7549898926102471955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_59
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1536
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22879f7f984ec7930800000000000000
+      internalID: 4142437038495987746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a4c6f6cc7e364c0800000000000000
+      internalID: -4295334754352608759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7649c8debf345ca50800000000000000
+      internalID: 6540708783126778983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9400f72ea67efaa70800000000000000
+      internalID: 8840539039804096585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063fdd80e9e7443f0800000000000000
+      internalID: -917469206858042528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b096132d56cd4460800000000000000
+      internalID: 7227651080322453689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbfe914d47b534f0800000000000000
+      internalID: -849571412248167464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d173c9c0d317a20800000000000000
+      internalID: 3058292746331037063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7b5c2363f5dcdd0800000000000000
+      internalID: -2464208734717102122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a6553ad49679820800000000000000
+      internalID: 2924922265174108696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a6d24295537e630800000000000000
+      internalID: 3956189454643587644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4803d4705197190800000000000000
+      internalID: -7964311344924031772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0773600c1c3154ee0800000000000000
+      internalID: -1277593196418418832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e69f6ac77646490800000000000000
+      internalID: -7753958873350181266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548e6bdae50f13830800000000000000
+      internalID: 4049281829414824005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dce312d9cd5f8e0800000000000000
+      internalID: -1660178320190419710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_75
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da74811d2b52a9710800000000000000
+      internalID: 1700713259228219309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_76
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4f8af4a9a7a170800000000000000
+      internalID: 8189700973439962670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_77
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0ca0fee84319d20800000000000000
+      internalID: 3283463391830262013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_78
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e452aaa556301c0800000000000000
+      internalID: -4538672559383294454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_79
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1344
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa350a9e1dca2cce0800000000000000
+      internalID: -1386355717708950609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76285ea40efbcabd0800000000000000
+      internalID: -2617506313358966169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90abdd6f0cea68480800000000000000
+      internalID: -8897231870025156087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c1a0ddbf71b6b00800000000000000
+      internalID: 822777727437905002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0264c3d194fed980800000000000000
+      internalID: -8512097338523360756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4514a7bf7f1e452e0800000000000000
+      internalID: -2137835467901877932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4e3c6c06539b140800000000000000
+      internalID: 4735875172924646564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13145ffedbf05d260800000000000000
+      internalID: 7121615694205370673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2adbc867ba527a40800000000000000
+      internalID: 5364449849935387178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_88
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82915aa5fc89e7760800000000000000
+      internalID: 7457566049318541608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_89
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4054d0fdd2c53a8b0800000000000000
+      internalID: -5142164997441501948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_90
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d617042f0bfc00350800000000000000
+      internalID: 5981008664033522029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_91
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171b933ae8aed2540800000000000000
+      internalID: 4984898260913729905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_92
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebf0066212d38200800000000000000
+      internalID: 181219386487536614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_93
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e673db06d73417940800000000000000
+      internalID: 5292085242910029678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_94
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a453323d5f869f30800000000000000
+      internalID: 4582007301333013666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_95
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248ffa12cda104b60800000000000000
+      internalID: 7728206493328078914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_96
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0228e4127b4de60800000000000000
+      internalID: 7986209392913686721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_97
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d97cc5d70702b80800000000000000
+      internalID: -8421607619453018813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_98
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d5ac775134b5170800000000000000
+      internalID: 8168196108649651483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_99
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1152
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd31b761f4b890f0800000000000000
+      internalID: -1109938359227040300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bd7bb4b1c0b1470800000000000000
+      internalID: 8366294044144819093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201d3d4fe6beef60800000000000000
+      internalID: 8065585121576423465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ccdd7b7cff964d0800000000000000
+      internalID: -3140698031865869302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d59df711ffb4050800000000000000
+      internalID: 5785998596912012584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd379311b009730800000000000000
+      internalID: 4003712237338615602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_105
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32ae6dcba853e100800000000000000
+      internalID: 136049908660478525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_106
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6908ae066a148c3d0800000000000000
+      internalID: -3186224553518268266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_107
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951da76272108c160800000000000000
+      internalID: 7045882884682076505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_108
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48928141326948ad0800000000000000
+      internalID: -2700868799110305404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_109
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e3daff41ad019e0800000000000000
+      internalID: -1652581279521227127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_110
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78914fc463d821180800000000000000
+      internalID: -9146092628877239929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_111
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaa58f5ff3cec770800000000000000
+      internalID: 8633053037302491808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_112
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af9f62cdb5a23ae0800000000000000
+      internalID: -1571011085569384541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_113
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1fcc16a94347330800000000000000
+      internalID: 3707646230903189954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_114
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1266573b9e5f94780800000000000000
+      internalID: -8698150821202401759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_115
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b74f840ac2a9f00800000000000000
+      internalID: 1124260123912731532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_116
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481796a2edd79ae20800000000000000
+      internalID: 3362356989956551044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_117
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a1357807c8ddf70800000000000000
+      internalID: 9213674827604499032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_118
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052ebe3d373a87250800000000000000
+      internalID: 5942679426187387472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_119
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 960
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b9a4442474d4820800000000000000
+      internalID: 2904055684662991703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa9432c569f381b0800000000000000
+      internalID: -5655402491601970436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20364190e71e594a0800000000000000
+      internalID: -6587110948525022462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77fe7f49b88e79c0800000000000000
+      internalID: -3927551495536445574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b5f27940776d6a0800000000000000
+      internalID: -6424816956797396201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df9b15d04c5125c0800000000000000
+      internalID: -4242007940483276847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_125
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b20f0b40f3538200800000000000000
+      internalID: 181080701541483187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_126
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379334fd972e71790800000000000000
+      internalID: -7559324436453443213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa76667048943b60800000000000000
+      internalID: 7724966663478999715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_128
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82893c72eb688b410800000000000000
+      internalID: 1493091427742357544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_129
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5effdc510532420800000000000000
+      internalID: 2604013064130913725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_130
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3cf04d1197408a0800000000000000
+      internalID: -6339809257951607827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_131
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c06409483b581bc0800000000000000
+      internalID: -3812196787267804989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_132
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1008a5086a7c8ea70800000000000000
+      internalID: 8856548185155993601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_133
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721b3168cc6ca4d30800000000000000
+      internalID: 4416560966315258151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_134
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81346b79fac69b0800000000000000
+      internalID: -5085496813075359506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_135
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd8a80bc7fcc3dc0800000000000000
+      internalID: -3657820662886920746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_136
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30e9c30b9a526c0800000000000000
+      internalID: -4168739305665199140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_137
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335432b397afbe420800000000000000
+      internalID: 2660495403482563891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_138
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520f9a6f7f7b82210800000000000000
+      internalID: 1308497967374266405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_139
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 768
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce68a2dca3d83e60800000000000000
+      internalID: 7942330682089959105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1c03df32fc93130800000000000000
+      internalID: 3547093935009612241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_141
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e591812873bdbe520800000000000000
+      internalID: 2732518630382639454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23bc28127fabb5f0800000000000000
+      internalID: -739804809205599445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_143
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d76b78151c3d420800000000000000
+      internalID: 2653677161364749673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_144
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1602a99ea747db0800000000000000
+      internalID: -4795072559510953565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6c7c3c6cbc347c0800000000000000
+      internalID: -4088199982173665549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385fc6d6ca9cf1580800000000000000
+      internalID: -8854136599979690621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_147
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d529ca2e4ed0370800000000000000
+      internalID: 8290534151267966360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_148
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bc349e4b1a61c50800000000000000
+      internalID: 6635668899356724062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_149
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3414a5aafc0290f70800000000000000
+      internalID: 9153883793895604547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_150
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806ed5273029a5160800000000000000
+      internalID: 7015079913084282376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_151
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e109cbfdd07bb70800000000000000
+      internalID: 8914609241995615813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_152
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2805c5f6633228a50800000000000000
+      internalID: 6521813927089426562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_153
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d718d3636eccdf0800000000000000
+      internalID: -158498766230291146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_154
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086fda7b0543ee20800000000000000
+      internalID: 3378620061066422282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_155
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7324a6b86d781b7c0800000000000000
+      internalID: -4057312433752358345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_156
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e034d7f51579f50800000000000000
+      internalID: 6888063625651752596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_157
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb8d826e175530b0800000000000000
+      internalID: -5749593561254491200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_158
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6244ef137d115dca0800000000000000
+      internalID: -5992864113192188890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_159
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 576
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b3c2c10018e7ff0800000000000000
+      internalID: -36449909499741291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d654f17b667660800000000000000
+      internalID: 7383206776295315865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9469600dceb9a490800000000000000
+      internalID: -7734441097347636066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d54d9d6ee92410800000000000000
+      internalID: 1452954509361142154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_163
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb74c09bd976fccd0800000000000000
+      internalID: -2535694138074183749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030a2bec776328490800000000000000
+      internalID: -7745568520927010768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_165
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0c9e4ad663c0230800000000000000
+      internalID: 3606317246163042558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_166
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f98d4ddcb091c70800000000000000
+      internalID: 8942191513787998032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_167
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b323f6d1acd9070800000000000000
+      internalID: 8114864331359927199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_168
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9c8797641cd5be0800000000000000
+      internalID: -1486819793532565060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_169
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338b5845573c1a0d0800000000000000
+      internalID: -3413232133873485773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_170
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929999da311dd7d20800000000000000
+      internalID: 3278005986242697513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_171
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590de50adaf1a0610800000000000000
+      internalID: 1588116649181892757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_172
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fccc2a214c86cf0800000000000000
+      internalID: -258741394254016668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_173
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f4feb64a40e6970800000000000000
+      internalID: 8749936230259445559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_174
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38933f51b8d627b0800000000000000
+      internalID: -5249270059335706564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_175
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82da9554150062c70800000000000000
+      internalID: 8945838058873924904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_176
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c7937f75a40b1f0800000000000000
+      internalID: -1031242572997493670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_177
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b70008031eeae10800000000000000
+      internalID: 2210952065507687289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_178
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac62de66ce52c9530800000000000000
+      internalID: 3863004277646370506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_179
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 384
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3e1627e621555f0800000000000000
+      internalID: -768687895822081032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f8980f9e5a638d0800000000000000
+      internalID: -2866921688593232059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7ff20e763081c20800000000000000
+      internalID: 3177293281787639725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_182
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd9acf164dcaf00800000000000000
+      internalID: 1129511123879058820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_183
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e119442242077950800000000000000
+      internalID: 6446623874704019941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcebe65ef07b8c020800000000000000
+      internalID: 2362339283457457869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_185
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e972e48b71084710800000000000000
+      internalID: 1677592491217549796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_186
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88d74757163214e0800000000000000
+      internalID: -2012486609604716402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_187
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1d83df310282a20800000000000000
+      internalID: 3037713218886226412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_188
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9f66725587fee00800000000000000
+      internalID: 1076211143093451221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_189
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bcd7092551c6df0800000000000000
+      internalID: -185750040273368249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_190
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8fc78ea0c4c6670800000000000000
+      internalID: 8533279003694135471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_191
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ffebbdfad24c5a0800000000000000
+      internalID: -6502021728686899356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_192
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcea9e537e8851380800000000000000
+      internalID: -9001137753606738227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_193
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965b88bc253a86d80800000000000000
+      internalID: -8257170340786424471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_194
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87518b9cbc25cd30800000000000000
+      internalID: 4451012995300022157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_195
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb3407c3a4b8ae0800000000000000
+      internalID: -1546060423629652551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_196
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab18a1fd19c6bb90800000000000000
+      internalID: -7226367421623821401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_197
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e42b41fc38a96a0800000000000000
+      internalID: -6441691391571374441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_198
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c63a622d57f0ad90800000000000000
+      internalID: -7088393834099755322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_199
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 192
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903a06a958ed482b0800000000000000
+      internalID: -5583092972630531319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507f10f548c447400800000000000000
+      internalID: 320965604863506181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_201
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3865eff15f8f1800800000000000000
+      internalID: 585344058929801279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_202
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206d4730d0d358980800000000000000
+      internalID: -8537350392509049342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_203
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba3244a449db80b0800000000000000
+      internalID: -5725243612434646343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_204
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa938de62f15d9740800000000000000
+      internalID: 5160370849720056239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_205
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635d91a54c456560800000000000000
+      internalID: 7306329832426394465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_206
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aa3f70fe0466b50800000000000000
+      internalID: 6586022900450699817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_207
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83617652e29175630800000000000000
+      internalID: 3915626087008638520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_208
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7a29cdbfa4a650800000000000000
+      internalID: 6243308213101035027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_209
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15755b6e0654e6970800000000000000
+      internalID: 8750007408517273425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_210
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64836b25ee743c10800000000000000
+      internalID: 2032388854591489131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_211
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a664242d263f87560800000000000000
+      internalID: 7311861600795903594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_212
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75661f2bf2fb20860800000000000000
+      internalID: 7494762941484459607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_213
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a18c0faaed36050800000000000000
+      internalID: 5792718371494042235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_214
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20605836451d16b60800000000000000
+      internalID: 7737695795176343042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_215
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91af6f8a33e717d30800000000000000
+      internalID: 4427458669025098265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_216
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1478d5debc8f33c0800000000000000
+      internalID: -4377625561521425378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_217
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754a128906f48c630800000000000000
+      internalID: 3947492349678036055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_218
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2410daed375d0fb0800000000000000
+      internalID: -4679988514323950549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Church Dungeon_219
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ff3cc082564dc0800000000000000
+      internalID: -3655143334428543370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

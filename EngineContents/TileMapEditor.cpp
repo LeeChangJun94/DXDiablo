@@ -4,7 +4,9 @@
 #include "Zombie.h"
 #include "Hidden.h"
 #include <EngineCore/CameraActor.h>
+#include <EngineCore/DefaultSceneComponent.h>
 #include <EngineCore/SpriteRenderer.h>
+#include <EngineCore/TileMapRenderer.h>
 #include <EngineCore/EngineGUIWindow.h>
 #include <EngineCore/EngineGUI.h>
 #include <EngineCore/imgui.h>
@@ -18,45 +20,130 @@ enum class ESpawnList
 	Hidden,
 };
 
+enum class EEditMode
+{
+	TileMap,
+	Object,
+};
+
+
 class UTileMapWindow : public UEngineGUIWindow
 {
 public:
 	int SelectItem = 0;
+	int ObjectItem = -1;
+	UTileMapRenderer* TileMapRenderer = nullptr;
+	EEditMode Mode = EEditMode::TileMap;
 
 	//std::list<std::shared_ptr<AMonster>> AllMonsterList;
 
-	void OnGUI() override
+	int TileCountX = 10;
+	int TileCountY = 10;
+	int SelectTileIndex = 0;
+
+	void TileMapMode()
 	{
-		std::vector<const char*> Arr;
-		Arr.push_back("Monster");
-		Arr.push_back("Monster2");
-
-
-		ImGui::ListBox("SpawnList", &SelectItem, &Arr[0], 2);
-
-		if (true == UEngineInput::IsDown(VK_LBUTTON))
 		{
-			ESpawnList SelectMonster = static_cast<ESpawnList>(SelectItem);
-			std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetMainCamera();
-			FVector Pos = Camera->ScreenMousePosToWorldPos();
-			Pos.Z = 0.0f;
+			UEngineSprite* Sprite = TileMapRenderer->GetSprite();
 
-			std::shared_ptr<AMonster> NewMonster;
-
-			switch (SelectMonster)
+			for (size_t i = 0; i < Sprite->GetSpriteCount(); i++)
 			{
-			case ESpawnList::Zombie:
-				NewMonster = GetWorld()->SpawnActor<AZombie>("Zombie");
-				break;
-			case ESpawnList::Hidden:
-				NewMonster = GetWorld()->SpawnActor<AHidden>("Hidden");
-				break;
-			default:
-				break;
+				UEngineTexture* Texture = Sprite->GetTexture(i);
+				FSpriteData Data = Sprite->GetSpriteData(i);
+
+				//SRV입니다
+				ImTextureID SRV = reinterpret_cast<ImTextureID>(Texture->GetSRV());
+
+				std::string Text = std::to_string(i);
+
+				if (i != 0)
+				{
+					if (0 != (i % 10))
+					{
+						ImGui::SameLine();
+					}
+				}
+
+
+				ImVec2 Pos = { Data.CuttingPos.X, Data.CuttingPos.Y };
+				ImVec2 Size = { Data.CuttingPos.X + Data.CuttingSize.X, Data.CuttingPos.Y + Data.CuttingSize.Y };
+
+				if (ImGui::ImageButton(Text.c_str(), SRV, { 60, 60 }, Pos, Size))
+				{
+					SelectTileIndex = static_cast<int>(i);
+				}
+				// 엔터를 치지 않는개념.
 			}
 
-			NewMonster->SetActorLocation(Pos);
-			//AllMonsterList.push_back(NewMonster);
+			ImGui::InputInt("TileMapX", &TileCountX);
+			ImGui::InputInt("TileMapY", &TileCountY);
+
+			if (ImGui::Button("TileMap Create"))
+			{
+				for (int y = 0; y < TileCountY; y++)
+				{
+					for (int x = 0; x < TileCountX; x++)
+					{
+						TileMapRenderer->SetTile(x, y, 0);
+					}
+				}
+			}
+
+
+			if (true == UEngineInput::IsPress(VK_LBUTTON))
+			{
+				FVector ScreenPos = GetWorld()->GetMainCamera()->ScreenMousePosToWorldPos();
+
+				TileMapRenderer->SetTile(ScreenPos, SelectTileIndex);
+			}
+
+			if (true == UEngineInput::IsPress(VK_RBUTTON))
+			{
+				FVector ScreenPos = GetWorld()->GetMainCamera()->ScreenMousePosToWorldPos();
+
+				TileMapRenderer->RemoveTile(ScreenPos);
+			}
+		}
+	}
+
+	void ObjectMode()
+	{
+		{
+			std::vector<const char*> Arr;
+			Arr.push_back("Monster");
+			Arr.push_back("Monster2");
+
+
+			ImGui::ListBox("SpawnList", &SelectItem, &Arr[0], 2);
+
+			// GetMainWindow()->IsScreenOut();
+
+
+			if (true == UEngineInput::IsDown(VK_LBUTTON))
+			{
+				ESpawnList SelectMonster = static_cast<ESpawnList>(SelectItem);
+				std::shared_ptr<class ACameraActor> Camera = GetWorld()->GetMainCamera();
+				FVector Pos = Camera->ScreenMousePosToWorldPos();
+				Pos.Z = 0.0f;
+
+				std::shared_ptr<AMonster> NewMonster;
+
+				switch (SelectMonster)
+				{
+				case ESpawnList::Zombie:
+					NewMonster = GetWorld()->SpawnActor<AZombie>("Zombie");
+					break;
+				case ESpawnList::Hidden:
+					NewMonster = GetWorld()->SpawnActor<AHidden>("Hidden");
+					break;
+				default:
+					break;
+				}
+
+				NewMonster->SetActorLocation(Pos);
+				//AllMonsterList.push_back(NewMonster);
+
+			}
 		}
 
 		{
@@ -72,7 +159,7 @@ public:
 		}
 
 		{
-			std::list<std::shared_ptr<AMonster>> AllMonsterList = GetWorld()->GetAllActorListByClass<AMonster>();
+			std::vector<std::shared_ptr<AMonster>> AllMonsterList = GetWorld()->GetAllActorArrayByClass<AMonster>();
 			std::vector<std::string> ArrString;
 			for (std::shared_ptr<class AActor> Actor : AllMonsterList)
 			{
@@ -88,24 +175,28 @@ public:
 
 			if (0 < Arr.size())
 			{
-				ImGui::ListBox("AllActorList", &SelectItem, &Arr[0], Arr.size());
+				ImGui::ListBox("AllActorList", &ObjectItem, &Arr[0], Arr.size());
+
+				// AllMonsterList[SelectItem]->Destroy();
+
+				if (ObjectItem != -1)
+				{
+					// AllMonsterList[ObjectItem]->
+				}
+
+				if (true == ImGui::Button("Delete"))
+				{
+					AllMonsterList[ObjectItem]->Destroy();
+					ObjectItem = -1;
+				}
+
 			}
 		}
 
-		{
-			int ValueX = 10;
-			ImGui::InputInt("TileMapX", &ValueX);
-			int ValueY = 10;
-			ImGui::InputInt("TileMapY", &ValueY);
+	}
 
-			if (ImGui::Button("TileMap Create"))
-			{
-				int a = 0;
-			}
-
-
-		}
-
+	void SaveAndLoad()
+	{
 		if (true == ImGui::Button("Save"))
 		{
 			UEngineDirectory Dir;
@@ -218,13 +309,42 @@ public:
 
 					NewMon->DeSerialize(Ser);
 				}
+			}
+		}
+	}
 
-
+	void OnGUI() override
+	{
+		{
+			if (Mode == EEditMode::Object)
+			{
+				if (ImGui::Button("ObjectMode"))
+				{
+					Mode = EEditMode::TileMap;
+				}
+			}
+			else
+			{
+				if (ImGui::Button("TileMapMode"))
+				{
+					Mode = EEditMode::Object;
+				}
 			}
 		}
 
+		switch (Mode)
+		{
+		case EEditMode::TileMap:
+			TileMapMode();
+			break;
+		case EEditMode::Object:
+			ObjectMode();
+			break;
+		default:
+			break;
+		}
 
-
+		SaveAndLoad();
 	}
 };
  
@@ -233,6 +353,26 @@ ATileMapEditor::ATileMapEditor()
 	// 레벨마다 해주셔야 합니다.
 	// 이걸 UI공유할건지 
 	GetWorld()->CreateCollisionProfile("Monster");
+
+	TileMapRenderer = CreateDefaultSubObject<UTileMapRenderer>();
+
+	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
+	RootComponent = Default;
+
+
+	PivotSpriteRenderer = CreateDefaultSubObject<USpriteRenderer>();
+	PivotSpriteRenderer->SetupAttachment(RootComponent);
+	PivotSpriteRenderer->SetRelativeScale3D({ 50.0f, 50.0f, 1.0f });
+
+	TileMapRenderer = CreateDefaultSubObject<UTileMapRenderer>();
+	TileMapRenderer->SetupAttachment(RootComponent);
+	TileMapRenderer->SetTileSetting("Church Dungeon.png", { 64.0f, 64.0f }, { 64.0f, 64.0f }, { 0.0f, 0.0f });
+
+
+
+
+	// CreateDefaultSubObject<>
+
 
 
 	// 카메라를 일정거리 뒤로 가서 
@@ -277,6 +417,7 @@ void ATileMapEditor::LevelChangeStart()
 		}
 
 		TileMapWindow->SetActive(true);
+		TileMapWindow->TileMapRenderer = TileMapRenderer.get();
 	}
 
 }
