@@ -19,7 +19,7 @@ public:
 
 	ENGINEAPI static void EngineStart(HINSTANCE _Instance, std::string_view _DllName);
 
-	template<typename GameModeType, typename MainPawnType>
+	template<typename GameModeType, typename MainPawnType, typename HUDType>
 	static class std::shared_ptr<class ULevel> CreateLevel(std::string_view _Name)
 	{
 		std::string UpperString = UEngineString::ToUpper(_Name);
@@ -32,8 +32,9 @@ public:
 
 		std::shared_ptr<GameModeType> GameMode = NewLevel->SpawnActor<GameModeType>();
 		std::shared_ptr<MainPawnType> Pawn = NewLevel->SpawnActor<MainPawnType>();
+		std::shared_ptr<HUDType> HUD = NewLevel->SpawnActor<HUDType>();
 
-		NewLevel->InitLevel(GameMode.get(), Pawn.get());
+		NewLevel->InitLevel(GameMode.get(), Pawn.get(), HUD.get());
 
 		// 2가 됩니다
 		return NewLevel;

@@ -4,5 +4,6 @@
     <FxCompile Include="EngineSpriteShader.fx" />
     <FxCompile Include="EngineDebugCollisionShader.fx" />
     <FxCompile Include="EngineTileMapShader.fx" />
+    <FxCompile Include="EngineTargetMergeShader.fx" />
   </ItemGroup>
 </Project>
