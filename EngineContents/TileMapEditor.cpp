@@ -175,7 +175,7 @@ public:
 
 			if (0 < Arr.size())
 			{
-				ImGui::ListBox("AllActorList", &ObjectItem, &Arr[0], Arr.size());
+				ImGui::ListBox("AllActorList", &ObjectItem, &Arr[0], static_cast<int>(Arr.size()));
 
 				// AllMonsterList[SelectItem]->Destroy();
 
@@ -239,6 +239,8 @@ public:
 					// 여기 저장된다는 이야기
 					Actor->Serialize(Ser);
 				}
+
+				TileMapRenderer->Serialize(Ser);
 
 				UEngineFile NewFile = Dir.GetFile(ofn.lpstrFile);
 
@@ -309,6 +311,8 @@ public:
 
 					NewMon->DeSerialize(Ser);
 				}
+
+				TileMapRenderer->DeSerialize(Ser);
 			}
 		}
 	}

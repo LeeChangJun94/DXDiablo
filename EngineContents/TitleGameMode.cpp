@@ -31,21 +31,21 @@ public:
 			NewZombie->SetActorLocation({ 300.0f, 200.0f, 0.0f });
 		}
 
-		if (true == ImGui::Button("Idle"))
+		if (true == ImGui::Button("Attack"))
 		{
 			if (TitleGameMode)
 			{
 
-			TitleGameMode->Player->GetRenderer()->ChangeAnimation("Attack");
-			TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack");;
-			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Player->GetRenderer()->ChangeAnimation("Attack");
+				TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack");;
+				TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack");;
 			}
 		}
 
