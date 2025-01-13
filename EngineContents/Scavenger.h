@@ -22,7 +22,6 @@ protected:
 	void Tick(float _DeltaTime) override;
 
 private:
-	std::shared_ptr<class USpriteRenderer> ScavengerRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
 	std::shared_ptr<class UCollision> Collision;

@@ -15,7 +15,6 @@ public:
 	AZombie& operator=(const AZombie& _Other) = delete;
 	AZombie& operator=(AZombie&& _Other) noexcept = delete;
 
-
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
@@ -23,7 +22,6 @@ protected:
 	void Serialize(UEngineSerializer& _Ser) override;
 	void DeSerialize(UEngineSerializer& _Ser) override;
 private:
-	std::shared_ptr<class USpriteRenderer> ZombieRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
 	std::shared_ptr<class UCollision> Collision;

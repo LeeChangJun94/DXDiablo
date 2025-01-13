@@ -21,7 +21,6 @@ protected:
 	void Tick(float _DeltaTime) override;
 
 private:
-	std::shared_ptr<class USpriteRenderer> Skeleton_BowRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
 	std::shared_ptr<class UCollision> Collision;

@@ -15,169 +15,169 @@ AScavenger::AScavenger()
 	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
 	RootComponent = Default;
 
-	ScavengerRenderer = CreateDefaultSubObject<USpriteRenderer>();
+	Renderer = CreateDefaultSubObject<USpriteRenderer>();
 
 	//ZombieRenderer->SetAutoScale(true);
 	//ZombieRenderer->SetAutoScaleRatio(1.0f);
 
-	ScavengerRenderer->CreateAnimation("Attack_2", "Scavenger_Attack.png", 0, 11, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_1", "Scavenger_Attack.png", 12, 23, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_4", "Scavenger_Attack.png", 24, 35, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_7", "Scavenger_Attack.png", 36, 47, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_8", "Scavenger_Attack.png", 48, 59, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_9", "Scavenger_Attack.png", 60, 71, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_6", "Scavenger_Attack.png", 72, 83, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Attack_3", "Scavenger_Attack.png", 84, 95, 0.1f, false);
+	Renderer->CreateAnimation("Attack_2", "Scavenger_Attack.png", 0, 11, 0.05f, false);
+	Renderer->CreateAnimation("Attack_1", "Scavenger_Attack.png", 12, 23, 0.05f, false);
+	Renderer->CreateAnimation("Attack_4", "Scavenger_Attack.png", 24, 35, 0.05f, false);
+	Renderer->CreateAnimation("Attack_7", "Scavenger_Attack.png", 36, 47, 0.05f, false);
+	Renderer->CreateAnimation("Attack_8", "Scavenger_Attack.png", 48, 59, 0.05f, false);
+	Renderer->CreateAnimation("Attack_9", "Scavenger_Attack.png", 60, 71, 0.05f, false);
+	Renderer->CreateAnimation("Attack_6", "Scavenger_Attack.png", 72, 83, 0.05f, false);
+	Renderer->CreateAnimation("Attack_3", "Scavenger_Attack.png", 84, 95, 0.05f, false);
 
-	ScavengerRenderer->SetAnimationEvent("Attack_2", 11, [this]()
+	Renderer->SetAnimationEvent("Attack_2", 11, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_2");
+			Renderer->ChangeAnimation("Idle_2");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_1", 23, [this]()
+	Renderer->SetAnimationEvent("Attack_1", 23, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_1");
+			Renderer->ChangeAnimation("Idle_1");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_4", 35, [this]()
+	Renderer->SetAnimationEvent("Attack_4", 35, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_4");
+			Renderer->ChangeAnimation("Idle_4");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_7",47 , [this]()
+	Renderer->SetAnimationEvent("Attack_7",47 , [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_7");
+			Renderer->ChangeAnimation("Idle_7");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_8", 59, [this]()
+	Renderer->SetAnimationEvent("Attack_8", 59, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_8");
+			Renderer->ChangeAnimation("Idle_8");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_9", 71, [this]()
+	Renderer->SetAnimationEvent("Attack_9", 71, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_9");
+			Renderer->ChangeAnimation("Idle_9");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_6", 83, [this]()
+	Renderer->SetAnimationEvent("Attack_6", 83, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_6");
+			Renderer->ChangeAnimation("Idle_6");
 		});
-	ScavengerRenderer->SetAnimationEvent("Attack_3", 95, [this]()
+	Renderer->SetAnimationEvent("Attack_3", 95, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_3");
-		});
-
-	ScavengerRenderer->CreateAnimation("Die_2", "Scavenger_Die.png", 0, 19, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_1", "Scavenger_Die.png", 20, 39, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_4", "Scavenger_Die.png", 40, 59, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_7", "Scavenger_Die.png", 60, 79, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_8", "Scavenger_Die.png", 80, 99, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_9", "Scavenger_Die.png", 100, 119, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_6", "Scavenger_Die.png", 120, 139, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Die_3", "Scavenger_Die.png", 140, 159, 0.1f, false);
-
-	ScavengerRenderer->CreateAnimation("Hit_2", "Scavenger_Hit.png", 0, 7, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_1", "Scavenger_Hit.png", 8, 15, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_4", "Scavenger_Hit.png", 16, 23, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_7", "Scavenger_Hit.png", 24, 31, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_8", "Scavenger_Hit.png", 32, 39, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_9", "Scavenger_Hit.png", 40, 47, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_6", "Scavenger_Hit.png", 48, 55, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Hit_3", "Scavenger_Hit.png", 56, 63, 0.1f, false);
-
-	ScavengerRenderer->SetAnimationEvent("Hit_2", 7, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_2");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_1", 15, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_1");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_4", 23, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_4");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_7", 31, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_7");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_8", 39, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_8");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_9", 47, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_9");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_6", 55, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_6");
-		});
-	ScavengerRenderer->SetAnimationEvent("Hit_3", 63, [this]()
-		{
-			ScavengerRenderer->ChangeAnimation("Idle_3");
+			Renderer->ChangeAnimation("Idle_3");
 		});
 
-	ScavengerRenderer->CreateAnimation("Idle_2", "Scavenger_Idle.png", 0, 11, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_1", "Scavenger_Idle.png", 12, 23, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_4", "Scavenger_Idle.png", 24, 35, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_7", "Scavenger_Idle.png", 36, 47, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_8", "Scavenger_Idle.png", 48, 59, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_9", "Scavenger_Idle.png", 60, 71, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_6", "Scavenger_Idle.png", 72, 83, 0.1f);
-	ScavengerRenderer->CreateAnimation("Idle_3", "Scavenger_Idle.png", 84, 95, 0.1f);
+	Renderer->CreateAnimation("Die_2", "Scavenger_Die.png", 0, 19, 0.1f, false);
+	Renderer->CreateAnimation("Die_1", "Scavenger_Die.png", 20, 39, 0.1f, false);
+	Renderer->CreateAnimation("Die_4", "Scavenger_Die.png", 40, 59, 0.1f, false);
+	Renderer->CreateAnimation("Die_7", "Scavenger_Die.png", 60, 79, 0.1f, false);
+	Renderer->CreateAnimation("Die_8", "Scavenger_Die.png", 80, 99, 0.1f, false);
+	Renderer->CreateAnimation("Die_9", "Scavenger_Die.png", 100, 119, 0.1f, false);
+	Renderer->CreateAnimation("Die_6", "Scavenger_Die.png", 120, 139, 0.1f, false);
+	Renderer->CreateAnimation("Die_3", "Scavenger_Die.png", 140, 159, 0.1f, false);
 
-	ScavengerRenderer->CreateAnimation("Special_2", "Scavenger_Special.png", 0, 10, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_1", "Scavenger_Special.png", 11, 21, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_4", "Scavenger_Special.png", 22, 32, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_7", "Scavenger_Special.png", 33, 43, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_8", "Scavenger_Special.png", 44, 54, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_9", "Scavenger_Special.png", 55, 65, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_6", "Scavenger_Special.png", 66, 76, 0.1f, false);
-	ScavengerRenderer->CreateAnimation("Special_3", "Scavenger_Special.png", 77, 87, 0.1f, false);
+	Renderer->CreateAnimation("Hit_2", "Scavenger_Hit.png", 0, 7, 0.1f, false);
+	Renderer->CreateAnimation("Hit_1", "Scavenger_Hit.png", 8, 15, 0.1f, false);
+	Renderer->CreateAnimation("Hit_4", "Scavenger_Hit.png", 16, 23, 0.1f, false);
+	Renderer->CreateAnimation("Hit_7", "Scavenger_Hit.png", 24, 31, 0.1f, false);
+	Renderer->CreateAnimation("Hit_8", "Scavenger_Hit.png", 32, 39, 0.1f, false);
+	Renderer->CreateAnimation("Hit_9", "Scavenger_Hit.png", 40, 47, 0.1f, false);
+	Renderer->CreateAnimation("Hit_6", "Scavenger_Hit.png", 48, 55, 0.1f, false);
+	Renderer->CreateAnimation("Hit_3", "Scavenger_Hit.png", 56, 63, 0.1f, false);
 
-	ScavengerRenderer->SetAnimationEvent("Special_2", 10, [this]()
+	Renderer->SetAnimationEvent("Hit_2", 7, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_2");
+			Renderer->ChangeAnimation("Idle_2");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_1", 21, [this]()
+	Renderer->SetAnimationEvent("Hit_1", 15, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_1");
+			Renderer->ChangeAnimation("Idle_1");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_4", 32, [this]()
+	Renderer->SetAnimationEvent("Hit_4", 23, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_4");
+			Renderer->ChangeAnimation("Idle_4");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_7", 43, [this]()
+	Renderer->SetAnimationEvent("Hit_7", 31, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_7");
+			Renderer->ChangeAnimation("Idle_7");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_8", 54, [this]()
+	Renderer->SetAnimationEvent("Hit_8", 39, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_8");
+			Renderer->ChangeAnimation("Idle_8");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_9", 65, [this]()
+	Renderer->SetAnimationEvent("Hit_9", 47, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_9");
+			Renderer->ChangeAnimation("Idle_9");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_6", 76, [this]()
+	Renderer->SetAnimationEvent("Hit_6", 55, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_6");
+			Renderer->ChangeAnimation("Idle_6");
 		});
-	ScavengerRenderer->SetAnimationEvent("Special_3", 87, [this]()
+	Renderer->SetAnimationEvent("Hit_3", 63, [this]()
 		{
-			ScavengerRenderer->ChangeAnimation("Idle_3");
+			Renderer->ChangeAnimation("Idle_3");
 		});
 
-	ScavengerRenderer->CreateAnimation("Walk_2", "Scavenger_Walk.png", 0, 7, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_1", "Scavenger_Walk.png", 8, 15, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_4", "Scavenger_Walk.png", 16, 23, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_7", "Scavenger_Walk.png", 24, 31, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_8", "Scavenger_Walk.png", 32, 39, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_9", "Scavenger_Walk.png", 40, 47, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_6", "Scavenger_Walk.png", 48, 55, 0.1f);
-	ScavengerRenderer->CreateAnimation("Walk_3", "Scavenger_Walk.png", 56, 63, 0.1f);
+	Renderer->CreateAnimation("Idle_2", "Scavenger_Idle.png", 0, 11, 0.1f);
+	Renderer->CreateAnimation("Idle_1", "Scavenger_Idle.png", 12, 23, 0.1f);
+	Renderer->CreateAnimation("Idle_4", "Scavenger_Idle.png", 24, 35, 0.1f);
+	Renderer->CreateAnimation("Idle_7", "Scavenger_Idle.png", 36, 47, 0.1f);
+	Renderer->CreateAnimation("Idle_8", "Scavenger_Idle.png", 48, 59, 0.1f);
+	Renderer->CreateAnimation("Idle_9", "Scavenger_Idle.png", 60, 71, 0.1f);
+	Renderer->CreateAnimation("Idle_6", "Scavenger_Idle.png", 72, 83, 0.1f);
+	Renderer->CreateAnimation("Idle_3", "Scavenger_Idle.png", 84, 95, 0.1f);
+
+	Renderer->CreateAnimation("Special_2", "Scavenger_Special.png", 0, 10, 0.1f, false);
+	Renderer->CreateAnimation("Special_1", "Scavenger_Special.png", 11, 21, 0.1f, false);
+	Renderer->CreateAnimation("Special_4", "Scavenger_Special.png", 22, 32, 0.1f, false);
+	Renderer->CreateAnimation("Special_7", "Scavenger_Special.png", 33, 43, 0.1f, false);
+	Renderer->CreateAnimation("Special_8", "Scavenger_Special.png", 44, 54, 0.1f, false);
+	Renderer->CreateAnimation("Special_9", "Scavenger_Special.png", 55, 65, 0.1f, false);
+	Renderer->CreateAnimation("Special_6", "Scavenger_Special.png", 66, 76, 0.1f, false);
+	Renderer->CreateAnimation("Special_3", "Scavenger_Special.png", 77, 87, 0.1f, false);
+
+	Renderer->SetAnimationEvent("Special_2", 10, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_2");
+		});
+	Renderer->SetAnimationEvent("Special_1", 21, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_1");
+		});
+	Renderer->SetAnimationEvent("Special_4", 32, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_4");
+		});
+	Renderer->SetAnimationEvent("Special_7", 43, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_7");
+		});
+	Renderer->SetAnimationEvent("Special_8", 54, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_8");
+		});
+	Renderer->SetAnimationEvent("Special_9", 65, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_9");
+		});
+	Renderer->SetAnimationEvent("Special_6", 76, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_6");
+		});
+	Renderer->SetAnimationEvent("Special_3", 87, [this]()
+		{
+			Renderer->ChangeAnimation("Idle_3");
+		});
+
+	Renderer->CreateAnimation("Walk_2", "Scavenger_Walk.png", 0, 7, 0.1f);
+	Renderer->CreateAnimation("Walk_1", "Scavenger_Walk.png", 8, 15, 0.1f);
+	Renderer->CreateAnimation("Walk_4", "Scavenger_Walk.png", 16, 23, 0.1f);
+	Renderer->CreateAnimation("Walk_7", "Scavenger_Walk.png", 24, 31, 0.1f);
+	Renderer->CreateAnimation("Walk_8", "Scavenger_Walk.png", 32, 39, 0.1f);
+	Renderer->CreateAnimation("Walk_9", "Scavenger_Walk.png", 40, 47, 0.1f);
+	Renderer->CreateAnimation("Walk_6", "Scavenger_Walk.png", 48, 55, 0.1f);
+	Renderer->CreateAnimation("Walk_3", "Scavenger_Walk.png", 56, 63, 0.1f);
 
 
-	ScavengerRenderer->SetRelativeScale3D({ 50, 50, 1.0f });
-	ScavengerRenderer->SetupAttachment(RootComponent);
+	Renderer->SetRelativeScale3D({ 50, 50, 1.0f });
+	Renderer->SetupAttachment(RootComponent);
 
-	ScavengerRenderer->ChangeAnimation("Special_2");
+	Renderer->ChangeAnimation("Special_2");
 
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);

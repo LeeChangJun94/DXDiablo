@@ -20,7 +20,6 @@ protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
 private:
-	std::shared_ptr<class USpriteRenderer> Fallen_SwordRenderer;
 	std::shared_ptr<class USpriteRenderer> Child;
 
 	std::shared_ptr<class UCollision> Collision;

@@ -33,20 +33,15 @@ public:
 
 		if (true == ImGui::Button("Attack"))
 		{
-			if (TitleGameMode)
-			{
-
-				TitleGameMode->Player->GetRenderer()->ChangeAnimation("Attack");
-				TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack");;
-				TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack");;
-			}
+				TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack_2");;
+				TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack_2");;
 		}
 
 		if (true == ImGui::Button("FreeCameraOn"))
@@ -54,13 +49,17 @@ public:
 			GetWorld()->GetMainCamera()->FreeCameraSwitch();
 		}
 
-
-
 		ImGui::SameLine(); // 한간 띄기
 		ImGui::Text("test");
-
 	}
-	ATitleGameMode* TitleGameMode;
+
+	void SetGameMode(ATitleGameMode* _GameMode)
+	{
+		TitleGameMode = _GameMode;
+	}
+
+private :
+	ATitleGameMode* TitleGameMode = nullptr;
 };
 
 ATitleGameMode::ATitleGameMode()
@@ -69,14 +68,14 @@ ATitleGameMode::ATitleGameMode()
 	GetWorld()->CreateCollisionProfile("Monster");
 	GetWorld()->CreateCollisionProfile("Player");
 
-	GetWorld()->LinkCollisionProfile("Player", "Monster");
-
+	//GetWorld()->LinkCollisionProfile("Player", "Monster");
+	
 	// 카메라를 일정거리 뒤로 가서 
 	// 카메라 위치조정을 무조건 해줘야 할것이다.
 	std::shared_ptr<ACameraActor> Camera = GetWorld()->GetMainCamera();
 	Camera->SetActorLocation({ 0.0f, 0.0f, -1000.0f, 1.0f });
 	//Camera->GetCameraComponent()->SetZSort(0, true);
-
+	
 	{
 		Player = GetWorld()->SpawnActor<APlayer>();
 		Player->SetActorLocation({ 300.0f, 0.0f, 0.0f });
@@ -86,6 +85,7 @@ ATitleGameMode::ATitleGameMode()
 	{
 		Zombie = GetWorld()->SpawnActor<AZombie>();
 		Zombie->SetActorLocation({ 250.0f, 0.0f, 0.0f });
+		Zombie->GetRenderer()->ChangeAnimation("Attack_2");
 	}
 	
 	{
@@ -148,29 +148,30 @@ void ATitleGameMode::Tick(float _DeltaTime)
 	//}
 }
 
-	void ATitleGameMode::LevelChangeStart()
+void ATitleGameMode::LevelChangeStart()
+{
+	UEngineGUI::AllWindowOff();
+
 	{
-		UEngineGUI::AllWindowOff();
+		std::shared_ptr<UContentsEditorGUI> Window = UEngineGUI::FindGUIWindow<UContentsEditorGUI>("ContentsEditorGUI");
 
+		if (nullptr == Window)
 		{
-			std::shared_ptr<UContentsEditorGUI> Window = UEngineGUI::FindGUIWindow<UContentsEditorGUI>("ContentsEditorGUI");
-
-			if (nullptr == Window)
-			{
-				Window = UEngineGUI::CreateGUIWindow<UContentsEditorGUI>("ContentsEditorGUI");
-			}
-
-			Window->SetActive(true);
+			Window = UEngineGUI::CreateGUIWindow<UContentsEditorGUI>("ContentsEditorGUI");
 		}
 
-		{
-			std::shared_ptr<TestWindow> Window = UEngineGUI::FindGUIWindow<TestWindow>("TestWindow");
-
-			if (nullptr == Window)
-			{
-				Window = UEngineGUI::CreateGUIWindow<TestWindow>("TestWindow");
-			}
-
-			Window->SetActive(true);
-		}
+		Window->SetActive(true);
 	}
+
+	{
+		std::shared_ptr<TestWindow> Window = UEngineGUI::FindGUIWindow<TestWindow>("TestWindow");
+
+		if (nullptr == Window)
+		{
+			Window = UEngineGUI::CreateGUIWindow<TestWindow>("TestWindow");
+		}
+
+		Window->SetGameMode(this);
+		Window->SetActive(true);
+	}
+}

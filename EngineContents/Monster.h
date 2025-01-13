@@ -32,16 +32,15 @@ public:
 
 	EMonsterType MonsterTypeValue;
 
-	std::shared_ptr<class USpriteRenderer> GetRenderer()
-	{
-		return Renderer;
-	}
+	virtual std::shared_ptr<class USpriteRenderer> GetRenderer();
 
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
-private:
+
 	std::shared_ptr<class USpriteRenderer> Renderer;
+
+private:
 	std::shared_ptr<class USpriteRenderer> Child;
 
 
