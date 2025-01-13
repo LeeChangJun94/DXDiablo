@@ -1,5 +1,5 @@
 #pragma once
-#include <EngineCore/Actor.h>
+#include <EngineCore/Pawn.h>
 #include <EngineCore/SpriteRenderer.h>
 #include <EnginePlatform/EngineWinImage.h>
 
@@ -15,10 +15,8 @@ enum class PlayerDirection8
 	NW
 };
 
-
-
 // Ό³Έν :
-class APlayer : public AActor
+class APlayer : public APawn
 {
 public:
 	// constrcuter destructer

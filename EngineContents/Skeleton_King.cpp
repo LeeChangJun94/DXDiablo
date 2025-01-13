@@ -210,13 +210,14 @@ ASkeleton_King::ASkeleton_King()
 			Renderer->ChangeAnimation("Die_2");
 		});
 
-	FSM.CreateState(EStateType::WALK, [](float _DeltaTime)
+	FSM.CreateState(EStateType::WALK, [this](float _DeltaTime)
 		{
-
+			
+			Distance = (PlayerPos - GetActorLocation()).Length();
+			Renderer->ChangeAnimation("Walk_" + Dir);
 		},
 		[this]()
 		{
-			Renderer->ChangeAnimation("Walk_2");
 		});
 
 	FSM.CreateState(EStateType::SPECIAL, [](float _DeltaTime)
@@ -236,8 +237,6 @@ ASkeleton_King::ASkeleton_King()
 		{
 			Renderer->ChangeAnimation("Hit_2");
 		});
-	
-	APlayer* Player = dynamic_cast<APlayer*>(GetWorld()->GetMainPawn());
 }
 
 ASkeleton_King::~ASkeleton_King()
@@ -252,6 +251,7 @@ void ASkeleton_King::BeginPlay()
 void ASkeleton_King::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
-		
+	MonsterDirection();
+
 }
 

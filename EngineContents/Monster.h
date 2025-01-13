@@ -44,7 +44,7 @@ public:
 	EMonsterType MonsterTypeValue;
 
 	virtual std::shared_ptr<class USpriteRenderer> GetRenderer();
-	virtual void ChangeState(EStateType _MonsterState);
+	virtual void MonsterDirection();
 
 protected:
 	void BeginPlay() override;
@@ -54,6 +54,15 @@ protected:
 	EStateType MonsterState;
 
 	UFSMStateManager FSM;
+
+	std::string Dir = "2";
+
+	FVector PlayerPos = { 0, 0, 0 };
+	FVector PlayerDir = { 0, 0, 0 };
+	float Distance = 0.0f;
+	float DetectionRange = 200.0f;
+
+	class APlayer* Player = nullptr;
 
 private:
 	std::shared_ptr<class USpriteRenderer> Child;
