@@ -1,6 +1,8 @@
 #pragma once
 #include "Monster.h"
 
+
+
 // Ό³Έν :
 class ASkeleton_King : public AMonster
 {
@@ -21,6 +23,7 @@ protected:
 	void Tick(float _DeltaTime) override;
 
 private:
+
 	std::shared_ptr<class USpriteRenderer> Child;
 
 	std::shared_ptr<class UCollision> Collision;

@@ -299,10 +299,10 @@ public:
 
 					switch (MonsterType)
 					{
-					case Zombie:
+					case ZOMBIE:
 						NewMon = GetWorld()->SpawnActor<AZombie>();
 						break;
-					case Hidden:
+					case HIDDEN:
 						NewMon = GetWorld()->SpawnActor<AHidden>();
 						break;
 					default:

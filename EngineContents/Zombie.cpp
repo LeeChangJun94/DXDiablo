@@ -10,24 +10,21 @@
 
 AZombie::AZombie()
 {
-	MonsterTypeValue = EMonsterType::Zombie;
+	MonsterTypeValue = EMonsterType::ZOMBIE;
 
 	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
 	RootComponent = Default;
 
 	Renderer = CreateDefaultSubObject<USpriteRenderer>();
 
-	//Renderer->SetAutoScale(true);
-	//Renderer->SetAutoScaleRatio(1.0f);
-
-	Renderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 0.05f, false);
-	Renderer->CreateAnimation("Attack_1", "Zombie_Attack.png", 12, 23, 0.05f, false);
-	Renderer->CreateAnimation("Attack_4", "Zombie_Attack.png", 24, 35, 0.05f, false);
-	Renderer->CreateAnimation("Attack_7", "Zombie_Attack.png", 36, 47, 0.05f, false);
-	Renderer->CreateAnimation("Attack_8", "Zombie_Attack.png", 48, 59, 0.05f, false);
-	Renderer->CreateAnimation("Attack_9", "Zombie_Attack.png", 60, 71, 0.05f, false);
-	Renderer->CreateAnimation("Attack_6", "Zombie_Attack.png", 72, 83, 0.05f, false);
-	Renderer->CreateAnimation("Attack_3", "Zombie_Attack.png", 84, 95, 0.05f, false);
+	Renderer->CreateAnimation("Attack_2", "Zombie_Attack.png", 0, 11, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_1", "Zombie_Attack.png", 12, 23, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_4", "Zombie_Attack.png", 24, 35, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_7", "Zombie_Attack.png", 36, 47, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_8", "Zombie_Attack.png", 48, 59, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_9", "Zombie_Attack.png", 60, 71, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_6", "Zombie_Attack.png", 72, 83, 1.0f / 12, false);
+	Renderer->CreateAnimation("Attack_3", "Zombie_Attack.png", 84, 95, 1.0f / 12, false);
 
 	Renderer->SetAnimationEvent("Attack_2", 11, [this]()
 		{
@@ -62,23 +59,23 @@ AZombie::AZombie()
 			Renderer->ChangeAnimation("Idle_3");
 		});
 
-	Renderer->CreateAnimation("Die_2", "Zombie_Die.png", 0, 15, 0.1f, false);
-	Renderer->CreateAnimation("Die_1", "Zombie_Die.png", 16, 31, 0.1f, false);
-	Renderer->CreateAnimation("Die_4", "Zombie_Die.png", 32, 47, 0.1f, false);
-	Renderer->CreateAnimation("Die_7", "Zombie_Die.png", 48, 63, 0.1f, false);
-	Renderer->CreateAnimation("Die_8", "Zombie_Die.png", 64, 79, 0.1f, false);
-	Renderer->CreateAnimation("Die_9", "Zombie_Die.png", 80, 95, 0.1f, false);
-	Renderer->CreateAnimation("Die_6", "Zombie_Die.png", 96, 111, 0.1f, false);
-	Renderer->CreateAnimation("Die_3", "Zombie_Die.png", 112, 127, 0.1f, false);
+	Renderer->CreateAnimation("Die_2", "Zombie_Die.png", 0, 15, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_1", "Zombie_Die.png", 16, 31, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_4", "Zombie_Die.png", 32, 47, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_7", "Zombie_Die.png", 48, 63, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_8", "Zombie_Die.png", 64, 79, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_9", "Zombie_Die.png", 80, 95, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_6", "Zombie_Die.png", 96, 111, 1.0f / 16, false);
+	Renderer->CreateAnimation("Die_3", "Zombie_Die.png", 112, 127, 1.0f / 16, false);
 
-	Renderer->CreateAnimation("Hit_2", "Zombie_Hit.png", 0, 5, 0.1f, false);
-	Renderer->CreateAnimation("Hit_1", "Zombie_Hit.png", 6, 11, 0.1f, false);
-	Renderer->CreateAnimation("Hit_4", "Zombie_Hit.png", 12, 17, 0.1f, false);
-	Renderer->CreateAnimation("Hit_7", "Zombie_Hit.png", 18, 23, 0.1f, false);
-	Renderer->CreateAnimation("Hit_8", "Zombie_Hit.png", 24, 29, 0.1f, false);
-	Renderer->CreateAnimation("Hit_9", "Zombie_Hit.png", 30, 35, 0.1f, false);
-	Renderer->CreateAnimation("Hit_6", "Zombie_Hit.png", 36, 41, 0.1f, false);
-	Renderer->CreateAnimation("Hit_3", "Zombie_Hit.png", 42, 47, 0.1f, false);
+	Renderer->CreateAnimation("Hit_2", "Zombie_Hit.png", 0, 5, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_1", "Zombie_Hit.png", 6, 11, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_4", "Zombie_Hit.png", 12, 17, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_7", "Zombie_Hit.png", 18, 23, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_8", "Zombie_Hit.png", 24, 29, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_9", "Zombie_Hit.png", 30, 35, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_6", "Zombie_Hit.png", 36, 41, 1.0f / 6, false);
+	Renderer->CreateAnimation("Hit_3", "Zombie_Hit.png", 42, 47, 1.0f / 6, false);
 
 	Renderer->SetAnimationEvent("Hit_2", 5, [this]()
 		{
@@ -113,23 +110,23 @@ AZombie::AZombie()
 			Renderer->ChangeAnimation("Idle_3");
 		});
 
-	Renderer->CreateAnimation("Idle_2", "Zombie_Idle.png", 0, 10, 0.1f);
-	Renderer->CreateAnimation("Idle_1", "Zombie_Idle.png", 11, 21, 0.1f);
-	Renderer->CreateAnimation("Idle_4", "Zombie_Idle.png", 22, 32, 0.1f);
-	Renderer->CreateAnimation("Idle_7", "Zombie_Idle.png", 33, 43, 0.1f);
-	Renderer->CreateAnimation("Idle_8", "Zombie_Idle.png", 44, 54, 0.1f);
-	Renderer->CreateAnimation("Idle_9", "Zombie_Idle.png", 55, 65, 0.1f);
-	Renderer->CreateAnimation("Idle_6", "Zombie_Idle.png", 66, 76, 0.1f);
-	Renderer->CreateAnimation("Idle_3", "Zombie_Idle.png", 77, 87, 0.1f);
+	Renderer->CreateAnimation("Idle_2", "Zombie_Idle.png", 0, 10, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_1", "Zombie_Idle.png", 11, 21, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_4", "Zombie_Idle.png", 22, 32, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_7", "Zombie_Idle.png", 33, 43, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_8", "Zombie_Idle.png", 44, 54, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_9", "Zombie_Idle.png", 55, 65, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_6", "Zombie_Idle.png", 66, 76, 1.0f / 11);
+	Renderer->CreateAnimation("Idle_3", "Zombie_Idle.png", 77, 87, 1.0f / 11);
 
-	Renderer->CreateAnimation("Walk_2", "Zombie_Walk.png", 0, 23, 0.1f);
-	Renderer->CreateAnimation("Walk_1", "Zombie_Walk.png", 24, 47, 0.1f);
-	Renderer->CreateAnimation("Walk_4", "Zombie_Walk.png", 48, 71, 0.1f);
-	Renderer->CreateAnimation("Walk_7", "Zombie_Walk.png", 72, 95, 0.1f);
-	Renderer->CreateAnimation("Walk_8", "Zombie_Walk.png", 96, 119, 0.1f);
-	Renderer->CreateAnimation("Walk_9", "Zombie_Walk.png", 120, 143, 0.1f);
-	Renderer->CreateAnimation("Walk_6", "Zombie_Walk.png", 144, 167, 0.1f);
-	Renderer->CreateAnimation("Walk_3", "Zombie_Walk.png", 168, 191, 0.1f);
+	Renderer->CreateAnimation("Walk_2", "Zombie_Walk.png", 0, 23, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_1", "Zombie_Walk.png", 24, 47, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_4", "Zombie_Walk.png", 48, 71, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_7", "Zombie_Walk.png", 72, 95, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_8", "Zombie_Walk.png", 96, 119, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_9", "Zombie_Walk.png", 120, 143, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_6", "Zombie_Walk.png", 144, 167, 1.0f / 24);
+	Renderer->CreateAnimation("Walk_3", "Zombie_Walk.png", 168, 191, 1.0f / 24);
 
 
 	Renderer->SetRelativeScale3D({ 50, 50, 1.0f });
@@ -142,6 +139,60 @@ AZombie::AZombie()
 	Collision->SetCollisionProfileName("Monster");
 	Collision->SetScale3D({ 50.0f, 50.0f });
 	
+	FSM.CreateState(EStateType::IDLE, [](float _DeltaTime)
+		{
+
+		},
+		[this]()
+		{
+			Renderer->ChangeAnimation("Idle_2");
+		});
+
+	FSM.CreateState(EStateType::ATTACK, [](float _DeltaTime)
+		{
+
+		},
+		[this]()
+		{
+			Renderer->ChangeAnimation("Attack_2");
+		});
+
+	FSM.CreateState(EStateType::DIE, [](float _DeltaTime)
+		{
+
+		},
+		[this]()
+		{
+			Renderer->ChangeAnimation("Die_2");
+		});
+
+	FSM.CreateState(EStateType::WALK, [](float _DeltaTime)
+		{
+
+		},
+		[this]()
+		{
+			Renderer->ChangeAnimation("Walk_2");
+		});
+
+	FSM.CreateState(EStateType::SPECIAL, [](float _DeltaTime)
+		{
+
+		},
+		[this]()
+		{
+			Renderer->ChangeAnimation("Special_2");
+		});
+
+	FSM.CreateState(EStateType::HIT, [](float _DeltaTime)
+		{
+
+		},
+		[this]()
+		{
+			Renderer->ChangeAnimation("Hit_2");
+		});
+
 }
 
 AZombie::~AZombie()
@@ -151,6 +202,7 @@ AZombie::~AZombie()
 void AZombie::BeginPlay()
 {
 	AActor::BeginPlay();
+
 }
 
 void AZombie::Tick(float _DeltaTime)

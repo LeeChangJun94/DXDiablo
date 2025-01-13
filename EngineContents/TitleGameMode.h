@@ -27,6 +27,7 @@ public:
 	std::shared_ptr<class AHidden> Hidden;
 	std::shared_ptr<class AFallen_Sword> Fallen_Sword;
 	std::shared_ptr<class AFallen_Spear> Fallen_Spear;
+	std::shared_ptr<class AButcher> Butcher;
 protected:
 	void LevelChangeStart() override;
 private:

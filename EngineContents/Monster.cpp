@@ -14,6 +14,11 @@ std::shared_ptr<class USpriteRenderer> AMonster::GetRenderer()
 	return Renderer;
 }
 
+void AMonster::ChangeState(EStateType _MonsterState)
+{
+	MonsterState = _MonsterState;
+}
+
 void AMonster::BeginPlay()
 {
 	AActor::BeginPlay();

@@ -31,17 +31,85 @@ public:
 			NewZombie->SetActorLocation({ 300.0f, 200.0f, 0.0f });
 		}
 
+		if (true == ImGui::Button("Idle"))
+		{
+				TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Idle_2");
+				TitleGameMode->Butcher->GetRenderer()->ChangeAnimation("Idle_2");
+		}
+
 		if (true == ImGui::Button("Attack"))
 		{
-				TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack_2");;
-				TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack_2");;
+			TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Attack_2");
+			TitleGameMode->Butcher->GetRenderer()->ChangeAnimation("Attack_2");
+		}
+
+		if (true == ImGui::Button("Die"))
+		{
+			TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Die_2");
+			TitleGameMode->Butcher->GetRenderer()->ChangeAnimation("Die_2");
+		}
+
+		if (true == ImGui::Button("Special"))
+		{
+			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Special_2");
+			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Special_2");
+			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Special_2");
+			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Special_2");
+			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Special_2");
+			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Special_2");
+			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Special_2");
+		}
+
+		if (true == ImGui::Button("Walk"))
+		{
+			TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Walk_2");;
+			TitleGameMode->Butcher->GetRenderer()->ChangeAnimation("Walk_2");
+		}
+
+		if (true == ImGui::Button("Hit"))
+		{
+			TitleGameMode->Zombie->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Skeleton_Sword->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Skeleton_Bow->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Skeleton_Axe->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Skeleton_King->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Scavenger->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Hidden->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Fallen_Sword->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Fallen_Spear->GetRenderer()->ChangeAnimation("Hit_2");;
+			TitleGameMode->Butcher->GetRenderer()->ChangeAnimation("Hit_2");
 		}
 
 		if (true == ImGui::Button("FreeCameraOn"))
@@ -68,7 +136,7 @@ ATitleGameMode::ATitleGameMode()
 	GetWorld()->CreateCollisionProfile("Monster");
 	GetWorld()->CreateCollisionProfile("Player");
 
-	//GetWorld()->LinkCollisionProfile("Player", "Monster");
+	GetWorld()->LinkCollisionProfile("Player", "Monster");
 	
 	// 카메라를 일정거리 뒤로 가서 
 	// 카메라 위치조정을 무조건 해줘야 할것이다.
@@ -85,19 +153,18 @@ ATitleGameMode::ATitleGameMode()
 	{
 		Zombie = GetWorld()->SpawnActor<AZombie>();
 		Zombie->SetActorLocation({ 250.0f, 0.0f, 0.0f });
-		Zombie->GetRenderer()->ChangeAnimation("Attack_2");
 	}
 	
 	{
 		Skeleton_Sword = GetWorld()->SpawnActor<ASkeleton_Sword>();
 		Skeleton_Sword->SetActorLocation({ 350.0f, 0.0f, 0.0f });
 	}
-
+	
 	{
 		Skeleton_Bow = GetWorld()->SpawnActor<ASkeleton_Bow>();
 		Skeleton_Bow->SetActorLocation({ 150.0f, 0.0f, 0.0f });
 	}
-
+	
 	{
 		Skeleton_Axe = GetWorld()->SpawnActor<ASkeleton_Axe>();
 		Skeleton_Axe->SetActorLocation({ 100.0f, 0.0f, 0.0f });
@@ -107,7 +174,7 @@ ATitleGameMode::ATitleGameMode()
 		Skeleton_King = GetWorld()->SpawnActor<ASkeleton_King>();
 		Skeleton_King->SetActorLocation({ 50.0f, 0.0f, 0.0f });
 	}
-
+	
 	{
 		Scavenger = GetWorld()->SpawnActor<AScavenger>();
 		Scavenger->SetActorLocation({ 0.0f, 0.0f, 0.0f });
@@ -117,15 +184,20 @@ ATitleGameMode::ATitleGameMode()
 		Hidden = GetWorld()->SpawnActor<AHidden>();
 		Hidden->SetActorLocation({ 400.0f, 0.0f, 0.0f });
 	}
-
+	
 	{
 		Fallen_Sword = GetWorld()->SpawnActor<AFallen_Sword>();
 		Fallen_Sword->SetActorLocation({ 450.0f, 0.0f, 0.0f });
 	}
-
+	
 	{
 		Fallen_Spear = GetWorld()->SpawnActor<AFallen_Spear>();
 		Fallen_Spear->SetActorLocation({ -50.0f, 0.0f, 0.0f });
+	}
+	
+	{
+		Butcher = GetWorld()->SpawnActor<AButcher>();
+		Butcher->SetActorLocation({ -100.0f, 0.0f, 0.0f });
 	}
 
 

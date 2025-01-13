@@ -181,6 +181,7 @@ APlayer::APlayer()
 	}
 
 	PlayerRenderer->ChangeAnimation("Idle_Sword & Shield_Dungeon_2");
+	SetActorLocation({ 300.0f, 0.0f, 0.0f });
 	//PlayerRenderer->AddRelativeLocation({ 0.0f,0.0f, 100.f });
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);
