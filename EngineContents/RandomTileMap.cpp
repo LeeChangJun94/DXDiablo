@@ -2,6 +2,7 @@
 #include "RandomTileMap.h"
 #include "Zombie.h"
 #include "Hidden.h"
+#include <EngineBase/EngineRandom.h>
 #include <EngineCore/CameraActor.h>
 #include <EngineCore/DefaultSceneComponent.h>
 #include <EngineCore/SpriteRenderer.h>
@@ -12,6 +13,7 @@
 #include <EngineCore/EngineCamera.h>
 #include "ContentsEditorGUI.h"
 #include <EnginePlatform/EngineInput.h>
+
 
 enum class EEditMode
 {
@@ -31,6 +33,7 @@ public:
 	int SelectItem = 0;
 	int ObjectItem = -1;
 	UTileMapRenderer* TileMapRenderer = nullptr;
+	UEngineRandom Random;
 	EEditMode Mode = EEditMode::TileMap;
 
 	//std::list<std::shared_ptr<AMonster>> AllMonsterList;
@@ -87,6 +90,24 @@ public:
 				}
 			}
 
+			if (ImGui::Button("RandomMap Create"))
+			{
+				std::vector<std::vector<ETileType>> Map(HEIGHT, std::vector<ETileType>(WIDTH));
+				GenerateDungeon(Map);
+
+				for (int y = 0; y < HEIGHT; ++y)
+				{
+					for (int x = 0; x < WIDTH; ++x)
+					{
+						if (0 == static_cast<int>(Map[y][x]))
+						{
+							continue;
+						}
+					
+						TileMapRenderer->SetTile(x, y, 0);
+					}
+				}
+			}
 
 			if (true == UEngineInput::IsPress(VK_LBUTTON))
 			{
@@ -405,59 +426,158 @@ void ARandomTileMap::Tick(float _DeltaTime)
 	AActor::Tick(_DeltaTime);
 }
 
-void ARandomTileMap::PrintMap(const std::vector<std::vector<ETileType>>& _Map)
+//void ARandomTileMap::PrintMap(const std::vector<std::vector<ETileType>>& _Map)
+//{
+//	for (int y = 0; y < HEIGHT; ++y)
+//	{
+//		for (int x = 0; x < WIDTH; ++x)
+//		{
+//			if (0 == static_cast<int>(_Map[y][x]))
+//			{
+//				continue;
+//			}
+//
+//			TileMapRenderer->SetTile(x, y, 0);
+//		}
+//	}
+//}
+
+//FRoom CreateRoom(int _X, int _Y)
+//{
+//	FRoom Room;
+//	Room.X = _X;
+//	Room.Y = _Y;
+//	Room.Width = rand() % (MAX_ROOM_SIZE - MIN_ROOM_SIZE + 1) + MIN_ROOM_SIZE;
+//	Room.Height = rand() % (MAX_ROOM_SIZE - MIN_ROOM_SIZE + 1) + MIN_ROOM_SIZE;
+//	return Room;
+//}
+
+FRoomNode* SplitRoom(int _X, int _Y, int _Width, int _Height, int _MinRoomSize)
+{
+	UEngineRandom Random;
+
+	if (_Width <= _MinRoomSize * 2 && _Height <= _MinRoomSize * 2)
+	{
+		FRoomNode* Node = new FRoomNode(_X, _Y, _Width, _Height);
+		Node->Room = FRoom(_X + 1, _Y + 1, _Width - 2, _Height - 2);
+		return Node;
+	}
+
+	bool SplitHorizontal = _Width > _Height;  // 수평 또는 수직 분할
+	if (_Width > _Height && _Width / 2 >= _MinRoomSize)
+	{
+		SplitHorizontal = true;
+	}
+	if (_Height > _Width && _Width / 2 >= _MinRoomSize)
+	{
+		SplitHorizontal = false;
+	}
+		
+	if (SplitHorizontal)
+	{
+		int SplitX = Random.RandomInt(0, _Width - _MinRoomSize * 2) + _MinRoomSize;
+		FRoomNode* Left = SplitRoom(_X, _Y, SplitX, _Height, _MinRoomSize);
+		FRoomNode* Right = SplitRoom(_X + SplitX, _Y, _Width - SplitX, _Height, _MinRoomSize);
+		FRoomNode* Node = new FRoomNode(_X, _Y, _Width, _Height);
+		Node->_Left = Left;
+		Node->_Right = Right;
+		return Node;
+	}
+	else
+	{
+		int SplitY = Random.RandomInt(0, _Height - _MinRoomSize * 2) + _MinRoomSize;
+		FRoomNode* Left = SplitRoom(_X, _Y, _Width, SplitY, _MinRoomSize);
+		FRoomNode* Right = SplitRoom(_X, _Y + SplitY, _Width, _Height - SplitY, _MinRoomSize);
+		FRoomNode* Node = new FRoomNode(_X, _Y, _Width, _Height);
+		Node->_Left = Left;
+		Node->_Right = Right;
+		return Node;
+	}
+}
+
+void GenerateDungeon(std::vector<std::vector<ETileType>>& _Map)
 {
 	for (int y = 0; y < HEIGHT; ++y)
 	{
 		for (int x = 0; x < WIDTH; ++x)
 		{
-			if (0 == static_cast<int>(_Map[y][x]))
-			{
-				continue;
-			}
-
-			TileMapRenderer->SetTile(x, y, 0);
+			_Map[y][x] = ETileType::EMPTY;
 		}
 	}
+
+	std::vector<FRoom> Rooms;
+	FRoomNode* Root = SplitRoom(0, 0, WIDTH, HEIGHT, MIN_ROOM_SIZE);
+
+	Traverse(Root, Rooms);
+
+	for (const FRoom& Room : Rooms)
+	{
+		for (int y = Room.Y; y < Room.Y + Room.Height; ++y)
+		{
+			for (int x = Room.X; x < Room.X + Room.Width; ++x)
+			{
+				if (x >= 0 && x < WIDTH && y >= 0 && y < HEIGHT)
+				{
+					_Map[y][x] = ETileType::WALL;
+				}
+			}
+		}
+	}
+
+	for (size_t i = 1; i < Rooms.size(); ++i)
+	{
+		const FRoom& Prev = Rooms[i - 1];
+		const FRoom& Curr = Rooms[i];
+
+		int StartX = (Prev.X + Prev.X + Prev.Width) / 2;
+		int StartY = (Prev.Y + Prev.Y + Prev.Height) / 2;
+		int EndX = (Curr.X + Curr.X + Curr.Width) / 2;
+		int EndY = (Curr.Y + Curr.Y + Curr.Height) / 2;
+
+		while (StartX != EndX)
+		{
+			_Map[StartY][StartX] = ETileType::WALL;
+			StartX += (StartX < EndX) ? 1 : -1;
+		}
+		while (StartY != EndY)
+		{
+			_Map[StartY][StartX] = ETileType::WALL;
+			StartY += (StartY < EndY) ? 1 : -1;
+		}
+	}
+
+	DeleteBSPTree(Root);
 }
 
-FRoom CreateRoom(int _X, int _Y)
+void Traverse(FRoomNode* _Node, std::vector<FRoom>& _Rooms)
 {
-	FRoom Room;
-	Room.X = _X;
-	Room.Y = _Y;
-	Room.Width = rand() % (MAX_ROOM_SIZE - MIN_ROOM_SIZE + 1) + MIN_ROOM_SIZE;
-	Room.Height = rand() % (MAX_ROOM_SIZE - MIN_ROOM_SIZE + 1) + MIN_ROOM_SIZE;
-	return Room;
+	if (_Node == nullptr)
+	{
+		return;
+	}
+
+	if (_Node->_Left == nullptr && _Node->_Right == nullptr)
+	{
+		_Rooms.push_back(_Node->Room);
+		return;
+	}
+
+	Traverse(_Node->_Left, _Rooms);
+	Traverse(_Node->_Right, _Rooms);
 }
 
-FRoomNode* SplitRoom(int _X, int _Y, int _Width, int _Height, int _MinRoomSize)
+void DeleteBSPTree(FRoomNode* Node)
 {
-	if (_Width < _MinRoomSize * 2 || _Height < _MinRoomSize * 2)
+	if (!Node)
 	{
-		FRoomNode* Node = new FRoomNode();
-		Node->Room = CreateRoom(_X, _Y);
-		return Node;
+		return;
 	}
+	DeleteBSPTree(Node->_Left);
+	DeleteBSPTree(Node->_Right);
 
-	bool SplitHorizontally = rand() % 2 == 0;  // 수평 또는 수직 분할
-
-	FRoomNode* Node = new FRoomNode();
-	if (SplitHorizontally)
-	{
-		int SplitY = rand() % (_Height - _MinRoomSize * 2) + _MinRoomSize;
-		Node->_Left = SplitRoom(_X, _Y, _Width, SplitY, _MinRoomSize);
-		Node->_Right = SplitRoom(_X, _Y + SplitY, _Width, _Height - SplitY, _MinRoomSize);
-	}
-	else
-	{
-		int SplitX = rand() % (_Width - _MinRoomSize * 2) + _MinRoomSize;
-		Node->_Left = SplitRoom(_X, _Y, SplitX, _Height, _MinRoomSize);
-		Node->_Right = SplitRoom(_X + SplitX, _Y, _Width - SplitX, _Height, _MinRoomSize);
-	}
-
-	return Node;
+	delete Node;
 }
+
 
 void ARandomTileMap::LevelChangeStart()
 {

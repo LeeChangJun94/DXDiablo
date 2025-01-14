@@ -64,35 +64,3 @@ private:
 
 	//std::well512
 };
-
-//
-//class MapCreator
-//{
-//	virtual void MapCreate()
-//	{
-//
-//	}
-//};
-//
-//class RandomMapGenerator
-//{
-//public:
-//	void CreateRandomMap(MapCreator* );
-//};
-//
-//class CaveMapCreator : public MapCreator
-//{
-//	virtual void MapCreate()
-//	{
-//
-//	}
-//};
-//
-//
-//class RoomMapCreator : public MapCreator
-//{
-//	virtual void MapCreate()
-//	{
-//
-//	}
-//};
