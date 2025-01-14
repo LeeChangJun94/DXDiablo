@@ -8,6 +8,7 @@
 #include <EngineCore/EngineMaterial.h>
 #include "TitleGameMode.h"
 #include "TileMapEditor.h"
+#include "RandomTileMap.h"
 #include <EngineCore/HUD.h>
 #include <EngineCore/EngineGUI.h>
 #include <EngineCore/EngineGUIWindow.h>
@@ -52,17 +53,17 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 		}
 	}
 
-	//{
-	//	UEngineDirectory Dir;
-	//	if (false == Dir.MoveParentToDirectory("ContentsResources"))
-	//	{
-	//		MSGASSERT("리소스 폴더를 찾지 못했습니다.");
-	//		return;
-	//	}
-	//	Dir.Append("Image/Tevi");
-	//
-	//	UEngineSprite::CreateSpriteToFolder(Dir.GetPathToString());
-	//}
+	{
+		UEngineDirectory Dir;
+		if (false == Dir.MoveParentToDirectory("ContentsResources"))
+		{
+			MSGASSERT("리소스 폴더를 찾지 못했습니다.");
+			return;
+		}
+		Dir.Append("Tile");
+	
+		UEngineSprite::CreateSpriteToFolder(Dir.GetPathToString());
+	}
 
 
 	UEngineSprite::CreateSpriteToMeta("Warrior in Heavy Armor (Weaponless)_Idle_Town.png", ".sdata");
@@ -148,7 +149,8 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 	// 주인공 APawn 상속 받으세요.
 	UEngineCore::CreateLevel<ATitleGameMode, APlayer, AHUD>("Titlelevel");
 	UEngineCore::CreateLevel<ATileMapEditor, APawn, AHUD>("TileMapEditor");
-	UEngineCore::OpenLevel("Titlelevel");
+	UEngineCore::CreateLevel<ARandomTileMap, APawn, AHUD>("RandomTileMap");
+	UEngineCore::OpenLevel("RandomTileMap");
 
 	UEngineGUI::AllWindowOff();
 

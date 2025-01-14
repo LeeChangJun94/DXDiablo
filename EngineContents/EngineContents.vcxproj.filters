@@ -52,6 +52,9 @@
     <ClInclude Include="Fallen_Sword.h">
       <Filter>Monster\MonsterType</Filter>
     </ClInclude>
+    <ClInclude Include="RandomTileMap.h">
+      <Filter>GameMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -105,6 +108,9 @@
     </ClCompile>
     <ClCompile Include="Fallen_Sword.cpp">
       <Filter>Monster\MonsterType</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTileMap.cpp">
+      <Filter>GameMode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
