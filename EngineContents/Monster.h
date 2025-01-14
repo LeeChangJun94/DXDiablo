@@ -45,10 +45,15 @@ public:
 
 	virtual std::shared_ptr<class USpriteRenderer> GetRenderer();
 	virtual void MonsterDirection();
+	virtual void MonsterMove(float _DeltaTime);
+	virtual void MonsterAttack();
 
 protected:
 	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
+
+	bool Move = false;
+	bool Attack = false;
 
 	std::shared_ptr<class USpriteRenderer> Renderer;
 	EStateType MonsterState;
@@ -61,6 +66,7 @@ protected:
 	FVector PlayerDir = { 0, 0, 0 };
 	float Distance = 0.0f;
 	float DetectionRange = 200.0f;
+	float Speed = 100.0f;
 
 	class APlayer* Player = nullptr;
 

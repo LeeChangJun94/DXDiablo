@@ -189,7 +189,7 @@ ASkeleton_King::ASkeleton_King()
 		},
 		[this]()
 		{
-			Renderer->ChangeAnimation("Idle_2");
+			Renderer->ChangeAnimation("Idle_" + Dir);
 		});
 
 	FSM.CreateState(EStateType::ATTACK, [](float _DeltaTime)
@@ -198,7 +198,7 @@ ASkeleton_King::ASkeleton_King()
 		},
 		[this]()
 		{
-			Renderer->ChangeAnimation("Attack_2");
+			Renderer->ChangeAnimation("Attack_" + Dir);
 		});
 
 	FSM.CreateState(EStateType::DIE, [](float _DeltaTime)
@@ -207,17 +207,16 @@ ASkeleton_King::ASkeleton_King()
 		},
 		[this]()
 		{
-			Renderer->ChangeAnimation("Die_2");
+			Renderer->ChangeAnimation("Die_" + Dir);
 		});
 
 	FSM.CreateState(EStateType::WALK, [this](float _DeltaTime)
 		{
-			
-			Distance = (PlayerPos - GetActorLocation()).Length();
-			Renderer->ChangeAnimation("Walk_" + Dir);
+			MonsterMove(_DeltaTime);
 		},
 		[this]()
 		{
+			Renderer->ChangeAnimation("Walk_" + Dir);
 		});
 
 	FSM.CreateState(EStateType::SPECIAL, [](float _DeltaTime)
@@ -226,7 +225,7 @@ ASkeleton_King::ASkeleton_King()
 		},
 		[this]()
 		{
-			Renderer->ChangeAnimation("Special_2");
+			Renderer->ChangeAnimation("Special_" + Dir);
 		});
 
 	FSM.CreateState(EStateType::HIT, [](float _DeltaTime)
@@ -235,8 +234,9 @@ ASkeleton_King::ASkeleton_King()
 		},
 		[this]()
 		{
-			Renderer->ChangeAnimation("Hit_2");
+			Renderer->ChangeAnimation("Hit_" + Dir);
 		});
+	FSM.ChangeState(EStateType::IDLE);
 }
 
 ASkeleton_King::~ASkeleton_King()
@@ -245,13 +245,13 @@ ASkeleton_King::~ASkeleton_King()
 
 void ASkeleton_King::BeginPlay()
 {
-	AActor::BeginPlay();
+	AMonster::BeginPlay();
 }
 
 void ASkeleton_King::Tick(float _DeltaTime)
 {
-	AActor::Tick(_DeltaTime);
-	MonsterDirection();
-
+	AMonster::Tick(_DeltaTime);
+	FSM.Update(_DeltaTime);
+	//MonsterDirection();
 }
 

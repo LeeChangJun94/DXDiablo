@@ -145,8 +145,8 @@ ATitleGameMode::ATitleGameMode()
 	//Camera->GetCameraComponent()->SetZSort(0, true);
 	
 	{
-		Player = GetWorld()->SpawnActor<APlayer>();
-		Player->SetActorLocation({ 300.0f, 0.0f, 0.0f });
+		//Player = GetWorld()->SpawnActor<APlayer>();
+		//Player->SetActorLocation({ 300.0f, 0.0f, 0.0f });
 		//Player->GetRenderer()->SetSpriteData(4);
 	}
 

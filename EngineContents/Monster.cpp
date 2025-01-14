@@ -38,11 +38,13 @@ void AMonster::MonsterDirection()
 
 	Distance = PlayerDir.Length();
 
-	if (DetectionRange >= Distance)
+	if (DetectionRange >= Distance && 63.0f <= Distance)
 	{
+		Move = true;
+
 		FSM.ChangeState(EStateType::WALK);
 
-		//PlayerDir.Normalize();
+		PlayerDir.Normalize();
 
 		float AngleDeg = FVector::GetVectorAngleDeg({ 1, 0 }, PlayerDir);
 
@@ -90,4 +92,34 @@ void AMonster::MonsterDirection()
 			Dir = '6';
 		}
 	}
+	else
+	{
+		if (true == Move)
+		{
+			FSM.ChangeState(EStateType::IDLE);
+			Move = false;
+		}
+	}
 }
+
+void AMonster::MonsterMove(float _DeltaTime)
+{
+	if (true == Move)
+	{
+		if (64.0f >= Distance)
+		{
+			Move = false;
+			FSM.ChangeState(EStateType::ATTACK);
+		}
+
+		Distance -= (PlayerDir * Speed * _DeltaTime).Length();
+		AddRelativeLocation(PlayerDir * Speed * _DeltaTime);
+		//UEngineDebug::OutPutString(std::to_string(Distance));
+	}
+}
+
+void AMonster::MonsterAttack()
+{
+
+}
+
