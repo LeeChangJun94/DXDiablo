@@ -60,8 +60,8 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 			MSGASSERT("리소스 폴더를 찾지 못했습니다.");
 			return;
 		}
-		Dir.Append("Tile");
-	
+		Dir.Append("Image\\Tile");
+
 		UEngineSprite::CreateSpriteToFolder(Dir.GetPathToString());
 	}
 

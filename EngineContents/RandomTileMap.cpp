@@ -104,7 +104,7 @@ public:
 							continue;
 						}
 					
-						TileMapRenderer->SetTile(x, y, 0);
+						TileMapRenderer->SetTile(x, y, 1);
 					}
 				}
 			}
@@ -386,27 +386,11 @@ ARandomTileMap::ARandomTileMap()
 	std::shared_ptr<UDefaultSceneComponent> Default = CreateDefaultSubObject<UDefaultSceneComponent>();
 	RootComponent = Default;
 
-
-	//PivotSpriteRenderer = CreateDefaultSubObject<USpriteRenderer>();
-	//PivotSpriteRenderer->SetupAttachment(RootComponent);
-	//PivotSpriteRenderer->SetRelativeScale3D({ 50.0f, 50.0f, 1.0f });
-
 	TileMapRenderer = CreateDefaultSubObject<UTileMapRenderer>();
 	TileMapRenderer->SetupAttachment(RootComponent);
 	TileMapRenderer->SetTileSetting(ETileMapType::Iso, "Tile", { 128.0f, 63.0f }, { 128.0f, 192.0f }, { 0.0f, 0.0f });
 
-	for (int y = 0; y < HEIGHT; y++)
-	{
-		for (int x = 0; x < WIDTH; x++)
-		{
-			//Map[y][x] = static_cast<int>(ETileType::WALL);
-		}
-	}
-
-
 	// CreateDefaultSubObject<>
-
-
 
 	// 카메라를 일정거리 뒤로 가서 
 	// 카메라 위치조정을 무조건 해줘야 할것이다.
@@ -464,14 +448,14 @@ FRoomNode* SplitRoom(int _X, int _Y, int _Width, int _Height, int _MinRoomSize)
 	}
 
 	bool SplitHorizontal = _Width > _Height;  // 수평 또는 수직 분할
-	if (_Width > _Height && _Width / 2 >= _MinRoomSize)
-	{
-		SplitHorizontal = true;
-	}
-	if (_Height > _Width && _Width / 2 >= _MinRoomSize)
-	{
-		SplitHorizontal = false;
-	}
+	//if (_Width > _Height && _Width / 2 >= _MinRoomSize)
+	//{
+	//	SplitHorizontal = true;
+	//}
+	//if (_Height > _Width && _Width / 2 >= _MinRoomSize)
+	//{
+	//	SplitHorizontal = false;
+	//}
 		
 	if (SplitHorizontal)
 	{
@@ -512,9 +496,9 @@ void GenerateDungeon(std::vector<std::vector<ETileType>>& _Map)
 
 	for (const FRoom& Room : Rooms)
 	{
-		for (int y = Room.Y; y < Room.Y + Room.Height; ++y)
+		for (int y = Room.Y; y <= Room.Y + Room.Height; ++y)
 		{
-			for (int x = Room.X; x < Room.X + Room.Width; ++x)
+			for (int x = Room.X; x <= Room.X + Room.Width; ++x)
 			{
 				if (x >= 0 && x < WIDTH && y >= 0 && y < HEIGHT)
 				{
@@ -528,12 +512,12 @@ void GenerateDungeon(std::vector<std::vector<ETileType>>& _Map)
 	{
 		const FRoom& Prev = Rooms[i - 1];
 		const FRoom& Curr = Rooms[i];
-
+	
 		int StartX = (Prev.X + Prev.X + Prev.Width) / 2;
 		int StartY = (Prev.Y + Prev.Y + Prev.Height) / 2;
 		int EndX = (Curr.X + Curr.X + Curr.Width) / 2;
 		int EndY = (Curr.Y + Curr.Y + Curr.Height) / 2;
-
+	
 		while (StartX != EndX)
 		{
 			_Map[StartY][StartX] = ETileType::WALL;
