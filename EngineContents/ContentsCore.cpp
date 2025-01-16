@@ -12,6 +12,7 @@
 #include <EngineCore/HUD.h>
 #include <EngineCore/EngineGUI.h>
 #include <EngineCore/EngineGUIWindow.h>
+#include "TitleHUD.h"
 #include "ContentsEditorGUI.h"
 
 
@@ -147,7 +148,7 @@ void UContentsCore::EngineStart(UEngineInitData& _Data)
 	UEngineSprite::CreateSpriteToMeta("Church Dungeon.png", ".sdata");
 	
 	// 주인공 APawn 상속 받으세요.
-	UEngineCore::CreateLevel<ATitleGameMode, APlayer, AHUD>("Titlelevel");
+	UEngineCore::CreateLevel<ATitleGameMode, APlayer, ATitleHUD>("Titlelevel");
 	UEngineCore::CreateLevel<ATileMapEditor, APawn, AHUD>("TileMapEditor");
 	UEngineCore::CreateLevel<ARandomTileMap, APawn, AHUD>("RandomTileMap");
 	UEngineCore::OpenLevel("RandomTileMap");

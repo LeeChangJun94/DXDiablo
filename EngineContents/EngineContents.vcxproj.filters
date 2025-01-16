@@ -55,6 +55,9 @@
     <ClInclude Include="RandomTileMap.h">
       <Filter>GameMode</Filter>
     </ClInclude>
+    <ClInclude Include="TitleHUD.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -112,6 +115,9 @@
     <ClCompile Include="RandomTileMap.cpp">
       <Filter>GameMode</Filter>
     </ClCompile>
+    <ClCompile Include="TitleHUD.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="GameMode">
@@ -134,6 +140,9 @@
     </Filter>
     <Filter Include="Monster\Boss">
       <UniqueIdentifier>{51ce7b0f-3824-470b-b625-c1cf110c71a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{b37abe48-7ef6-42e5-b07e-cb66e3d9e01d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

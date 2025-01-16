@@ -33,7 +33,7 @@
       <Filter>Object\Render</Filter>
     </ClInclude>
     <ClInclude Include="ThirdParty\DirectxTex\Inc\DirectXTex.h">
-      <Filter>ThirdParty\Inc</Filter>
+      <Filter>ThirdParty\DirectxTex\Inc</Filter>
     </ClInclude>
     <ClInclude Include="EngineResources.h">
       <Filter>Resources</Filter>
@@ -160,6 +160,18 @@
     </ClInclude>
     <ClInclude Include="TransformObject.h">
       <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineConst.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineDataStruct.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineFont.h">
+      <Filter>Resources\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\FW1FontWrapper\Inc\FW1FontWrapper.h">
+      <Filter>ThirdParty\FW1FontWrapper\Inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -311,6 +323,9 @@
     <ClCompile Include="TransformObject.cpp">
       <Filter>Object\Component</Filter>
     </ClCompile>
+    <ClCompile Include="EngineFont.cpp">
+      <Filter>Resources\Font</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Interface">
@@ -339,15 +354,6 @@
     </Filter>
     <Filter Include="ThirdParty">
       <UniqueIdentifier>{e2b425d7-9920-4f53-bec1-8b8e43e5230b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ThirdParty\Debug">
-      <UniqueIdentifier>{d7ad94b2-2df8-468f-ac17-fbbc860b7450}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ThirdParty\Inc">
-      <UniqueIdentifier>{aff1438a-27f6-4cf8-9de6-a73495eb9a31}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ThirdParty\Release">
-      <UniqueIdentifier>{42b58209-9449-432c-875d-039114be1726}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources">
       <UniqueIdentifier>{7469f802-52a0-4c0c-8ad3-eb0770191785}</UniqueIdentifier>
@@ -388,18 +394,59 @@
     <Filter Include="Object\UI">
       <UniqueIdentifier>{3b1c7709-0d82-4bb0-aef3-47e3abfd2053}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources\Font">
+      <UniqueIdentifier>{e357be1e-36af-4aa8-a264-456b96df9c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectxTex">
+      <UniqueIdentifier>{d5810a58-e076-4756-901e-cc54c5b5bf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\FW1FontWrapper">
+      <UniqueIdentifier>{8bf1fcde-21ab-4c63-a994-0e9424ddcc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectxTex\Inc">
+      <UniqueIdentifier>{aff1438a-27f6-4cf8-9de6-a73495eb9a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectxTex\Debug">
+      <UniqueIdentifier>{d7ad94b2-2df8-468f-ac17-fbbc860b7450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\DirectxTex\Release">
+      <UniqueIdentifier>{42b58209-9449-432c-875d-039114be1726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\FW1FontWrapper\Debug">
+      <UniqueIdentifier>{0d4d143c-194a-470c-9057-dbaccb12b8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\FW1FontWrapper\Inc">
+      <UniqueIdentifier>{69959b5f-e93e-4bce-9368-60479ace30dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\FW1FontWrapper\Release">
+      <UniqueIdentifier>{fb20fe59-963d-4bb2-ba7e-84ac6003b270}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ThirdParty\DirectxTex\Inc\DirectXTex.inl">
-      <Filter>ThirdParty\Inc</Filter>
+      <Filter>ThirdParty\DirectxTex\Inc</Filter>
+    </None>
+    <None Include="ThirdParty\FW1FontWrapper\Debug\FW1FontWrapper.dll">
+      <Filter>ThirdParty\FW1FontWrapper\Debug</Filter>
+    </None>
+    <None Include="ThirdParty\FW1FontWrapper\Release\FW1FontWrapper.dll">
+      <Filter>ThirdParty\FW1FontWrapper\Release</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="ThirdParty\DirectxTex\Debug\DirectXTex_Debug.lib">
-      <Filter>ThirdParty\Debug</Filter>
+      <Filter>ThirdParty\DirectxTex\Debug</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="ThirdParty\DirectxTex\Release\DirectXTex_Release.lib">
-      <Filter>ThirdParty\Release</Filter>
+      <Filter>ThirdParty\DirectxTex\Release</Filter>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ThirdParty\FW1FontWrapper\Debug\FW1FontWrapper.lib">
+      <Filter>ThirdParty\FW1FontWrapper\Debug</Filter>
+    </Library>
+    <Library Include="ThirdParty\FW1FontWrapper\Release\FW1FontWrapper.lib">
+      <Filter>ThirdParty\FW1FontWrapper\Release</Filter>
+    </Library>
   </ItemGroup>
 </Project>

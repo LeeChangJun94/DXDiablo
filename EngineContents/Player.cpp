@@ -186,7 +186,7 @@ APlayer::APlayer()
 	Collision = CreateDefaultSubObject<UCollision>();
 	Collision->SetupAttachment(RootComponent);
 	Collision->SetCollisionProfileName("Player");
-	Collision->SetScale3D({ 50.0f, 50.0f });
+	Collision->SetScale3D({ 50.0f, 50.0f, 50.0f});
 
 
 	//GetWorld()->GetMainCamera()->AttachToActor(this);
@@ -356,6 +356,10 @@ void APlayer::Tick(float _DeltaTime)
 		AddRelativeLocation(FVector{ 0.0f, -100.0f * _DeltaTime, 0.0f });
 	}
 
+	if (UEngineInput::IsDown('F'))
+	{
+		GetWorld()->GetCamera(EEngineCameraType::UICamera)->SetActiveSwitch();
+	}
 	//if (UEngineInput::IsPress('Q'))
 	//{
 	//	AddActorRotation(FVector{ 0.0f, 0.0f , 360.0f * _DeltaTime });
