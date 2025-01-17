@@ -202,6 +202,12 @@
     <ClInclude Include="RandomTileMap.h">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="RandomTileMap1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="Skeleton_Axe.h" />
     <ClInclude Include="Skeleton_King.h" />
@@ -280,7 +286,10 @@
     <ClCompile Include="RandomTileMap.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="RandomTileMap1.cpp" />
     <ClCompile Include="Skeleton_Axe.cpp" />
     <ClCompile Include="Skeleton_King.cpp" />
     <ClCompile Include="Skeleton_Sword.cpp" />

@@ -10,6 +10,7 @@
 #include <EngineCore/EngineCore.h>
 #include "TileMapEditor.h"
 #include "RandomTileMap.h"
+#include "RandomTileMap1.h"
 #include "TitleGameMode.h"
 #include "TitleHUD.h"
 #include "Player.h"
@@ -33,8 +34,9 @@ void ALoadingLevel::Tick(float _DeltaTime)
 		// 이미지를 변환 
 		UEngineCore::CreateLevel<ATitleGameMode, APlayer, ATitleHUD>("Titlelevel");
 		UEngineCore::CreateLevel<ATileMapEditor, APawn, AHUD>("TileMapEditor");
-		UEngineCore::CreateLevel<ARandomTileMap, APawn, AHUD>("RandomTileMap");
-		UEngineCore::OpenLevel("RandomTileMap");
+		//UEngineCore::CreateLevel<ARandomTileMap, APawn, AHUD>("RandomTileMap");
+		UEngineCore::CreateLevel<ARandomTileMap1, APawn, AHUD>("RandomTileMap1");
+		UEngineCore::OpenLevel("RandomTileMap1");
 	}
 
 }

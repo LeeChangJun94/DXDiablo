@@ -66,6 +66,9 @@
     <ClInclude Include="LoadingLevel.h">
       <Filter>GameMode</Filter>
     </ClInclude>
+    <ClInclude Include="RandomTileMap1.h">
+      <Filter>GameMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -131,6 +134,9 @@
       <Filter>Global</Filter>
     </ClCompile>
     <ClCompile Include="LoadingLevel.cpp">
+      <Filter>GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTileMap1.cpp">
       <Filter>GameMode</Filter>
     </ClCompile>
   </ItemGroup>
