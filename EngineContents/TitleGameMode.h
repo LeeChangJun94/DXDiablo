@@ -1,5 +1,6 @@
 #pragma once
 #include <EngineCore/GameMode.h>
+#include <EngineCore/Widget.h>
 
 // Ό³Έν :
 class ATitleGameMode : public AGameMode
@@ -31,5 +32,7 @@ public:
 protected:
 	void LevelChangeStart() override;
 private:
+
+	UWidget* InvenWidget;
 };
 

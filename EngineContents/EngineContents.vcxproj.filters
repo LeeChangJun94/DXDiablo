@@ -58,6 +58,11 @@
     <ClInclude Include="TitleHUD.h">
       <Filter>HUD</Filter>
     </ClInclude>
+    <ClInclude Include="DiabloConst.h" />
+    <ClInclude Include="DiabloStruct.h" />
+    <ClInclude Include="MyGameInstance.h">
+      <Filter>Global</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -118,6 +123,10 @@
     <ClCompile Include="TitleHUD.cpp">
       <Filter>HUD</Filter>
     </ClCompile>
+    <ClCompile Include="DiabloStruct.cpp" />
+    <ClCompile Include="MyGameInstance.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="GameMode">
@@ -143,6 +152,9 @@
     </Filter>
     <Filter Include="HUD">
       <UniqueIdentifier>{b37abe48-7ef6-42e5-b07e-cb66e3d9e01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{cd0304a1-a7cd-4681-8626-5934c88f9e47}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

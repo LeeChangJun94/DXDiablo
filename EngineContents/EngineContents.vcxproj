@@ -171,6 +171,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DiabloConst.h" />
+    <ClInclude Include="DiabloStruct.h" />
     <ClInclude Include="Fallen_Sword.h">
       <SubType>
       </SubType>
@@ -192,6 +194,7 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="MyGameInstance.h" />
     <ClInclude Include="RandomTileMap.h">
       <SubType>
       </SubType>
@@ -242,6 +245,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DiabloStruct.cpp" />
     <ClCompile Include="Fallen_Sword.cpp">
       <SubType>
       </SubType>
@@ -264,6 +268,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="MyGameInstance.cpp" />
     <ClCompile Include="RandomTileMap.cpp">
       <SubType>
       </SubType>

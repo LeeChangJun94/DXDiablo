@@ -10,6 +10,7 @@
 #include <EngineCore/TimeEventComponent.h>
 #include <EngineCore/Collision.h>
 #include "MyCustomRenderer.h"
+#include "MyGameInstance.h"
 
 
 APlayer::APlayer()
@@ -378,6 +379,18 @@ void APlayer::Tick(float _DeltaTime)
 	//}
 
 	// AddActorLocation(FVector{ 100.0f * _DeltaTime, 0.0f, 0.0f});
+	//GetGameInstance<MyGameInstance>()->Status.Hp -= 1;
+
+
+	//if (UEngineInput::IsPress('E'))
+	//{
+	//	GetGameInstance<MyGameInstance>()->InvenWidget->SetActive(false);
+	//}
+	//
+	//if (UEngineInput::IsPress('R'))
+	//{
+	//	GetGameInstance<MyGameInstance>()->InvenWidget->SetActive(true);
+	//}
 }
 
 void APlayer::Direction()

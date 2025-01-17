@@ -19,6 +19,7 @@
 #include <EngineCore/imgui.h>
 #include <EngineCore/EngineCamera.h>
 #include "ContentsEditorGUI.h"
+#include "MyGameInstance.h"
 
 class TestWindow : public UEngineGUIWindow
 {
@@ -223,6 +224,8 @@ void ATitleGameMode::Tick(float _DeltaTime)
 void ATitleGameMode::LevelChangeStart()
 {
 	UEngineGUI::AllWindowOff();
+
+	//GetGameInstance<MyGameInstance>()->InvenWidget = InvenWidget;
 
 	{
 		std::shared_ptr<UContentsEditorGUI> Window = UEngineGUI::FindGUIWindow<UContentsEditorGUI>("ContentsEditorGUI");
