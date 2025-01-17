@@ -63,6 +63,9 @@
     <ClInclude Include="MyGameInstance.h">
       <Filter>Global</Filter>
     </ClInclude>
+    <ClInclude Include="LoadingLevel.h">
+      <Filter>GameMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp" />
@@ -126,6 +129,9 @@
     <ClCompile Include="DiabloStruct.cpp" />
     <ClCompile Include="MyGameInstance.cpp">
       <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingLevel.cpp">
+      <Filter>GameMode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

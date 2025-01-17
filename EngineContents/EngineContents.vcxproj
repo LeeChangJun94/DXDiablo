@@ -171,6 +171,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LoadingLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="DiabloConst.h" />
     <ClInclude Include="DiabloStruct.h" />
     <ClInclude Include="Fallen_Sword.h">
@@ -245,6 +249,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LoadingLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="DiabloStruct.cpp" />
     <ClCompile Include="Fallen_Sword.cpp">
       <SubType>

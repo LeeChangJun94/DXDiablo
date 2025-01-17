@@ -11,6 +11,7 @@
 #include <EngineCore/Collision.h>
 #include "MyCustomRenderer.h"
 #include "MyGameInstance.h"
+#include <EnginePlatform/EngineWorkThreadPool.h>
 
 
 APlayer::APlayer()
@@ -360,6 +361,18 @@ void APlayer::Tick(float _DeltaTime)
 	if (UEngineInput::IsDown('F'))
 	{
 		GetWorld()->GetCamera(EEngineCameraType::UICamera)->SetActiveSwitch();
+	}
+
+	if (UEngineInput::IsPress('R'))
+	{
+
+
+		UEngineCore::GetThreadPool().WorkQueue([]()
+			{
+				UEngineDebug::OutPutString("Thread Work");
+			});
+
+		// GetGameInstance<MyGameInstance>()->InvenWidget->SetActive(true);
 	}
 	//if (UEngineInput::IsPress('Q'))
 	//{

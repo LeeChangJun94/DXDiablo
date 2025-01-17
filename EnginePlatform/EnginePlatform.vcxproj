@@ -175,6 +175,7 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineThread.h" />
     <ClInclude Include="EngineWindow.h">
       <SubType>
       </SubType>
@@ -183,6 +184,7 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EngineWorkThreadPool.h" />
     <ClInclude Include="PreCompile.h" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +192,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineThread.cpp" />
     <ClCompile Include="EngineWindow.cpp">
       <SubType>
       </SubType>
@@ -198,6 +201,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EngineWorkThreadPool.cpp" />
     <ClCompile Include="PreCompile.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PreCompile.h</PrecompiledHeaderFile>
