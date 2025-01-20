@@ -35,7 +35,7 @@ void ALoadingLevel::Tick(float _DeltaTime)
 		UEngineCore::CreateLevel<ATitleGameMode, APlayer, ATitleHUD>("Titlelevel");
 		UEngineCore::CreateLevel<ATileMapEditor, APawn, AHUD>("TileMapEditor");
 		//UEngineCore::CreateLevel<ARandomTileMap, APawn, AHUD>("RandomTileMap");
-		UEngineCore::CreateLevel<ARandomTileMap1, APawn, AHUD>("RandomTileMap1");
+		UEngineCore::CreateLevel<ARandomTileMapTest, APawn, AHUD>("RandomTileMap1");
 		UEngineCore::OpenLevel("RandomTileMap1");
 	}
 
