@@ -44,6 +44,7 @@ public:
 	int SelectTileIndex = 0;
 	int MinRoomSize = 4;
 	int MaxSplits = 8;
+	int maxDungeonGenerations = 50;
 
 	void TileMapMode()
 	{
@@ -95,9 +96,44 @@ public:
 
 			if (ImGui::Button("RandomMap Create"))
 			{
-				ARandomTileMapTest::DungeonGenerator dungeon(TileCountX, TileCountY, MinRoomSize, MaxSplits);
-				dungeon.Generator();
-				dungeon.PrintMap(TileMapRenderer);
+				for (int i = 0; i < maxDungeonGenerations; ++i) {
+					if (RandomTileGameMode->generateDungeon()) {
+						//std::cout << "Dungeon generation succeeded on attempt: " << i + 1 << "\n";
+						break;
+					}
+					//else {
+					//	std::cout << "Dungeon generation failed on attempt: " << i + 1 << ", retrying...\n";
+					//}
+				}
+
+				for (int y = 0; y < DUNGEON_HEIGHT; ++y)
+				{
+					for (int x = 0; x < DUNGEON_WIDTH; ++x)
+					{
+						if ('#' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						{
+							TileMapRenderer->SetTile(x, y, 0);
+						}
+
+						if ('.' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						{
+							TileMapRenderer->SetTile(x, y, 1);
+						}
+
+						if ('1' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						{
+							TileMapRenderer->SetTile(x, y, 2);
+						}
+
+						if ('2' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						{
+							TileMapRenderer->SetTile(x, y, 3);
+						}
+						//std::cout << RandomTileGameMode->dungeonMap[y][x];
+					}
+					//std::cout << "\n";
+				}
+
 				/*std::vector<std::vector<ETileType>> Map(HEIGHT, std::vector<ETileType>(WIDTH));
 				GenerateDungeon(Map);
 
@@ -113,6 +149,20 @@ public:
 						TileMapRenderer->SetTile(x, y, 1);
 					}
 				}*/
+			}
+
+			if (ImGui::Button("DrawHallways"))
+			{
+				RandomTileGameMode->drawHallways();
+			}
+
+			if (ImGui::Button("TileRemove"))
+			{
+				for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
+					for (int x = 0; x < DUNGEON_WIDTH; ++x) {
+						TileMapRenderer->RemoveTile(x, y);
+					}
+				}
 			}
 
 			if (true == UEngineInput::IsPress(VK_LBUTTON))
@@ -379,9 +429,19 @@ public:
 
 		SaveAndLoad();
 	}
+
+	void SetGameMode(ARandomTileMapTest* _GameMode)
+	{
+		RandomTileGameMode = _GameMode;
+	}
+
+private:
+	ARandomTileMapTest* RandomTileGameMode = nullptr;
+
 };
 
 ARandomTileMapTest::ARandomTileMapTest()
+	: dungeonMap(DUNGEON_HEIGHT, std::vector<char>(DUNGEON_WIDTH, ' '))
 {
 	// 레벨마다 해주셔야 합니다.
 	// 이걸 UI공유할건지 
@@ -441,381 +501,400 @@ void ARandomTileMapTest::LevelChangeStart()
 			TileMapWindow = UEngineGUI::CreateGUIWindow<UTileMapWindow>("TileMapWindow");
 		}
 
+		TileMapWindow->SetGameMode(this);
+
 		TileMapWindow->SetActive(true);
 		TileMapWindow->TileMapRenderer = TileMapRenderer.get();
 	}
 
 }
 
-
-ARandomTileMapTest::BSPNode::BSPNode()
+void ARandomTileMapTest::drawRoom(const Rect& room)
 {
+	// 테두리 및 모서리를 그리기
+	// 모서리: 4개 꼭짓점 / 벽: 테두리 / 내부: 바닥
+	int x1 = room.x;
+	int y1 = room.y;
+	int x2 = room.x + room.width - 1;
+	int y2 = room.y + room.height - 1;
+
+	// 모서리 표시(순서: 좌상단->우상단->좌하단->우하단)
+	dungeonMap[y1][x1] = 'A';
+	dungeonMap[y1][x2] = 'B';
+	dungeonMap[y2][x1] = 'C';
+	dungeonMap[y2][x2] = 'E';
+
+	// 상하벽
+	for (int x = x1 + 1; x < x2; ++x) {
+		dungeonMap[y1][x] = '#';
+		dungeonMap[y2][x] = '#';
+	}
+	// 좌우벽
+	for (int y = y1 + 1; y < y2; ++y) {
+		dungeonMap[y][x1] = '#';
+		dungeonMap[y][x2] = '#';
+	}
+	// 내부 바닥
+	for (int y = y1 + 1; y < y2; ++y) {
+		for (int x = x1 + 1; x < x2; ++x) {
+			dungeonMap[y][x] = '.';
+		}
+	}
 }
 
-ARandomTileMapTest::BSPNode::BSPNode(int _X, int _Y, int _Width, int _Height, int _MinRoomSize)
-	: X(_X), Y(_Y), Width(_Width), Height(_Height), MinRoomSize(_MinRoomSize)
+void ARandomTileMapTest::connectRooms(const Rect& origin, const Rect& newRoom)
 {
-}
+	// 두 사각형 간 가장 가까운 두 변을 찾아 그 중 한 지점을 랜덤으로 선택.
+	// 여기서는 단순하게 '가장 가까운 수평 or 수직 변'을 판단해서 처리 (실무에선 거리 계산을 더 정교화 가능)
 
-ARandomTileMapTest::BSPNode::~BSPNode()
-{
-}
+	// origin방의 중심
+	Point originCenter{
+		origin.x + origin.width / 2,
+		origin.y + origin.height / 2
+	};
+	// newRoom방의 중심
+	Point newCenter{
+		newRoom.x + newRoom.width / 2,
+		newRoom.y + newRoom.height / 2
+	};
 
-bool ARandomTileMapTest::BSPNode::Split()
-{
-	if (false == IsLeaf())
-	{
-		return false;
-	}
+	HallwayInfo info;
+	// 가까운 축을 기준으로 복도를 연결 (x 차이가 크면 수평 연결, y 차이가 크면 수직 연결)
+	int dx = newCenter.x - originCenter.x;
+	int dy = newCenter.y - originCenter.y;
 
-	bool SplitVertically = (Random.RandomInt(0, 1) == 1);
-
-	int MaxSplit = 0;
-
-	if (true == SplitVertically)
-	{
-		MaxSplit = Width;
-	}
-	else
-	{
-		MaxSplit = Height;
-	}
-	
-	// 최소 방 크기를 감안하여, 이 구역을 분할할 수 있는지 확인
-	if (MaxSplit <= MinRoomSize * 2)
-	{
-		return false; // 분할 불가
-	}
-
-	// 분할 위치를 랜덤으로 결정
-	int SplitPos = Random.RandomInt(MinRoomSize, MaxSplit - MinRoomSize);
-
-	if (SplitVertically)
-	{
-		// 수직 분할
-		Left = new BSPNode(X, Y, SplitPos, Height, MinRoomSize);
-		Right = new BSPNode(X + SplitPos, Y, Width - SplitPos, Height, MinRoomSize);
+	if (std::abs(dx) > std::abs(dy)) {
+		// 수평 연결
+		info.from = { (dx > 0 ? origin.x + origin.width - 2 : origin.x + 1),
+					  originCenter.y };
+		info.to = { (dx > 0 ? newRoom.x + 1 : newRoom.x + newRoom.width - 2),
+					  newCenter.y };
 	}
 	else {
-		// 수평 분할
-		Left = new BSPNode(X, Y, Width, SplitPos, MinRoomSize);
-		Right = new BSPNode(X, Y + SplitPos, Width, Height - SplitPos, MinRoomSize);
+		// 수직 연결
+		info.from = { originCenter.x,
+					  (dy > 0 ? origin.y + origin.height - 2 : origin.y + 1) };
+		info.to = { newCenter.x,
+					  (dy > 0 ? newRoom.y + 1 : newRoom.y + newRoom.height - 2) };
+	}
+	hallwayList.push_back(info);
+}
+
+std::vector<ARandomTileMapTest::Rect> ARandomTileMapTest::subdivide(const Rect& area, const Rect& placedRoom)
+{
+	std::vector<Rect> result;
+
+	int x1 = area.x;
+	int y1 = area.y;
+	int x2 = area.x + area.width;
+	int y2 = area.y + area.height;
+
+	int rx1 = placedRoom.x;
+	int ry1 = placedRoom.y;
+	int rx2 = placedRoom.x + placedRoom.width;
+	int ry2 = placedRoom.y + placedRoom.height;
+
+	// 방을 기준으로 4개 영역 계산 (위, 아래, 왼쪽, 오른쪽)
+	// 단, 각 영역에 최소한 1타일 이상의 공간이 있어야 유효하게 취급
+	// 영역 사이에 2타일 간격을 둬서 방끼리 붙지 않도록 함
+	// Top
+	if (ry1 - y1 > 0) {
+		Rect topRect{
+			x1 + 1,  // 전체 테두리 고려
+			y1 + 1,
+			area.width - 2,
+			(ry1 - y1) - 1
+		};
+		result.push_back(topRect);
+	}
+	// Bottom
+	if (y2 - ry2 > 0) {
+		Rect bottomRect{
+			x1 + 1,
+			ry2,
+			area.width - 2,
+			(y2 - ry2) - 1
+		};
+		result.push_back(bottomRect);
+	}
+	// Left
+	if (rx1 - x1 > 0) {
+		Rect leftRect{
+			x1 + 1,
+			ry1,
+			(rx1 - x1) - 1,
+			placedRoom.height
+		};
+		result.push_back(leftRect);
+	}
+	// Right
+	if (x2 - rx2 > 0) {
+		Rect rightRect{
+			rx2,
+			ry1,
+			(x2 - rx2) - 1,
+			placedRoom.height
+		};
+		result.push_back(rightRect);
 	}
 
-	return true;
+	return result;
 }
 
-void ARandomTileMapTest::BSPNode::CreateRoom()
+void ARandomTileMapTest::createRoom(const Rect& area, Rect* originatingRoom, bool isFirstRoom, bool forceLargeSetPiece)
 {
-	if (false == IsLeaf())
-	{
-		return; // leaf 노드가 아니면 방 생성 불가
+	// 영역이 너무 작으면 탈출
+	if (!area.isValid()) return;
+
+	// 방 크기를 랜덤 결정 (만약 첫 번째 방에 SetPiece를 배치해야 한다면 강제 사이즈 조절)
+	int roomW = (forceLargeSetPiece) ? std::max<int>(8, std::min<int>(area.width - 1, MAX_ROOM_SIZE1))
+		: Random.RandomInt(MIN_ROOM_SIZE1, std::min<int>(area.width - 1, MAX_ROOM_SIZE1));
+	int roomH = (forceLargeSetPiece) ? std::max<int>(8, std::min<int>(area.height - 1, MAX_ROOM_SIZE1))
+		: Random.RandomInt(MIN_ROOM_SIZE1, std::min<int>(area.height - 1, MAX_ROOM_SIZE1));
+
+	// 방을 놓을 위치를 랜덤 결정
+	int posX = Random.RandomInt(area.x + 1, area.x + area.width - roomW - 1);
+	int posY = Random.RandomInt(area.y + 1, area.y + area.height - roomH - 1);
+
+	Rect newRoom{ posX, posY, roomW, roomH };
+
+	// 방을 지도에 그린다
+	drawRoom(newRoom);
+
+	// 기존 방이 있으면 복도 연결정보를 저장
+	if (originatingRoom) {
+		connectRooms(*originatingRoom, newRoom);
 	}
 
-	// 구역 안에 방을 만들 만한 여유가 없다면 스킵
-	// (방 최소 크기 + 가장자리 margin 고려)
-	int Margin = 1;
-	int RoomMaxW = Width - 2 * Margin;
-	int RoomMaxH = Height - 2 * Margin;
-	if (RoomMaxW < MinRoomSize || RoomMaxH < MinRoomSize)
-	{
-		return;
-	}
-
-	// 방 크기 랜덤 결정
-	int W = Random.RandomInt(MinRoomSize, RoomMaxW);
-	int H = Random.RandomInt(MinRoomSize, RoomMaxH);
-
-	// 방 위치도 구역 내부에서 랜덤 배치
-	int RX = X + Random.RandomInt(Margin, Width - W - Margin);
-	int RY = Y + Random.RandomInt(Margin, Height - H - Margin);
-
-	RoomX = RX;
-	RoomY = RY;
-	RoomW = W;
-	RoomH = H;
-}
-
-void ARandomTileMapTest::BSPNode::DeleteBSPTree(BSPNode* Node)
-{
-	if (!Node)
-	{
-		return;
-	}
-	DeleteBSPTree(Node->Left);
-	DeleteBSPTree(Node->Right);
-
-	delete Node;
-}
-
-
-
-
-ARandomTileMapTest::DungeonGenerator::DungeonGenerator()
-{
-}
-
-ARandomTileMapTest::DungeonGenerator::DungeonGenerator(int _Width, int _Height, int _MinRoom, int _Splits)
-	: MapWidth(_Width), MapHeight(_Height), MinRoomSize(_MinRoom), MaxSplits(_Splits)
-{
-	// 맵 2D 배열 초기화(벽=1)
-	MapData.resize(MapHeight, std::vector<int>(MapWidth, 1));
-	// 루트 노드 생성
-	Root = new BSPNode(0, 0, MapWidth, MapHeight, MinRoomSize);
-}
-
-ARandomTileMapTest::DungeonGenerator::~DungeonGenerator()
-{
-}
-
-void ARandomTileMapTest::DungeonGenerator::Generator()
-{
-	BspPartition();
-	CreateRooms();
-	ConnectRooms();
-	FillMapData();
-	//EnsureConnectivity();
-}
-
-void ARandomTileMapTest::DungeonGenerator::PrintMap(UTileMapRenderer* _TileMapRenderer)
-{
-	for (int y = 0; y < MapHeight; ++y)
-	{
-		for (int x = 0; x < MapWidth; ++x)
-		{
-			if (MapData[y][x] == 0)
-			{
-				_TileMapRenderer->SetTile(x, y, 0);
-			}
-			else
-			{
-				_TileMapRenderer->SetTile(x, y, 1);
-			}
+	// 방을 기준으로 남은 영역을 4개로 나누고
+	auto subAreas = subdivide(area, newRoom);
+	for (auto& sub : subAreas) {
+		// 각 영역을 2타일 정도 축소(벽 간격)하여, 재귀적으로 다른 방을 만들도록
+		if (sub.isValid()) {
+			createRoom(sub, &newRoom, false, false);
 		}
 	}
 }
 
-void ARandomTileMapTest::DungeonGenerator::BspPartition()
+void ARandomTileMapTest::drawHallways()
 {
-	std::vector<BSPNode*> Nodes;
-	Nodes.push_back(Root);
+	for (const auto& hallway : hallwayList) {
+		Point from = hallway.from;
+		Point to = hallway.to;
 
-	for (int i = 0; i < MaxSplits; ++i)
-	{
-		bool DidSplit = false;
-		std::vector<BSPNode*> NewNodes;
-		for (auto Node : Nodes)
-		{
-			if (Node->IsLeaf() && Node->Split())
-			{
-				// 분할 성공 -> 자식 노드 2개
-				NewNodes.push_back(Node->Left);
-				NewNodes.push_back(Node->Right);
-				DidSplit = true;
+		// 복도 폭(width)을 1~3 사이로 랜덤 결정
+		int hallwayWidth = Random.RandomInt(1, 3);
+
+		// Bresenham 혹은 단순 단계적 연결 로직으로 라인을 그린다.
+		// 여기서는 단순하게 x->y 방향을 순차적으로 그리는 접근을 시연.
+
+		// x 혹은 y 방향 순서 결정
+		int stepX = (from.x < to.x) ? 1 : -1;
+		int stepY = (from.y < to.y) ? 1 : -1;
+
+		// 수평 먼저 이동, 그 다음 수직 이동 (혹은 그 반대)
+		// 실무에서는 좀 더 랜덤성을 주어 Zigzag 형태로 그릴 수도 있음
+		// 1) x 축을 from.x에서 to.x까지 이동
+		for (int x = from.x; x != to.x; x += stepX) {
+			for (int w = 0; w < hallwayWidth; ++w) {
+				int drawY = from.y + w;
+				if (drawY >= 0 && drawY < DUNGEON_HEIGHT && x >= 0 && x < DUNGEON_WIDTH) {
+					// 벽('#')를 만나면 문('D')로, 바닥(' ')이면 복도('.')로
+					if (dungeonMap[drawY][x] == '#') {
+						// 문은 이미 인접 문이 있는지 체크
+						bool canPlaceDoor = true;
+						for (int dy = -1; dy <= 1; ++dy) {
+							for (int dx2 = -1; dx2 <= 1; ++dx2) {
+								int ny = drawY + dy;
+								int nx = x + dx2;
+								if (ny >= 0 && ny < DUNGEON_HEIGHT && nx >= 0 && nx < DUNGEON_WIDTH) {
+									if (dungeonMap[ny][nx] == 'D') {
+										canPlaceDoor = false;
+										break;
+									}
+								}
+							}
+							if (!canPlaceDoor) break;
+						}
+						dungeonMap[drawY][x] = (canPlaceDoor ? 'D2' : '.');
+					}
+					else if (dungeonMap[drawY][x] == ' ') {
+						dungeonMap[drawY][x] = '.';
+					}
+				}
 			}
-			else
-			{
-				NewNodes.push_back(Node);
-			}
 		}
-
-		Nodes = NewNodes;
-		// 이번 루프에서 분할이 전혀 일어나지 않았다면 종료
-		if (false == DidSplit)
-		{
-			break;
-		}
-	}
-
-	// leaf 노드만 저장
-	LeafNodes.clear();
-	for (auto n : Nodes) {
-		if (n->IsLeaf()) {
-			LeafNodes.push_back(n);
-		}
-	}
-
-}
-
-void ARandomTileMapTest::DungeonGenerator::ConnectRooms()
-{
-	// BFS나 큐를 통해 트리를 순회하면서, 
-	// parent->left, parent->right 노드가 있을 때 방 연결
-	std::queue<BSPNode*> q;
-	q.push(Root);
-
-	while (!q.empty())
-	{
-		BSPNode* Node = q.front();
-		q.pop();
-
-		BSPNode* Left = Node->Left;
-		BSPNode* Right = Node->Right;
-		if (Left && Right) {
-			// 두 자식 노드가 각각 방을 가지고 있다면 복도 연결
-			auto CenterA = GetRoomCenter(Left);
-			auto CenterB = GetRoomCenter(Right);
-
-			if (CenterA.first >= 0 && CenterB.first >= 0) {
-				CreateCorridor(CenterA, CenterB);
-			}
-
-			q.push(Left);
-			q.push(Right);
-		}
-	}
-}
-
-void ARandomTileMapTest::DungeonGenerator::CreateCorridor(std::pair<int, int> cA, std::pair<int, int> cB)
-{
-	int x1 = cA.first;
-	int y1 = cA.second;
-	int x2 = cB.first;
-	int y2 = cB.second;
-
-	// 가로로 먼저 파고, 세로로 판다 (ㄱ자)
-	if (x2 < x1) {
-		std::swap(x1, x2);
-		std::swap(y1, y2);
-	}
-
-	// 수평 복도
-	for (int x = x1; x <= x2; x++)
-	{
-		Dig(x, y1);
-	}
-
-	// 수직 복도
-	if (y2 < y1)
-	{
-		std::swap(y1, y2);
-	}
-	for (int y = y1; y <= y2; y++)
-	{
-		Dig(x2, y);
-	}
-}
-
-void ARandomTileMapTest::DungeonGenerator::FillMapData()
-{
-	for (auto leaf : LeafNodes)
-	{
-		if (leaf->RoomX >= 0)
-		{
-			int rx = leaf->RoomX;
-			int ry = leaf->RoomY;
-			int rw = leaf->RoomW;
-			int rh = leaf->RoomH;
-			for (int y = ry; y < ry + rh; ++y)
-			{
-				for (int x = rx; x < rx + rw; ++x)
-				{
-					Dig(x, y);
+		// 2) y 축을 from.y에서 to.y까지 이동
+		for (int y = from.y; y != to.y; y += stepY) {
+			for (int w = 0; w < hallwayWidth; ++w) {
+				int drawX = to.x + w * stepX;
+				if (y >= 0 && y < DUNGEON_HEIGHT && drawX >= 0 && drawX < DUNGEON_WIDTH) {
+					if (dungeonMap[y][drawX] == '#') {
+						bool canPlaceDoor = true;
+						for (int dy = -1; dy <= 1; ++dy) {
+							for (int dx2 = -1; dx2 <= 1; ++dx2) {
+								int ny = y + dy;
+								int nx = drawX + dx2;
+								if (ny >= 0 && ny < DUNGEON_HEIGHT && nx >= 0 && nx < DUNGEON_WIDTH) {
+									if (dungeonMap[ny][nx] == 'D') {
+										canPlaceDoor = false;
+										break;
+									}
+								}
+							}
+							if (!canPlaceDoor) break;
+						}
+						dungeonMap[y][drawX] = (canPlaceDoor ? 'D1' : '.');
+					}
+					else if (dungeonMap[y][drawX] == ' ') {
+						dungeonMap[y][drawX] = '.';
+					}
 				}
 			}
 		}
 	}
 }
 
-void ARandomTileMapTest::DungeonGenerator::Dig(int _X, int _Y)
+void ARandomTileMapTest::cleanupDungeon()
 {
-	if (_X >= 0 && _X < MapWidth && _Y >= 0 && _Y < MapHeight)
-	{
-		MapData[_Y][_X] = 0;
-	}
-}
-
-std::pair<int, int> ARandomTileMapTest::DungeonGenerator::GetRoomCenter(BSPNode* _Node)
-{
-	if (_Node->RoomW > 0 && _Node->RoomH > 0)
-	{
-		int cx = _Node->RoomX + _Node->RoomW / 2;
-		int cy = _Node->RoomY + _Node->RoomH / 2;
-		return std::make_pair(cx, cy);
-	}
-	return std::make_pair(-1, -1);
-}
-
-void ARandomTileMapTest::DungeonGenerator::EnsureConnectivity()
-{
-	// 첫 번째로 발견되는 바닥(0)을 시작점으로 BFS
-	std::pair<int, int> start(-1, -1);
-	for (int y = 0; y < MapHeight; ++y)
-	{
-		for (int x = 0; x < MapWidth; ++x)
-		{
-			if (MapData[y][x] == 0)
-			{
-				start = { x, y };
-				break;
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
+		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
+			// Corner Tiles
+			if (dungeonMap[y][x] == 'A' || dungeonMap[y][x] == 'B' ||
+				dungeonMap[y][x] == 'C' || dungeonMap[y][x] == 'E') {
+				dungeonMap[y][x] = '#';
 			}
 		}
-		if (start.first >= 0) break;
 	}
 
-	if (start.first < 0)
-	{
-		// 바닥이 전혀 없으면 그냥 종료
-		//std::cout << "[INFO] 바닥이 하나도 없습니다.\n";
-		return;
-	}
-
-	// BFS로 방문
-	std::vector<std::vector<bool>> visited(MapHeight, std::vector<bool>(MapWidth, false));
-	std::queue<std::pair<int, int>> q;
-	q.push(start);
-	visited[start.second][start.first] = true;
-
-	const std::vector<std::pair<int, int>> dirs = { {1,0},{-1,0},{0,1},{0,-1} };
-	while (!q.empty())
-	{
-		auto [cx, cy] = q.front();
-		q.pop();
-
-		for (auto& d : dirs)
-		{
-			int nx = cx + d.first;
-			int ny = cy + d.second;
-			if (nx >= 0 && nx < MapWidth && ny >= 0 && ny < MapHeight)
-			{
-				if (!visited[ny][nx] && MapData[ny][nx] == 0)
-				{
-					visited[ny][nx] = true;
-					q.push({ nx, ny });
+	// 복도, 방 사이 공간을 정리. '.' 주위에 공백(' ')이 있으면 벽('#')으로 치환
+	for (int y = 1; y < DUNGEON_HEIGHT - 1; ++y) {
+		for (int x = 1; x < DUNGEON_WIDTH - 1; ++x) {
+			if (dungeonMap[y][x] == ' ') {
+				// 주변에 '.'이 하나라도 있으면 벽으로 만든다
+				bool nearFloor = false;
+				for (int dy = -1; dy <= 1; ++dy) {
+					for (int dx2 = -1; dx2 <= 1; ++dx2) {
+						if (dungeonMap[y + dy][x + dx2] == '.' || dungeonMap[y + dy][x + dx2] == 'D') {
+							nearFloor = true;
+							break;
+						}
+					}
+					if (nearFloor) break;
+				}
+				if (nearFloor) {
+					dungeonMap[y][x] = '#';
 				}
 			}
 		}
 	}
 
-	// 모든 바닥 좌표를 찾고, visited 되지 않은 곳이 있는지 확인
-	std::vector<std::pair<int, int>> allFloor;
-	for (int y = 0; y < MapHeight; ++y)
-	{
-		for (int x = 0; x < MapWidth; ++x)
-		{
-			if (MapData[y][x] == 0) {
-				allFloor.push_back({ x, y });
-			}
-		}
-	}
-
-	std::vector<std::pair<int, int>> notConnected;
-	for (auto& pos : allFloor) {
-		if (!visited[pos.second][pos.first])
-		{
-			notConnected.push_back(pos);
-		}
-	}
-
-	if (!notConnected.empty())
-	{
-		//std::cout << "[INFO] 연결되지 않은 구역이 존재합니다. (개수: "	<< notConnected.size() << ")\n";
-		// 필요 시, 추가 복도 생성이나 다른 후처리 로직을 여기에 구현 가능
-
-	}
-	else
-	{
-		//std::cout << "[INFO] 모든 바닥이 연결되어 있습니다.\n";
-	}
+	// 마지막으로 ' ' (아무것도 없는 공간)은 '.'으로 바꾸거나 그대로 두는 등 원하는 룰 적용 가능
+	// 여기서는 그대로 두어 가시적으로 "외부"를 표현함
 }
 
+bool ARandomTileMapTest::fillVoidAreas()
+{
+	int filledCountBefore = 0;
+	// 현재까지 '.'인 타일 수를 센다
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
+		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
+			if (dungeonMap[y][x] == '.') filledCountBefore++;
+		}
+	}
+
+	// 각 "빈 공간(' ')"을 BFS/DFS로 탐색하여, 해당 구역이 닫혀있는(모든 경계가 벽)지 확인
+	// 그리고 그 영역의 사각형 형태를 만들 수 있는지(5×5 이상 12×14 이하)를 랜덤하게 시도
+	// 여기서는 간단히 빈 공간을 직접 스캔하여 적절히 큰 직사각형을 찾는 방식을 시연
+
+	bool didFill = false;
+	for (int attempt = 0; attempt < 10; ++attempt) {
+		int w = Random.RandomInt(FILL_RECT_MIN_W, FILL_RECT_MAX_W);
+		int h = Random.RandomInt(FILL_RECT_MIN_H, FILL_RECT_MAX_H);
+		int startX = Random.RandomInt(1, DUNGEON_WIDTH - w - 1);
+		int startY = Random.RandomInt(1, DUNGEON_HEIGHT - h - 1);
+
+		// 해당 영역이 전부 ' '이거나 '#'으로 둘러싸여 있어야 바닥으로 채울 수 있다 (간단한 체크)
+		bool canFill = true;
+		for (int y = startY; y < startY + h; ++y) {
+			for (int x = startX; x < startX + w; ++x) {
+				if (dungeonMap[y][x] != ' ') {
+					canFill = false;
+					break;
+				}
+			}
+			if (!canFill) break;
+		}
+		// 채우기
+		if (canFill) {
+			// 영역 밖 테두리가 전부 '#' 인지 대략적 체크 (실무에서는 정확히 폐쇄 공간인지 BFS로 확인하는 편이 좋음)
+			for (int x = startX; x < startX + w; ++x) {
+				if (dungeonMap[startY - 1][x] != '#' || dungeonMap[startY + h][x] != '#') {
+					canFill = false; break;
+				}
+			}
+			for (int y = startY; y < startY + h; ++y) {
+				if (dungeonMap[y][startX - 1] != '#' || dungeonMap[y][startX + w] != '#') {
+					canFill = false; break;
+				}
+			}
+		}
+		if (canFill) {
+			for (int y = startY; y < startY + h; ++y) {
+				for (int x = startX; x < startX + w; ++x) {
+					dungeonMap[y][x] = '.';
+				}
+			}
+			didFill = true;
+		}
+	}
+
+	int filledCountAfter = 0;
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
+		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
+			if (dungeonMap[y][x] == '.') filledCountAfter++;
+		}
+	}
+
+	// 700개 이상의 '.'을 확보했는지 확인
+	return (filledCountAfter >= FLOOR_THRESHOLD);
+}
+
+bool ARandomTileMapTest::generateDungeon()
+{
+	// 맵 초기화
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
+		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
+			
+			dungeonMap[y][x] = ' ';
+		}
+	}
+	hallwayList.clear();
+
+	// 전체 영역에서 테두리 1칸을 제외한 내부를 대상으로 방 생성
+	Rect fullArea{ BORDER_SIZE, BORDER_SIZE,
+					DUNGEON_WIDTH - BORDER_SIZE * 2,
+					DUNGEON_HEIGHT - BORDER_SIZE * 2 };
+
+	// 첫 방은 SetPiece 방일 수도 있음 (강제로 좀 크게)
+	bool forceLargeSetPiece = true;
+	createRoom(fullArea, nullptr, true, forceLargeSetPiece);
+
+	// 복도 그리기
+	drawHallways();
+
+	// Cleanup
+	cleanupDungeon();
+
+	// Fill Voids
+	int tries = 0;
+	while (tries < MAX_FILL_TRIES) {
+		if (fillVoidAreas()) {
+			// 목표에 도달
+			return true;
+		}
+		tries++;
+	}
+	// 목표('.' 700개 이상)에 못 미치면 실패
+	return false;
+}
