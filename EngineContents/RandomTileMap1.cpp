@@ -97,7 +97,7 @@ public:
 			if (ImGui::Button("RandomMap Create"))
 			{
 				for (int i = 0; i < maxDungeonGenerations; ++i) {
-					if (RandomTileGameMode->generateDungeon()) {
+					if (RandomTileGameMode->GenerateDungeon()) {
 						//std::cout << "Dungeon generation succeeded on attempt: " << i + 1 << "\n";
 						break;
 					}
@@ -110,22 +110,22 @@ public:
 				{
 					for (int x = 0; x < DUNGEON_WIDTH; ++x)
 					{
-						if ('#' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						if ('#' == static_cast<int>(RandomTileGameMode->DungeonMap[y][x]))
 						{
 							TileMapRenderer->SetTile(x, y, 0);
 						}
 
-						if ('.' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						if ('.' == static_cast<int>(RandomTileGameMode->DungeonMap[y][x]))
 						{
 							TileMapRenderer->SetTile(x, y, 1);
 						}
 
-						if ('1' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						if ('1' == static_cast<int>(RandomTileGameMode->DungeonMap[y][x]))
 						{
 							TileMapRenderer->SetTile(x, y, 2);
 						}
 
-						if ('2' == static_cast<int>(RandomTileGameMode->dungeonMap[y][x]))
+						if ('2' == static_cast<int>(RandomTileGameMode->DungeonMap[y][x]))
 						{
 							TileMapRenderer->SetTile(x, y, 3);
 						}
@@ -153,7 +153,7 @@ public:
 
 			if (ImGui::Button("DrawHallways"))
 			{
-				RandomTileGameMode->drawHallways();
+				RandomTileGameMode->DrawHallways();
 			}
 
 			if (ImGui::Button("TileRemove"))
@@ -441,7 +441,7 @@ private:
 };
 
 ARandomTileMapTest::ARandomTileMapTest()
-	: dungeonMap(DUNGEON_HEIGHT, std::vector<char>(DUNGEON_WIDTH, ' '))
+	: DungeonMap(DUNGEON_HEIGHT, std::vector<char>(DUNGEON_WIDTH, ' '))
 {
 	// 레벨마다 해주셔야 합니다.
 	// 이걸 UI공유할건지 
@@ -463,6 +463,8 @@ ARandomTileMapTest::ARandomTileMapTest()
 	std::shared_ptr<ACameraActor> Camera = GetWorld()->GetMainCamera();
 	Camera->SetActorLocation({ 0.0f, 0.0f, -1000.0f, 1.0f });
 	Camera->GetCameraComponent()->SetZSort(0, true);
+
+	RoomList.reserve(20);
 
 }
 
@@ -509,245 +511,299 @@ void ARandomTileMapTest::LevelChangeStart()
 
 }
 
-void ARandomTileMapTest::drawRoom(const Rect& room)
+void ARandomTileMapTest::DrawRoom(const Rect& _Room)
 {
 	// 테두리 및 모서리를 그리기
 	// 모서리: 4개 꼭짓점 / 벽: 테두리 / 내부: 바닥
-	int x1 = room.x;
-	int y1 = room.y;
-	int x2 = room.x + room.width - 1;
-	int y2 = room.y + room.height - 1;
+	int x1 = _Room.X;
+	int y1 = _Room.Y;
+	int x2 = _Room.X + _Room.Width - 1;
+	int y2 = _Room.Y + _Room.Height - 1;
+
+	if (0 > x1 || 0 > y1 || 40 <= x2 || 40 <= y2 )
+	{
+		return;
+	}
+
+	++RoomCount;
+
+	RoomData NewRoomData{ _Room, RoomCount };
+	RoomList.push_back(NewRoomData);
 
 	// 모서리 표시(순서: 좌상단->우상단->좌하단->우하단)
-	dungeonMap[y1][x1] = 'A';
-	dungeonMap[y1][x2] = 'B';
-	dungeonMap[y2][x1] = 'C';
-	dungeonMap[y2][x2] = 'E';
+	DungeonMap[y1][x1] = 'A';
+	DungeonMap[y1][x2] = 'B';
+	DungeonMap[y2][x1] = 'C';
+	DungeonMap[y2][x2] = 'E';
 
 	// 상하벽
-	for (int x = x1 + 1; x < x2; ++x) {
-		dungeonMap[y1][x] = '#';
-		dungeonMap[y2][x] = '#';
+	for (int x = x1 + 1; x < x2; ++x)
+	{
+		DungeonMap[y1][x] = '#';
+		DungeonMap[y2][x] = '#';
 	}
 	// 좌우벽
-	for (int y = y1 + 1; y < y2; ++y) {
-		dungeonMap[y][x1] = '#';
-		dungeonMap[y][x2] = '#';
+	for (int y = y1 + 1; y < y2; ++y)
+	{
+		DungeonMap[y][x1] = '#';
+		DungeonMap[y][x2] = '#';
 	}
 	// 내부 바닥
-	for (int y = y1 + 1; y < y2; ++y) {
-		for (int x = x1 + 1; x < x2; ++x) {
-			dungeonMap[y][x] = '.';
+	for (int y = y1 + 1; y < y2; ++y)
+	{
+		for (int x = x1 + 1; x < x2; ++x)
+		{
+			DungeonMap[y][x] = '.';
 		}
 	}
 }
 
-void ARandomTileMapTest::connectRooms(const Rect& origin, const Rect& newRoom)
+void ARandomTileMapTest::ConnectRooms(const Rect& _Origin, const Rect& _NewRoom)
 {
 	// 두 사각형 간 가장 가까운 두 변을 찾아 그 중 한 지점을 랜덤으로 선택.
 	// 여기서는 단순하게 '가장 가까운 수평 or 수직 변'을 판단해서 처리 (실무에선 거리 계산을 더 정교화 가능)
 
 	// origin방의 중심
-	Point originCenter{
-		origin.x + origin.width / 2,
-		origin.y + origin.height / 2
+	Point OriginCenter
+	{
+		_Origin.X + _Origin.Width / 2,
+		_Origin.Y + _Origin.Height / 2
 	};
 	// newRoom방의 중심
-	Point newCenter{
-		newRoom.x + newRoom.width / 2,
-		newRoom.y + newRoom.height / 2
+	Point NewCenter
+	{
+		_NewRoom.X + _NewRoom.Width / 2,
+		_NewRoom.Y + _NewRoom.Height / 2
 	};
 
-	HallwayInfo info;
+	HallwayInfo Info;
 	// 가까운 축을 기준으로 복도를 연결 (x 차이가 크면 수평 연결, y 차이가 크면 수직 연결)
-	int dx = newCenter.x - originCenter.x;
-	int dy = newCenter.y - originCenter.y;
+	int dx = NewCenter.X - OriginCenter.X;
+	int dy = NewCenter.Y - OriginCenter.Y;
 
 	if (std::abs(dx) > std::abs(dy)) {
 		// 수평 연결
-		info.from = { (dx > 0 ? origin.x + origin.width - 2 : origin.x + 1),
-					  originCenter.y };
-		info.to = { (dx > 0 ? newRoom.x + 1 : newRoom.x + newRoom.width - 2),
-					  newCenter.y };
+		Info.From = { (dx > 0 ? _Origin.X + _Origin.Width - 2 : _Origin.X + 1),
+					  OriginCenter.Y };
+		Info.To = { (dx > 0 ? _NewRoom.X + 1 : _NewRoom.X + _NewRoom.Width - 2),
+					  NewCenter.Y };
+		Info.Size = dx > 0 ? _Origin.Width : _NewRoom.Width;
 	}
 	else {
 		// 수직 연결
-		info.from = { originCenter.x,
-					  (dy > 0 ? origin.y + origin.height - 2 : origin.y + 1) };
-		info.to = { newCenter.x,
-					  (dy > 0 ? newRoom.y + 1 : newRoom.y + newRoom.height - 2) };
+		Info.From = { OriginCenter.X,
+					  (dy > 0 ? _Origin.Y + _Origin.Height - 2 : _Origin.Y + 1) };
+		Info.To = { NewCenter.X,
+					  (dy > 0 ? _NewRoom.Y + 1 : _NewRoom.Y + _NewRoom.Height - 2) };
+		Info.Size = dy > 0 ? _Origin.Height : _NewRoom.Height;
 	}
-	hallwayList.push_back(info);
+	HallwayList.push_back(Info);
 }
 
-std::vector<ARandomTileMapTest::Rect> ARandomTileMapTest::subdivide(const Rect& area, const Rect& placedRoom)
+std::vector<ARandomTileMapTest::Rect> ARandomTileMapTest::Subdivide(const Rect& _Area, const Rect& _PlacedRoom)
 {
-	std::vector<Rect> result;
+	std::vector<Rect> Result;
 
-	int x1 = area.x;
-	int y1 = area.y;
-	int x2 = area.x + area.width;
-	int y2 = area.y + area.height;
+	int x1 = _Area.X;
+	int y1 = _Area.Y;
+	int x2 = _Area.X + _Area.Width;
+	int y2 = _Area.Y + _Area.Height;
 
-	int rx1 = placedRoom.x;
-	int ry1 = placedRoom.y;
-	int rx2 = placedRoom.x + placedRoom.width;
-	int ry2 = placedRoom.y + placedRoom.height;
+	int rx1 = _PlacedRoom.X;
+	int ry1 = _PlacedRoom.Y;
+	int rx2 = _PlacedRoom.X + _PlacedRoom.Width;
+	int ry2 = _PlacedRoom.Y + _PlacedRoom.Height;
 
 	// 방을 기준으로 4개 영역 계산 (위, 아래, 왼쪽, 오른쪽)
 	// 단, 각 영역에 최소한 1타일 이상의 공간이 있어야 유효하게 취급
 	// 영역 사이에 2타일 간격을 둬서 방끼리 붙지 않도록 함
 	// Top
-	if (ry1 - y1 > 0) {
-		Rect topRect{
+	if (ry1 - y1 > 0)
+	{
+		Rect TopRect
+		{
 			x1 + 1,  // 전체 테두리 고려
 			y1 + 1,
-			area.width - 2,
+			_Area.Width - 2,
 			(ry1 - y1) - 1
 		};
-		result.push_back(topRect);
+		Result.push_back(TopRect);
 	}
 	// Bottom
-	if (y2 - ry2 > 0) {
-		Rect bottomRect{
+	if (y2 - ry2 > 0)
+	{
+		Rect BottomRect
+		{
 			x1 + 1,
 			ry2,
-			area.width - 2,
+			_Area.Width - 2,
 			(y2 - ry2) - 1
 		};
-		result.push_back(bottomRect);
+		Result.push_back(BottomRect);
 	}
 	// Left
-	if (rx1 - x1 > 0) {
-		Rect leftRect{
+	if (rx1 - x1 > 0)
+	{
+		Rect LeftRect
+		{
 			x1 + 1,
 			ry1,
 			(rx1 - x1) - 1,
-			placedRoom.height
+			_PlacedRoom.Height
 		};
-		result.push_back(leftRect);
+		Result.push_back(LeftRect);
 	}
 	// Right
-	if (x2 - rx2 > 0) {
-		Rect rightRect{
+	if (x2 - rx2 > 0)
+	{
+		Rect RightRect
+		{
 			rx2,
 			ry1,
 			(x2 - rx2) - 1,
-			placedRoom.height
+			_PlacedRoom.Height
 		};
-		result.push_back(rightRect);
+		Result.push_back(RightRect);
 	}
 
-	return result;
+	return Result;
 }
 
-void ARandomTileMapTest::createRoom(const Rect& area, Rect* originatingRoom, bool isFirstRoom, bool forceLargeSetPiece)
+void ARandomTileMapTest::CreateRoom(const Rect& _Area, Rect* _OriginatingRoom, bool _IsFirstRoom, bool _ForceLargeSetPiece)
 {
 	// 영역이 너무 작으면 탈출
-	if (!area.isValid()) return;
+	if (!_Area.IsValid())
+	{
+		return;
+	}
 
 	// 방 크기를 랜덤 결정 (만약 첫 번째 방에 SetPiece를 배치해야 한다면 강제 사이즈 조절)
-	int roomW = (forceLargeSetPiece) ? std::max<int>(8, std::min<int>(area.width - 1, MAX_ROOM_SIZE1))
-		: Random.RandomInt(MIN_ROOM_SIZE1, std::min<int>(area.width - 1, MAX_ROOM_SIZE1));
-	int roomH = (forceLargeSetPiece) ? std::max<int>(8, std::min<int>(area.height - 1, MAX_ROOM_SIZE1))
-		: Random.RandomInt(MIN_ROOM_SIZE1, std::min<int>(area.height - 1, MAX_ROOM_SIZE1));
+	int RoomW = (_ForceLargeSetPiece) ? std::max<int>(8, std::min<int>(_Area.Width - 1, MAX_ROOM_SIZE1))
+		: Random.RandomInt(MIN_ROOM_SIZE1, std::min<int>(_Area.Width - 1, MAX_ROOM_SIZE1));
+	int RoomH = (_ForceLargeSetPiece) ? std::max<int>(8, std::min<int>(_Area.Height - 1, MAX_ROOM_SIZE1))
+		: Random.RandomInt(MIN_ROOM_SIZE1, std::min<int>(_Area.Height - 1, MAX_ROOM_SIZE1));
 
 	// 방을 놓을 위치를 랜덤 결정
-	int posX = Random.RandomInt(area.x + 1, area.x + area.width - roomW - 1);
-	int posY = Random.RandomInt(area.y + 1, area.y + area.height - roomH - 1);
+	int PosX = Random.RandomInt(_Area.X + 1, _Area.X + _Area.Width - RoomW - 1);
+	int PosY = Random.RandomInt(_Area.Y + 1, _Area.Y + _Area.Height - RoomH - 1);
 
-	Rect newRoom{ posX, posY, roomW, roomH };
+	Rect NewRoom{ PosX, PosY, RoomW, RoomH };
 
 	// 방을 지도에 그린다
-	drawRoom(newRoom);
-
+	DrawRoom(NewRoom);
+	
 	// 기존 방이 있으면 복도 연결정보를 저장
-	if (originatingRoom) {
-		connectRooms(*originatingRoom, newRoom);
+	if (_OriginatingRoom)
+	{
+		ConnectRooms(*_OriginatingRoom, NewRoom);
 	}
 
 	// 방을 기준으로 남은 영역을 4개로 나누고
-	auto subAreas = subdivide(area, newRoom);
-	for (auto& sub : subAreas) {
+	auto SubAreas = Subdivide(_Area, NewRoom);
+	for (auto& Sub : SubAreas)
+	{
 		// 각 영역을 2타일 정도 축소(벽 간격)하여, 재귀적으로 다른 방을 만들도록
-		if (sub.isValid()) {
-			createRoom(sub, &newRoom, false, false);
+		if (Sub.IsValid())
+		{
+			CreateRoom(Sub, &NewRoom, false, false);
 		}
 	}
 }
 
-void ARandomTileMapTest::drawHallways()
+void ARandomTileMapTest::DrawHallways()
 {
-	for (const auto& hallway : hallwayList) {
-		Point from = hallway.from;
-		Point to = hallway.to;
+	for (const auto& Hallway : HallwayList)
+	{
+		Point From = Hallway.From;
+		Point To = Hallway.To;
 
 		// 복도 폭(width)을 1~3 사이로 랜덤 결정
-		int hallwayWidth = Random.RandomInt(1, 3);
+		int HallwayWidth = /*Hallway.Size - 1;*/Random.RandomInt(1, 3);
 
 		// Bresenham 혹은 단순 단계적 연결 로직으로 라인을 그린다.
 		// 여기서는 단순하게 x->y 방향을 순차적으로 그리는 접근을 시연.
 
 		// x 혹은 y 방향 순서 결정
-		int stepX = (from.x < to.x) ? 1 : -1;
-		int stepY = (from.y < to.y) ? 1 : -1;
+		int StepX = (From.X < To.X) ? 1 : -1;
+		int StepY = (From.Y < To.Y) ? 1 : -1;
 
 		// 수평 먼저 이동, 그 다음 수직 이동 (혹은 그 반대)
 		// 실무에서는 좀 더 랜덤성을 주어 Zigzag 형태로 그릴 수도 있음
 		// 1) x 축을 from.x에서 to.x까지 이동
-		for (int x = from.x; x != to.x; x += stepX) {
-			for (int w = 0; w < hallwayWidth; ++w) {
-				int drawY = from.y + w;
-				if (drawY >= 0 && drawY < DUNGEON_HEIGHT && x >= 0 && x < DUNGEON_WIDTH) {
+		for (int x = From.X; x != To.X; x += StepX)
+		{
+			for (int w = 0; w < HallwayWidth; ++w)
+			{
+				int DrawY = From.Y + w;
+				if (DrawY >= 0 && DrawY < DUNGEON_HEIGHT && x >= 0 && x < DUNGEON_WIDTH)
+				{
 					// 벽('#')를 만나면 문('D')로, 바닥(' ')이면 복도('.')로
-					if (dungeonMap[drawY][x] == '#') {
+					if (DungeonMap[DrawY][x] == '#')
+					{
 						// 문은 이미 인접 문이 있는지 체크
-						bool canPlaceDoor = true;
-						for (int dy = -1; dy <= 1; ++dy) {
-							for (int dx2 = -1; dx2 <= 1; ++dx2) {
-								int ny = drawY + dy;
+						bool CanPlaceDoor = true;
+						for (int dy = -1; dy <= 1; ++dy)
+						{
+							for (int dx2 = -1; dx2 <= 1; ++dx2)
+							{
+								int ny = DrawY + dy;
 								int nx = x + dx2;
-								if (ny >= 0 && ny < DUNGEON_HEIGHT && nx >= 0 && nx < DUNGEON_WIDTH) {
-									if (dungeonMap[ny][nx] == 'D') {
-										canPlaceDoor = false;
+								if (ny >= 0 && ny < DUNGEON_HEIGHT && nx >= 0 && nx < DUNGEON_WIDTH)
+								{
+									if (DungeonMap[ny][nx] == 'D' || DungeonMap[ny][nx] == '1' || DungeonMap[ny][nx] == '2')
+									{
+										CanPlaceDoor = false;
 										break;
 									}
 								}
 							}
-							if (!canPlaceDoor) break;
+							if (!CanPlaceDoor)
+							{
+								break;
+							}
 						}
-						dungeonMap[drawY][x] = (canPlaceDoor ? 'D2' : '.');
+						DungeonMap[DrawY][x] = (CanPlaceDoor ? 'D2' : '.');
 					}
-					else if (dungeonMap[drawY][x] == ' ') {
-						dungeonMap[drawY][x] = '.';
+					else if (DungeonMap[DrawY][x] == ' ')
+					{
+						DungeonMap[DrawY][x] = '.';
 					}
 				}
 			}
 		}
 		// 2) y 축을 from.y에서 to.y까지 이동
-		for (int y = from.y; y != to.y; y += stepY) {
-			for (int w = 0; w < hallwayWidth; ++w) {
-				int drawX = to.x + w * stepX;
-				if (y >= 0 && y < DUNGEON_HEIGHT && drawX >= 0 && drawX < DUNGEON_WIDTH) {
-					if (dungeonMap[y][drawX] == '#') {
-						bool canPlaceDoor = true;
-						for (int dy = -1; dy <= 1; ++dy) {
-							for (int dx2 = -1; dx2 <= 1; ++dx2) {
+		for (int y = From.Y; y != To.Y; y += StepY)
+		{
+			for (int w = 0; w < HallwayWidth; ++w)
+			{
+				int DrawX = To.X + w * StepX;
+				if (y >= 0 && y < DUNGEON_HEIGHT && DrawX >= 0 && DrawX < DUNGEON_WIDTH)
+				{
+					if (DungeonMap[y][DrawX] == '#')
+					{
+						bool CanPlaceDoor = true;
+						for (int dy = -1; dy <= 1; ++dy)
+						{
+							for (int dx2 = -1; dx2 <= 1; ++dx2)
+							{
 								int ny = y + dy;
-								int nx = drawX + dx2;
-								if (ny >= 0 && ny < DUNGEON_HEIGHT && nx >= 0 && nx < DUNGEON_WIDTH) {
-									if (dungeonMap[ny][nx] == 'D') {
-										canPlaceDoor = false;
+								int nx = DrawX + dx2;
+								if (ny >= 0 && ny < DUNGEON_HEIGHT && nx >= 0 && nx < DUNGEON_WIDTH)
+								{
+									if (DungeonMap[ny][nx] == 'D' || DungeonMap[ny][nx] == '1' || DungeonMap[ny][nx] == '2')
+									{
+										CanPlaceDoor = false;
 										break;
 									}
 								}
 							}
-							if (!canPlaceDoor) break;
+							if (!CanPlaceDoor) break;
 						}
-						dungeonMap[y][drawX] = (canPlaceDoor ? 'D1' : '.');
+						DungeonMap[y][DrawX] = (CanPlaceDoor ? 'D1' : '.');
 					}
-					else if (dungeonMap[y][drawX] == ' ') {
-						dungeonMap[y][drawX] = '.';
+					else if (DungeonMap[y][DrawX] == ' ')
+					{
+						DungeonMap[y][DrawX] = '.';
 					}
 				}
 			}
@@ -755,35 +811,44 @@ void ARandomTileMapTest::drawHallways()
 	}
 }
 
-void ARandomTileMapTest::cleanupDungeon()
+void ARandomTileMapTest::CleanupDungeon()
 {
-	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
-		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y)
+	{
+		for (int x = 0; x < DUNGEON_WIDTH; ++x)
+		{
 			// Corner Tiles
-			if (dungeonMap[y][x] == 'A' || dungeonMap[y][x] == 'B' ||
-				dungeonMap[y][x] == 'C' || dungeonMap[y][x] == 'E') {
-				dungeonMap[y][x] = '#';
+			if (DungeonMap[y][x] == 'A' || DungeonMap[y][x] == 'B' || DungeonMap[y][x] == 'C' || DungeonMap[y][x] == 'E')
+			{
+				DungeonMap[y][x] = '#';
 			}
 		}
 	}
 
 	// 복도, 방 사이 공간을 정리. '.' 주위에 공백(' ')이 있으면 벽('#')으로 치환
-	for (int y = 1; y < DUNGEON_HEIGHT - 1; ++y) {
-		for (int x = 1; x < DUNGEON_WIDTH - 1; ++x) {
-			if (dungeonMap[y][x] == ' ') {
+	for (int y = 1; y < DUNGEON_HEIGHT - 1; ++y)
+	{
+		for (int x = 1; x < DUNGEON_WIDTH - 1; ++x)
+		{
+			if (DungeonMap[y][x] == ' ')
+			{
 				// 주변에 '.'이 하나라도 있으면 벽으로 만든다
-				bool nearFloor = false;
-				for (int dy = -1; dy <= 1; ++dy) {
-					for (int dx2 = -1; dx2 <= 1; ++dx2) {
-						if (dungeonMap[y + dy][x + dx2] == '.' || dungeonMap[y + dy][x + dx2] == 'D') {
-							nearFloor = true;
+				bool NearFloor = false;
+				for (int dy = -1; dy <= 1; ++dy)
+				{
+					for (int dx2 = -1; dx2 <= 1; ++dx2)
+					{
+						if (DungeonMap[y + dy][x + dx2] == '.' || DungeonMap[y + dy][x + dx2] == 'D')
+						{
+							NearFloor = true;
 							break;
 						}
 					}
-					if (nearFloor) break;
+					if (NearFloor) break;
 				}
-				if (nearFloor) {
-					dungeonMap[y][x] = '#';
+				if (NearFloor)
+				{
+					DungeonMap[y][x] = '#';
 				}
 			}
 		}
@@ -793,13 +858,15 @@ void ARandomTileMapTest::cleanupDungeon()
 	// 여기서는 그대로 두어 가시적으로 "외부"를 표현함
 }
 
-bool ARandomTileMapTest::fillVoidAreas()
+bool ARandomTileMapTest::FillVoidAreas()
 {
-	int filledCountBefore = 0;
+	int FilledCountBefore = 0;
 	// 현재까지 '.'인 타일 수를 센다
-	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
-		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
-			if (dungeonMap[y][x] == '.') filledCountBefore++;
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y)
+	{
+		for (int x = 0; x < DUNGEON_WIDTH; ++x)
+		{
+			if (DungeonMap[y][x] == '.') FilledCountBefore++;
 		}
 	}
 
@@ -807,94 +874,120 @@ bool ARandomTileMapTest::fillVoidAreas()
 	// 그리고 그 영역의 사각형 형태를 만들 수 있는지(5×5 이상 12×14 이하)를 랜덤하게 시도
 	// 여기서는 간단히 빈 공간을 직접 스캔하여 적절히 큰 직사각형을 찾는 방식을 시연
 
-	bool didFill = false;
-	for (int attempt = 0; attempt < 10; ++attempt) {
+	bool DidFill = false;
+	for (int attempt = 0; attempt < 10; ++attempt)
+	{
 		int w = Random.RandomInt(FILL_RECT_MIN_W, FILL_RECT_MAX_W);
 		int h = Random.RandomInt(FILL_RECT_MIN_H, FILL_RECT_MAX_H);
-		int startX = Random.RandomInt(1, DUNGEON_WIDTH - w - 1);
-		int startY = Random.RandomInt(1, DUNGEON_HEIGHT - h - 1);
+		int StartX = Random.RandomInt(1, DUNGEON_WIDTH - w - 1);
+		int StartY = Random.RandomInt(1, DUNGEON_HEIGHT - h - 1);
 
 		// 해당 영역이 전부 ' '이거나 '#'으로 둘러싸여 있어야 바닥으로 채울 수 있다 (간단한 체크)
-		bool canFill = true;
-		for (int y = startY; y < startY + h; ++y) {
-			for (int x = startX; x < startX + w; ++x) {
-				if (dungeonMap[y][x] != ' ') {
-					canFill = false;
+		bool CanFill = true;
+		for (int y = StartY; y < StartY + h; ++y)
+		{
+			for (int x = StartX; x < StartX + w; ++x)
+			{
+				if (DungeonMap[y][x] != ' ')
+				{
+					CanFill = false;
 					break;
 				}
 			}
-			if (!canFill) break;
+			if (false == CanFill)
+			{
+				break;
+			}
 		}
 		// 채우기
-		if (canFill) {
+		if (CanFill)
+		{
 			// 영역 밖 테두리가 전부 '#' 인지 대략적 체크 (실무에서는 정확히 폐쇄 공간인지 BFS로 확인하는 편이 좋음)
-			for (int x = startX; x < startX + w; ++x) {
-				if (dungeonMap[startY - 1][x] != '#' || dungeonMap[startY + h][x] != '#') {
-					canFill = false; break;
+			for (int x = StartX; x < StartX + w; ++x)
+			{
+				if (DungeonMap[StartY - 1][x] != '#' || DungeonMap[StartY + h][x] != '#')
+				{
+					CanFill = false;
+					break;
 				}
 			}
-			for (int y = startY; y < startY + h; ++y) {
-				if (dungeonMap[y][startX - 1] != '#' || dungeonMap[y][startX + w] != '#') {
-					canFill = false; break;
+			for (int y = StartY; y < StartY + h; ++y)
+			{
+				if (DungeonMap[y][StartX - 1] != '#' || DungeonMap[y][StartX + w] != '#')
+				{
+					CanFill = false; break;
 				}
 			}
 		}
-		if (canFill) {
-			for (int y = startY; y < startY + h; ++y) {
-				for (int x = startX; x < startX + w; ++x) {
-					dungeonMap[y][x] = '.';
+		if (CanFill)
+		{
+			for (int y = StartY; y < StartY + h; ++y)
+			{
+				for (int x = StartX; x < StartX + w; ++x)
+				{
+					DungeonMap[y][x] = '.';
 				}
 			}
-			didFill = true;
+			DidFill = true;
 		}
 	}
 
-	int filledCountAfter = 0;
-	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
-		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
-			if (dungeonMap[y][x] == '.') filledCountAfter++;
+	int FilledCountAfter = 0;
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y)
+	{
+		for (int x = 0; x < DUNGEON_WIDTH; ++x)
+		{
+			if (DungeonMap[y][x] == '.')
+			{
+				FilledCountAfter++;
+			}
 		}
 	}
 
 	// 700개 이상의 '.'을 확보했는지 확인
-	return (filledCountAfter >= FLOOR_THRESHOLD);
+	return (FilledCountAfter >= FLOOR_THRESHOLD);
 }
 
-bool ARandomTileMapTest::generateDungeon()
+bool ARandomTileMapTest::GenerateDungeon()
 {
 	// 맵 초기화
-	for (int y = 0; y < DUNGEON_HEIGHT; ++y) {
-		for (int x = 0; x < DUNGEON_WIDTH; ++x) {
-			
-			dungeonMap[y][x] = ' ';
+	for (int y = 0; y < DUNGEON_HEIGHT; ++y)
+	{
+		for (int x = 0; x < DUNGEON_WIDTH; ++x)
+		{
+			DungeonMap[y][x] = ' ';
 		}
 	}
-	hallwayList.clear();
+	HallwayList.clear();
 
 	// 전체 영역에서 테두리 1칸을 제외한 내부를 대상으로 방 생성
-	Rect fullArea{ BORDER_SIZE, BORDER_SIZE,
+	Rect FullArea{ BORDER_SIZE, BORDER_SIZE,
 					DUNGEON_WIDTH - BORDER_SIZE * 2,
 					DUNGEON_HEIGHT - BORDER_SIZE * 2 };
 
 	// 첫 방은 SetPiece 방일 수도 있음 (강제로 좀 크게)
-	bool forceLargeSetPiece = true;
-	createRoom(fullArea, nullptr, true, forceLargeSetPiece);
+	bool ForceLargeSetPiece = true;
+	CreateRoom(FullArea, nullptr, true, ForceLargeSetPiece);
 
 	// 복도 그리기
-	drawHallways();
+	DrawHallways();
 
 	// Cleanup
-	cleanupDungeon();
+	CleanupDungeon();
 
 	// Fill Voids
 	int tries = 0;
-	while (tries < MAX_FILL_TRIES) {
-		if (fillVoidAreas()) {
+	while (tries < MAX_FILL_TRIES)
+	{
+		if (FillVoidAreas())
+		{
 			// 목표에 도달
 			return true;
 		}
 		tries++;
 	}
 	// 목표('.' 700개 이상)에 못 미치면 실패
+	RoomList.clear();
+
 	return false;
 }
