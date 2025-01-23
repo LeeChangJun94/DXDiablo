@@ -729,17 +729,27 @@ void ARandomTileMapTest::DrawHallways()
 
 		// 수평 먼저 이동, 그 다음 수직 이동 (혹은 그 반대)
 		// 실무에서는 좀 더 랜덤성을 주어 Zigzag 형태로 그릴 수도 있음
+		
 		// 1) x 축을 from.x에서 to.x까지 이동
 		for (int x = From.X; x != To.X; x += StepX)
-		{
+		{	
+			int Count = 0;
 			for (int w = 0; w < HallwayWidth; ++w)
 			{
 				int DrawY = From.Y + w;
 				if (DrawY >= 0 && DrawY < DUNGEON_HEIGHT && x >= 0 && x < DUNGEON_WIDTH)
 				{
 					// 벽('#')를 만나면 문('D')로, 바닥(' ')이면 복도('.')로
+					char Char = DungeonMap[DrawY][x];
 					if (DungeonMap[DrawY][x] == '#')
 					{
+						
+						if (0 == Count)
+						{
+							//++Count;
+							continue;
+						}
+
 						// 문은 이미 인접 문이 있는지 체크
 						bool CanPlaceDoor = true;
 						for (int dy = -1; dy <= 1; ++dy)
@@ -762,7 +772,7 @@ void ARandomTileMapTest::DrawHallways()
 								break;
 							}
 						}
-						DungeonMap[DrawY][x] = (CanPlaceDoor ? 'D2' : '.');
+						DungeonMap[DrawY][x] = (CanPlaceDoor ? '2' : '.');
 					}
 					else if (DungeonMap[DrawY][x] == ' ')
 					{
@@ -774,6 +784,7 @@ void ARandomTileMapTest::DrawHallways()
 		// 2) y 축을 from.y에서 to.y까지 이동
 		for (int y = From.Y; y != To.Y; y += StepY)
 		{
+			int Count = 0;
 			for (int w = 0; w < HallwayWidth; ++w)
 			{
 				int DrawX = To.X + w * StepX;
@@ -781,6 +792,12 @@ void ARandomTileMapTest::DrawHallways()
 				{
 					if (DungeonMap[y][DrawX] == '#')
 					{
+						if (0 == Count)
+						{
+							//++Count;
+							continue;
+						}
+
 						bool CanPlaceDoor = true;
 						for (int dy = -1; dy <= 1; ++dy)
 						{
@@ -799,7 +816,7 @@ void ARandomTileMapTest::DrawHallways()
 							}
 							if (!CanPlaceDoor) break;
 						}
-						DungeonMap[y][DrawX] = (CanPlaceDoor ? 'D1' : '.');
+						DungeonMap[y][DrawX] = (CanPlaceDoor ? '1' : '.');
 					}
 					else if (DungeonMap[y][DrawX] == ' ')
 					{
@@ -866,7 +883,11 @@ bool ARandomTileMapTest::FillVoidAreas()
 	{
 		for (int x = 0; x < DUNGEON_WIDTH; ++x)
 		{
-			if (DungeonMap[y][x] == '.') FilledCountBefore++;
+			if (DungeonMap[y][x] == ' ')
+			{
+				continue;
+			}
+			FilledCountBefore++;
 		}
 	}
 
@@ -902,7 +923,7 @@ bool ARandomTileMapTest::FillVoidAreas()
 		// 채우기
 		if (CanFill)
 		{
-			// 영역 밖 테두리가 전부 '#' 인지 대략적 체크 (실무에서는 정확히 폐쇄 공간인지 BFS로 확인하는 편이 좋음)
+			// 영역 밖 테두리가 전부 '#' 인지 대략적 체크 
 			for (int x = StartX; x < StartX + w; ++x)
 			{
 				if (DungeonMap[StartY - 1][x] != '#' || DungeonMap[StartY + h][x] != '#')
@@ -915,7 +936,8 @@ bool ARandomTileMapTest::FillVoidAreas()
 			{
 				if (DungeonMap[y][StartX - 1] != '#' || DungeonMap[y][StartX + w] != '#')
 				{
-					CanFill = false; break;
+					CanFill = false;
+					break;
 				}
 			}
 		}
@@ -925,7 +947,10 @@ bool ARandomTileMapTest::FillVoidAreas()
 			{
 				for (int x = StartX; x < StartX + w; ++x)
 				{
-					DungeonMap[y][x] = '.';
+					if (DungeonMap[y][x] == ' ')
+					{
+						DungeonMap[y][x] = '.';
+					}
 				}
 			}
 			DidFill = true;
@@ -937,10 +962,11 @@ bool ARandomTileMapTest::FillVoidAreas()
 	{
 		for (int x = 0; x < DUNGEON_WIDTH; ++x)
 		{
-			if (DungeonMap[y][x] == '.')
+			if (DungeonMap[y][x] == ' ')
 			{
-				FilledCountAfter++;
+				continue;
 			}
+			FilledCountAfter++;
 		}
 	}
 

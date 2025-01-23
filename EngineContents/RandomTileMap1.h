@@ -5,7 +5,7 @@
 
 static const int DUNGEON_WIDTH = 40;
 static const int DUNGEON_HEIGHT = 40;
-static const int MIN_ROOM_SIZE1 = 4;
+static const int MIN_ROOM_SIZE1 = 5;
 static const int MAX_ROOM_SIZE1 = 9;
 static const int BORDER_SIZE = 1;
 static const int FLOOR_THRESHOLD = 700;
