@@ -744,11 +744,11 @@ void ARandomTileMapTest::DrawHallways()
 					if (DungeonMap[DrawY][x] == '#')
 					{
 						
-						if (0 == Count)
-						{
-							//++Count;
-							continue;
-						}
+						//if (0 == Count)
+						//{
+						//	++Count;
+						//	continue;
+						//}
 
 						// 문은 이미 인접 문이 있는지 체크
 						bool CanPlaceDoor = true;
@@ -792,11 +792,11 @@ void ARandomTileMapTest::DrawHallways()
 				{
 					if (DungeonMap[y][DrawX] == '#')
 					{
-						if (0 == Count)
-						{
-							//++Count;
-							continue;
-						}
+						//if (0 == Count)
+						//{
+						//	++Count;
+						//	continue;
+						//}
 
 						bool CanPlaceDoor = true;
 						for (int dy = -1; dy <= 1; ++dy)
@@ -855,7 +855,7 @@ void ARandomTileMapTest::CleanupDungeon()
 				{
 					for (int dx2 = -1; dx2 <= 1; ++dx2)
 					{
-						if (DungeonMap[y + dy][x + dx2] == '.' || DungeonMap[y + dy][x + dx2] == 'D')
+						if (DungeonMap[y + dy][x + dx2] == '.' || DungeonMap[y + dy][x + dx2] == 'D' || DungeonMap[y + dy][x + dx2] == '1' || DungeonMap[y + dy][x + dx2] == '2')
 						{
 							NearFloor = true;
 							break;
@@ -985,6 +985,8 @@ bool ARandomTileMapTest::GenerateDungeon()
 		}
 	}
 	HallwayList.clear();
+	RoomList.clear();
+	RoomCount = 0;
 
 	// 전체 영역에서 테두리 1칸을 제외한 내부를 대상으로 방 생성
 	Rect FullArea{ BORDER_SIZE, BORDER_SIZE,
@@ -996,7 +998,7 @@ bool ARandomTileMapTest::GenerateDungeon()
 	CreateRoom(FullArea, nullptr, true, ForceLargeSetPiece);
 
 	// 복도 그리기
-	DrawHallways();
+	//DrawHallways();
 
 	// Cleanup
 	CleanupDungeon();
@@ -1013,7 +1015,7 @@ bool ARandomTileMapTest::GenerateDungeon()
 		tries++;
 	}
 	// 목표('.' 700개 이상)에 못 미치면 실패
-	RoomList.clear();
+	
 
 	return false;
 }
